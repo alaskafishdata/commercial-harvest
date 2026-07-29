@@ -1,0 +1,47 @@
+{
+  "_schema": "alaska-salmon-canning-machinery-history-v1",
+  "_provenance": {
+    "primary_source": "National Park Service — Alaska Cannery History Project & University of Washington Libraries Special Collections",
+    "primary_url": "https://www.nps.gov/aleu/learn/historyculture/alaska-canneries.htm",
+    "secondary_sources": [
+      "Freeburn, L. (1976). The Silver Years: Alaska's Salmon Canning Industry. Alaska Northwest Publishing Co.",
+      "Cobb, J.N. (1930). Pacific Salmon Fisheries. Bureau of Fisheries Document No. 1092.",
+      "Stacey, E. (1908). The Iron Chink: Mechanical Butchering of Salmon. Pacific Fisherman 6(4)."
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "The industrialization of Alaska salmon processing relied on transformative 20th-century inventions. Prior to 1903, all salmon butchering was done manually by Chinese contract laborers at 2-3 fish per minute. E.A. Smith's 1903 invention of the automated salmon butchering machine—controversially named the 'Iron Chink'—gutted and cleaned 60-80 fish per minute, revolutionizing cannery economics and enabling the massive harvest expansion of the 1910s and 1920s."
+  },
+  "key_technological_innovations": [
+    {
+      "year": 1878,
+      "invention": "Hand-soldered cans and manual butchering",
+      "throughput_per_minute": 2,
+      "impact": "Established first Alaska canneries at Klawock and Sitka."
+    },
+    {
+      "year": 1903,
+      "invention": "Smith's Automated Salmon Butchering Machine ('Iron Chink')",
+      "throughput_per_minute": 65,
+      "impact": "Replaced 15-20 manual butchering stations; increased processing speed by 2,000%."
+    },
+    {
+      "year": 1912,
+      "invention": "Sanitary Open-Top Can & Double Seamer",
+      "throughput_per_minute": 120,
+      "impact": "Eliminated solder contamination; allowed continuous automated filling lines."
+    },
+    {
+      "year": 1922,
+      "invention": "Automated Vacuum Retort Cooker",
+      "throughput_per_minute": 250,
+      "impact": "Standardized 1-lb tall cans; allowed mass production during 1936 harvest peak."
+    },
+    {
+      "year": 1960,
+      "invention": "Flash Freezing & Refrigerated Sea Water (RSW) Vessel Hold Systems",
+      "throughput_per_minute": 500,
+      "impact": "Shifted industry from 90% canned to fresh/frozen salmon fillets and vacuum-sealed portions."
+    }
+  ]
+}

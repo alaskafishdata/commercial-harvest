@@ -1,0 +1,36 @@
+{
+  "_schema": "cook-inlet-salmon-allocation-bof-v1",
+  "_provenance": {
+    "primary_source": "Alaska Board of Fisheries — Upper Cook Inlet Salmon Management Plans (5 AAC 21.353 - 21.365)",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=fisheriesboard.main",
+    "secondary_sources": [
+      "ADF&G — Upper Cook Inlet Commercial Salmon Fishery Annual Management Reports",
+      "Kenai River Sportfishing Association (KRSA) & United Cook Inlet Drift Association (UCIDA) Board Submissions"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "The Upper Cook Inlet (UCI) salmon fishery is Alaska's most politically charged allocation battleground. The Board of Fisheries meets triennially to adjust the Upper Cook Inlet Salmon Management Plan, balancing: (1) Commercial Drift Gillnetters, (2) Commercial East Side Setnetters (ESSN), (3) In-river Sport Anglers on the Kenai/Kasilof, and (4) Personal Use Dipnetters. The 2014 and 2020 Board of Fisheries decisions established strict paired restrictions linking ESSN commercial closures directly to Kenai River late-run Chinook escapement."
+  },
+  "allocation_plan_milestones": [
+    {
+      "year": 1978,
+      "event": "First formal Upper Cook Inlet Management Plan adopted by BOF",
+      "impact": "Established priority for Kenai River sockeye escapement over commercial harvest targets."
+    },
+    {
+      "year": 1999,
+      "event": "Personal Use Dipnet Fishery formalized as permanent allocation",
+      "impact": "Guaranteed 250k-500k sockeye allocation to Alaska residents at Kenai/Kasilof river mouths."
+    },
+    {
+      "year": 2014,
+      "event": "Paired Restrictions Rule established for East Side Setnet (ESSN)",
+      "impact": "If Kenai late-run Chinook is projected below 15,000 large fish, ESSN commercial sockeye fishery is automatically restricted/closed."
+    },
+    {
+      "year": 2020,
+      "event": "Optimal Escapement Goal (OEG) for Kenai late-run Chinook raised to 15,000-30,000",
+      "impact": "Resulted in extended commercial ESSN closures in 2021, 2022, and 2023."
+    }
+  ]
+}

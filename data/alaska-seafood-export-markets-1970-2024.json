@@ -1,0 +1,28 @@
+{
+  "_schema": "alaska-seafood-export-markets-v1",
+  "_provenance": {
+    "primary_source": "US Dept of Commerce / Census Bureau Foreign Trade Division & ASMI",
+    "primary_url": "https://www.alaskaseafood.org/industry/economic-impact/",
+    "secondary_sources": [
+      "McDowell Group — Alaska Seafood Global Trade Report (2022)",
+      "NOAA Fisheries — Foreign Trade Statistics",
+      "USDA Foreign Agricultural Service (FAS) — GAIN Reports"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska exports ~75% of its commercial seafood production by value. Trade flows have evolved through three distinct eras: (1) Japan Dominance (1970-1995), where high-value salmon roe, sockeye, and sablefish went directly to Tokyo; (2) China Re-Export Processing Shift (2000-2017), where head-and-gut salmon and pollock were shipped to Qingdao for hand-filleting and re-exported globally; (3) Tariff & Geopolitical Realignment (2018-2024), where US-China tariffs (25%) and Russian seafood import bans altered global whitefish and salmon supply chains."
+  },
+  "export_value_by_destination_2022_usd_millions": [
+    { "country": "Japan", "value_usd_m": 840, "share_pct": 26.5, "primary_products": "Sockeye salmon, salmon roe, sablefish, surimi" },
+    { "country": "China", "value_usd_m": 720, "share_pct": 22.7, "primary_products": "H&G pollock, pink salmon (re-export processing)" },
+    { "country": "European Union", "value_usd_m": 580, "share_pct": 18.3, "primary_products": "Single-frozen pollock fillets, wild sockeye fillets" },
+    { "country": "South Korea", "value_usd_m": 410, "share_pct": 12.9, "primary_products": "Pacific cod, pollock roe, Tanner crab" },
+    { "country": "Canada", "value_usd_m": 290, "share_pct": 9.1, "primary_products": "Fresh salmon, halibut" },
+    { "country": "Rest of World", "value_usd_m": 330, "share_pct": 10.5, "primary_products": "Canned salmon, fish meal, oil" }
+  ],
+  "tariff_impact_2018_2024": {
+    "us_china_retaliatory_tariffs_pct": 25.0,
+    "annual_tariff_cost_est_usd_m": 145,
+    "effect": "Forced US processors to expand domestic fillet capacity and shift single-frozen processing away from China to Europe and Vietnam."
+  }
+}
