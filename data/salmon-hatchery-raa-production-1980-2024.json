@@ -1,0 +1,31 @@
+{
+  "_schema": "alaska-salmon-hatchery-production-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — Salmon Enhancement Program Annual Reports",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=fishingCommercialByAreaSalmonEnhancement.main",
+    "secondary_sources": [
+      "Regional Aquaculture Associations — Annual Production Reports",
+      "Aquaculture Development Plan (ADP) — Prince William Sound Aquaculture Corp. (PWSAC)",
+      "Cook Inlet Aquaculture Association (CIAA)",
+      "Kodiak Regional Aquaculture Association (KRAA)"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska operates the world's largest wild salmon ranching (hatchery-release) program through a system of nonprofit Regional Aquaculture Associations (RAAs) authorized under AS 16.10.400. In 2023, Alaska hatcheries released approximately 1.8 billion juvenile salmon. Hatchery returns now contribute 15-25% of total Alaska commercial salmon harvests. Prince William Sound hatchery pinks and chum dominate returns. The Valdez Fisheries Development Association (VFDA) Gulkana operated the first RAA hatchery."
+  },
+  "regional_aquaculture_associations": [
+    {"raa": "PWSAC — Prince William Sound Aquaculture Corp.", "primary_species": "Pink Salmon, Chum Salmon", "annual_releases_m": 420, "annual_return_contribution_pct": 58},
+    {"raa": "CIAA — Cook Inlet Aquaculture Association", "primary_species": "Sockeye, Chinook, Coho", "annual_releases_m": 82, "annual_return_contribution_pct": 12},
+    {"raa": "KRAA — Kodiak Regional Aquaculture Association", "primary_species": "Pink Salmon, Sockeye (Kitoi Bay)", "annual_releases_m": 210, "annual_return_contribution_pct": 21},
+    {"raa": "SRSFA — Southeast Regional Salmon Farmers Assoc.", "primary_species": "Pink, Coho, Chinook", "annual_releases_m": 380, "annual_return_contribution_pct": 34},
+    {"raa": "SSRAA — Southern Southeast Regional Aquaculture", "primary_species": "Pink, Coho, Chinook", "annual_releases_m": 310, "annual_return_contribution_pct": 29}
+  ],
+  "annual_statewide_hatchery_production": [
+    {"year": 1980, "total_releases_billion": 0.64, "hatchery_harvest_contribution_pct": 4},
+    {"year": 1990, "total_releases_billion": 1.12, "hatchery_harvest_contribution_pct": 9},
+    {"year": 2000, "total_releases_billion": 1.58, "hatchery_harvest_contribution_pct": 16},
+    {"year": 2010, "total_releases_billion": 1.68, "hatchery_harvest_contribution_pct": 19},
+    {"year": 2020, "total_releases_billion": 1.78, "hatchery_harvest_contribution_pct": 22},
+    {"year": 2023, "total_releases_billion": 1.82, "hatchery_harvest_contribution_pct": 24}
+  ]
+}
