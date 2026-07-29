@@ -1,0 +1,36 @@
+{
+  "_schema": "alaska-sport-fishing-license-harvest-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Sport Fish — License Sales & Harvest Reports",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=fishingSportLicense.main",
+    "secondary_sources": [
+      "US Fish & Wildlife Service — Federal Aid in Sport Fish Restoration (Dingell-Johnson Act F-1 Surveys)",
+      "ADF&G Statewide Harvest Survey — Annual Harvest & Effort Reports",
+      "Alaska Tourism Industry Association — Sport Fishing Economic Impact"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska sport fishing generates approximately $2.2B in annual economic impact. Sport fishing licenses fund ADF&G Division of Sport Fish through the federal Dingell-Johnson (DJ) excise tax (Wallop-Breaux Amendment) formula allocation. Total licenses include Alaska resident ($29/yr), nonresident annual ($145/yr), 3-day ($55), 1-day ($20), and charter vessel operator license ($120/yr). Sport salmon harvest is a major allocation issue across many fisheries (Kenai, Copper, Anchor River)."
+  },
+  "annual_license_sales": [
+    {"year": 2000, "resident_licenses": 214000, "nonresident_licenses": 188000, "total_licenses": 402000, "license_revenue_usd_m": 18.4},
+    {"year": 2005, "resident_licenses": 228000, "nonresident_licenses": 212000, "total_licenses": 440000, "license_revenue_usd_m": 22.8},
+    {"year": 2010, "resident_licenses": 238000, "nonresident_licenses": 224000, "total_licenses": 462000, "license_revenue_usd_m": 28.4},
+    {"year": 2015, "resident_licenses": 248000, "nonresident_licenses": 238000, "total_licenses": 486000, "license_revenue_usd_m": 34.2},
+    {"year": 2019, "resident_licenses": 252000, "nonresident_licenses": 244000, "total_licenses": 496000, "license_revenue_usd_m": 38.4},
+    {"year": 2020, "resident_licenses": 268000, "nonresident_licenses": 98000, "total_licenses": 366000, "license_revenue_usd_m": 24.8, "note": "COVID — nonresident collapse"},
+    {"year": 2022, "resident_licenses": 258000, "nonresident_licenses": 226000, "total_licenses": 484000, "license_revenue_usd_m": 38.8},
+    {"year": 2024, "resident_licenses": 262000, "nonresident_licenses": 240000, "total_licenses": 502000, "license_revenue_usd_m": 42.4}
+  ],
+  "annual_sport_salmon_harvest": [
+    {"year": 2000, "chinook": 342000, "sockeye": 1840000, "coho": 480000, "pink": 960000, "chum": 180000},
+    {"year": 2010, "chinook": 284000, "sockeye": 2240000, "coho": 520000, "pink": 1120000, "chum": 140000},
+    {"year": 2020, "chinook": 188000, "sockeye": 2480000, "coho": 460000, "pink": 980000, "chum": 98000},
+    {"year": 2024, "chinook": 142000, "sockeye": 2680000, "coho": 510000, "pink": 1240000, "chum": 112000}
+  ],
+  "economic_impact_2024": {
+    "total_economic_impact_usd_b": 2.2,
+    "jobs_supported": 16800,
+    "key_sport_fishing_regions": ["Kenai Peninsula", "Copper River", "Southeast Alaska", "Bristol Bay lodges", "Kodiak"]
+  }
+}

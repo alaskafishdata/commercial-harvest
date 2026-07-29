@@ -1,0 +1,36 @@
+{
+  "_schema": "alaska-seak-troll-fleet-economics-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — Southeast Alaska Salmon Troll Fishery Annual Reports",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyareasoutheast.salmon",
+    "secondary_sources": [
+      "Alaska Trollers Association (ATA)",
+      "CFEC — Southeast Troll (T09B, T09A) Permit Transactions",
+      "Pacific Salmon Commission — Southern US & Canada chinook interception accounting"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Southeast Alaska troll (hook-and-line) fishery is the highest-quality, highest-value salmon fishery per fish in Alaska. Fresh-bled, ice-slurry chilled Chinook and Coho are marketed premium-grade. 2024 SEAK troll Chinook averaged $10.80/lb ex-vessel — highest on record. The fishery is constrained by Pacific Salmon Treaty (PSC Chapter 3) Chinook interception caps negotiated with Canada. Troll seasons are typically spring (May-June) and summer (July-August). Permits: T09B (Chinook/Coho), T09A (Pink/Chum)."
+  },
+  "annual_troll_harvest": [
+    {"year": 1990, "chinook_count": 282000, "coho_count": 1420000, "exvessel_chinook_per_lb": 4.20, "exvessel_value_usd_m": 38.4},
+    {"year": 2000, "chinook_count": 212000, "coho_count": 980000, "exvessel_chinook_per_lb": 5.80, "exvessel_value_usd_m": 42.2},
+    {"year": 2010, "chinook_count": 108000, "coho_count": 820000, "exvessel_chinook_per_lb": 7.20, "exvessel_value_usd_m": 38.8},
+    {"year": 2015, "chinook_count": 142000, "coho_count": 940000, "exvessel_chinook_per_lb": 8.40, "exvessel_value_usd_m": 52.4},
+    {"year": 2020, "chinook_count": 98000,  "coho_count": 640000, "exvessel_chinook_per_lb": 9.20, "exvessel_value_usd_m": 44.8},
+    {"year": 2024, "chinook_count": 114000, "coho_count": 720000, "exvessel_chinook_per_lb": 10.80, "exvessel_value_usd_m": 62.4, "note": "Record $10.80/lb Chinook"}
+  ],
+  "pst_chinook_interception_cap_2024": {
+    "chapter_3_adfg_troll_cap": 282000,
+    "actual_2024_chinook_harvest": 114000,
+    "treaty_utilization_pct": 40.4,
+    "canadian_stocks_intercepted_pct": 12
+  },
+  "fleet_profile": {
+    "active_vessels_2024": 1680,
+    "avg_vessel_length_ft": 42,
+    "gear": "Power troll — lures, hoochies, spoons, herring flasher rigs",
+    "seasons": ["Spring Troll: May 1 – Jun 30", "Summer Troll: Jul 1 – Sep 15"],
+    "primary_ports": ["Craig", "Sitka", "Petersburg", "Ketchikan", "Juneau"]
+  }
+}
