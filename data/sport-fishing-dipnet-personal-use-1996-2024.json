@@ -1,0 +1,48 @@
+{
+  "_schema": "alaska-dipnet-personal-use-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Sport Fish — Personal Use Harvest Permit Database",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=PersonalUsebyArea.main",
+    "secondary_sources": [
+      "ADF&G — Upper Cook Inlet Personal Use Salmon Fishery Management Plan (5 AAC 77.540)",
+      "ADF&G — Chitina Personal Use Salmon Fishery Harvest Reports"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Personal Use Dipnet Fisheries allow Alaska residents to harvest wild salmon for home food supply using handheld dip nets at river mouths and designated canyon waters. The Kenai River dipnet fishery is North America's largest personal use salmon fishery, drawing 30,000+ Alaska households each July to harvest 350,000-500,000 sockeye salmon."
+  },
+  "fisheries_summary": [
+    {
+      "fishery": "Kenai River Personal Use Dipnet",
+      "location": "Kenai River mouth (Cook Inlet)",
+      "target_species": "Sockeye salmon",
+      "permit_type": "Alaska Resident Household Permit (25 fish head + 10 per dependent)",
+      "annual_participants_households": 34500,
+      "annual_sockeye_harvest_avg": 385000
+    },
+    {
+      "fishery": "Kasilof River Personal Use Dipnet",
+      "location": "Kasilof River mouth (Cook Inlet)",
+      "target_species": "Sockeye salmon",
+      "annual_participants_households": 8200,
+      "annual_sockeye_harvest_avg": 88000
+    },
+    {
+      "fishery": "Chitina Personal Use Dipnet",
+      "location": "Copper River (Chitina Canyon)",
+      "target_species": "Sockeye and Chinook salmon",
+      "annual_participants_households": 10200,
+      "annual_sockeye_harvest_avg": 142000
+    }
+  ],
+  "annual_harvest_time_series": [
+    {"year": 1996, "permits_issued": 14200, "kenai_sockeye": 182000, "chitina_sockeye": 94000, "total_sockeye": 276000},
+    {"year": 2000, "permits_issued": 18500, "kenai_sockeye": 245000, "chitina_sockeye": 112000, "total_sockeye": 357000},
+    {"year": 2005, "permits_issued": 22400, "kenai_sockeye": 298000, "chitina_sockeye": 128000, "total_sockeye": 426000},
+    {"year": 2010, "permits_issued": 28900, "kenai_sockeye": 372000, "chitina_sockeye": 141000, "total_sockeye": 513000},
+    {"year": 2015, "permits_issued": 35200, "kenai_sockeye": 395000, "chitina_sockeye": 154000, "total_sockeye": 549000},
+    {"year": 2020, "permits_issued": 31800, "kenai_sockeye": 348000, "chitina_sockeye": 118000, "total_sockeye": 466000},
+    {"year": 2022, "permits_issued": 38400, "kenai_sockeye": 482000, "chitina_sockeye": 162000, "total_sockeye": 644000},
+    {"year": 2024, "permits_issued": 36800, "kenai_sockeye": 425000, "chitina_sockeye": 148000, "total_sockeye": 573000}
+  ]
+}

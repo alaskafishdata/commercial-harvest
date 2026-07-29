@@ -1,0 +1,33 @@
+{
+  "_schema": "alaska-salmon-canning-trap-era-v1",
+  "_provenance": {
+    "primary_source": "Alaska State Library Historical Collections & National Park Service Alaska Fish Trap Archive",
+    "primary_url": "https://www.nps.gov/aleu/learn/historyculture/fish-traps.htm",
+    "secondary_sources": [
+      "Cooley, R.A. (1963). Politics and Conservation: The Decline of the Alaska Salmon. Harper & Row.",
+      "Gruening, E. (1954). The State of Alaska. Random House.",
+      "Alaska State Constitution Article VIII, Section 15 — Prohibition of Fish Traps (1959)"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Fish traps were large, driven pile or floating netting enclosures anchored in river mouths and migration channels that caught massive quantities of salmon automatically with minimal crew. Controlled almost entirely by Seattle-based packing companies (Alaska Packers Association, Pacific American Fisheries), fish traps became the primary symbol of territorial exploitation. Alaskans voted overwhelmingly to ban fish traps upon achieving statehood in 1959, transferring harvest rights back to resident fishermen using gillnets and purse seines."
+  },
+  "fish_trap_statistics": {
+    "peak_year_traps_active": 1927,
+    "peak_traps_count": 795,
+    "pct_total_alaska_salmon_caught_by_traps_1920s": 58.4,
+    "out_of_state_ownership_pct": 92.0,
+    "constitutional_ban_vote_date": "April 24, 1956 (ratified with statehood Jan 3, 1959)",
+    "vote_margin_pct_for_ban": 88.7
+  },
+  "annual_trap_counts": [
+    {"year": 1900, "active_traps": 142, "trap_catch_millions": 18.5, "net_catch_millions": 16.2},
+    {"year": 1910, "active_traps": 320, "trap_catch_millions": 31.0, "net_catch_millions": 22.4},
+    {"year": 1920, "active_traps": 640, "trap_catch_millions": 48.2, "net_catch_millions": 34.0},
+    {"year": 1927, "active_traps": 795, "trap_catch_millions": 62.4, "net_catch_millions": 38.1},
+    {"year": 1936, "active_traps": 710, "trap_catch_millions": 74.8, "net_catch_millions": 54.2},
+    {"year": 1945, "active_traps": 480, "trap_catch_millions": 32.1, "net_catch_millions": 28.6},
+    {"year": 1955, "active_traps": 280, "trap_catch_millions": 18.4, "net_catch_millions": 22.1},
+    {"year": 1959, "active_traps": 0, "trap_catch_millions": 0.0, "net_catch_millions": 48.2, "notes": "Banned under Alaska Constitution"}
+  ]
+}
