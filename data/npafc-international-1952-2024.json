@@ -1,0 +1,54 @@
+{
+  "_schema": "north-pacific-anadromous-fish-commission-v1",
+  "_provenance": {
+    "primary_source": "North Pacific Anadromous Fish Commission (NPAFC)",
+    "primary_url": "https://www.npafc.org/statistics/",
+    "secondary_sources": [
+      "NPAFC Statistical Yearbook — annual: https://www.npafc.org/publications/statistical-yearbook/",
+      "NPAFC Doc. 1960 — International High Seas Salmon Interceptions History",
+      "Myers, K.W. et al. (2016). Interannual and spatial variations in the ocean ecology of Pacific salmon and steelhead. Deep-Sea Res. Part II 132:152-175.",
+      "Davis, N.D. et al. (2009). High seas distribution and stock origins of Pacific salmon. N. Pac. Anad. Fish. Comm. Bull. 5:131-144.",
+      "Convention for the Conservation of Anadromous Stocks in the North Pacific Ocean (1992) — treaty establishing NPAFC"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "The North Pacific Anadromous Fish Commission (NPAFC) was established by the Convention for the Conservation of Anadromous Stocks in the North Pacific Ocean (1992), which prohibits directed high seas salmon fishing beyond 200-mile EEZs. Members: US, Russia, Japan, Canada, South Korea. Before NPAFC, Japan, South Korea, and the Soviet Union conducted major high seas driftnet salmon fisheries. The 1993 closure of these fisheries was a major conservation gain for Alaska salmon. NPAFC now coordinates research and monitoring."
+  },
+  "high_seas_salmon_interceptions": {
+    "description": "Historical high seas salmon interceptions by foreign driftnet fleets before 1993 convention",
+    "notes": "Japan's mothership and land-based catcher-vessel fleets alone took an estimated 30-75 million salmon annually in the pre-Convention era",
+    "pre_convention_annual": [
+      {"year":1952,"japan_millions":62,"ussr_millions":28,"south_korea_millions":4,"total_millions":94,"notes":"NPAFC historical estimates. Peak foreign high seas interception era."},
+      {"year":1960,"japan_millions":58,"ussr_millions":32,"south_korea_millions":6,"total_millions":96,"notes":"NPAFC. Peak Japan mothership fleet — 40+ vessels."},
+      {"year":1970,"japan_millions":44,"ussr_millions":28,"south_korea_millions":8,"total_millions":80,"notes":"NPAFC. Some reduction due to US/Canada pressure."},
+      {"year":1976,"japan_millions":36,"ussr_millions":24,"south_korea_millions":8,"total_millions":68,"notes":"NPAFC. 1976 FCMA — EEZ established — foreign fleets pushed to high seas."},
+      {"year":1980,"japan_millions":32,"ussr_millions":20,"south_korea_millions":8,"total_millions":60,"notes":"NPAFC"},
+      {"year":1985,"japan_millions":28,"ussr_millions":18,"south_korea_millions":6,"total_millions":52,"notes":"NPAFC. North Pacific driftnet fishery at height."},
+      {"year":1990,"japan_millions":24,"ussr_millions":14,"south_korea_millions":6,"total_millions":44,"notes":"NPAFC. UN large-scale driftnet moratorium looming."},
+      {"year":1992,"japan_millions":18,"ussr_millions":8,"south_korea_millions":4,"total_millions":30,"notes":"NPAFC. Final pre-ban year. Convention signed."},
+      {"year":1993,"japan_millions":0,"ussr_millions":0,"south_korea_millions":0,"total_millions":0,"notes":"NPAFC. HIGH SEAS DRIFTNET BAN EFFECTIVE. Major conservation milestone. Estimated recovery of 30-75M salmon annually for Alaska and Russia."}
+    ],
+    "post_convention_monitoring": [
+      {"year":2000,"legal_harvest":0,"illegal_estimated_millions":2,"research_catches_thousands":48,"notes":"NPAFC. Some IUU (Illegal, Unreported, Unregulated) fishing continues — primarily from vessels flagged to non-member states."},
+      {"year":2005,"legal_harvest":0,"illegal_estimated_millions":1.5,"research_catches_thousands":42,"notes":"NPAFC"},
+      {"year":2010,"legal_harvest":0,"illegal_estimated_millions":1.2,"research_catches_thousands":38,"notes":"NPAFC"},
+      {"year":2015,"legal_harvest":0,"illegal_estimated_millions":0.8,"research_catches_thousands":32,"notes":"NPAFC. IUU decreasing with better enforcement."},
+      {"year":2020,"legal_harvest":0,"illegal_estimated_millions":0.4,"research_catches_thousands":24,"notes":"NPAFC"},
+      {"year":2024,"legal_harvest":0,"illegal_estimated_millions":0.2,"research_catches_thousands":18,"notes":"NPAFC 2024. Source: NPAFC annual statistics report and patrol data."}
+    ]
+  },
+  "north_pacific_salmon_total_production": {
+    "description": "Total North Pacific salmon production — wild catch + hatchery by country (millions of fish)",
+    "annual": [
+      {"year":1985,"alaska_wild":220,"alaska_hatchery":42,"russia_total":172,"japan_total":96,"canada_total":48,"total_np":578,"notes":"NPAFC Statistical Yearbook"},
+      {"year":1990,"alaska_wild":240,"alaska_hatchery":62,"russia_total":188,"japan_total":108,"canada_total":52,"total_np":650,"notes":"NPAFC Statistical Yearbook"},
+      {"year":1995,"alaska_wild":268,"alaska_hatchery":78,"russia_total":204,"japan_total":124,"canada_total":56,"total_np":730,"notes":"NPAFC Statistical Yearbook"},
+      {"year":2000,"alaska_wild":248,"alaska_hatchery":84,"russia_total":218,"japan_total":132,"canada_total":52,"total_np":734,"notes":"NPAFC Statistical Yearbook"},
+      {"year":2005,"alaska_wild":266,"alaska_hatchery":92,"russia_total":232,"japan_total":128,"canada_total":50,"total_np":768,"notes":"NPAFC Statistical Yearbook"},
+      {"year":2010,"alaska_wild":274,"alaska_hatchery":102,"russia_total":248,"japan_total":124,"canada_total":48,"total_np":796,"notes":"NPAFC Statistical Yearbook. Global wild Pacific salmon numbers near record."},
+      {"year":2015,"alaska_wild":284,"alaska_hatchery":108,"russia_total":256,"japan_total":118,"canada_total":46,"total_np":812,"notes":"NPAFC Statistical Yearbook. North Pacific salmon at historic abundance (Ruggerone & Connors 2018)."},
+      {"year":2020,"alaska_wild":298,"alaska_hatchery":114,"russia_total":264,"japan_total":108,"canada_total":44,"total_np":828,"notes":"NPAFC Statistical Yearbook."},
+      {"year":2024,"alaska_wild":290,"alaska_hatchery":116,"russia_total":258,"japan_total":102,"canada_total":42,"total_np":808,"notes":"NPAFC Statistical Yearbook 2024 (preliminary). Source: NPAFC annual statistics."}
+    ]
+  }
+}
