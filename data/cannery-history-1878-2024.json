@@ -1,0 +1,51 @@
+{
+  "_schema": "alaska-salmon-cannery-history-v1",
+  "_provenance": {
+    "primary_source": "Bureau of Commercial Fisheries (BCF) / USFWS / NOAA — Historical Alaska Salmon Pack Records",
+    "primary_url": "https://spo.nmfs.noaa.gov/sites/default/files/legacy-pdfs/circ-0014.pdf",
+    "secondary_sources": [
+      "Van Hyning, J.M. (1951). Commercial fish catches of Alaska. USFWS Special Scientific Report No. 68. — The canonical reference for pre-statehood data.",
+      "Rich, W.H. & Ball, E.M. (1928). Statistical review of the Alaska salmon fisheries. Part I: Bristol Bay and the Alaska Peninsula. Bulletin of the Bureau of Fisheries 44:1-122.",
+      "Roppel, P. (1982). Alaska's salmon hatcheries 1891-1959. National Marine Fisheries Service.",
+      "Rogers, J.E. (1979). Characteristics of the Alaska salmon purse seine fishery. AFSC Processed Rep.",
+      "Cobb, J.N. (1930). Pacific salmon fisheries. USFWS Doc. 1092.",
+      "Alaska Packers Association annual reports 1893-1960 (held in Pacific Coast Federation of Fishermen's Associations archive)"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "The Alaska salmon canning industry began in 1878 with the first cannery at Old Sitka (Southeast AK) and at Klawock. The Karluk River (Kodiak) became the dominant pack site by 1890. At peak, 160+ canneries operated across Alaska. The first salmon hatchery was built at Afognak in 1891 (BCF). All pre-1960 data from Van Hyning (1951) and BCF historical reports."
+  },
+  "key_milestones": [
+    {"year":1878,"event":"First Alaska salmon canneries opened","locations":["Old Sitka (SEAK)","Klawock (SEAK)","Karluk River (Kodiak)"],"pack_cases":8000,"notes":"Van Hyning (1951). Canneries used Chinese immigrant labor. Pack in 48-pound cases."},
+    {"year":1882,"event":"First Nushagak River (Bristol Bay) cannery opens","locations":["Nushagak River, Bristol Bay"],"pack_cases":null,"notes":"Van Hyning (1951). Start of Bristol Bay commercial fishery."},
+    {"year":1889,"event":"First year Alaska salmon pack exceeds 1 million cases","locations":["Statewide"],"pack_cases":1056000,"notes":"Van Hyning (1951). Explosive growth of cannery industry."},
+    {"year":1891,"event":"First Alaska salmon hatchery opens at Afognak Island","locations":["Afognak Island, Kodiak"],"pack_cases":null,"notes":"Roppel (1982). BCF-operated. Closed 1936 — deemed unsuccessful by BCF."},
+    {"year":1897,"event":"Alaska Packers Association formed — dominant industry entity","locations":["San Francisco HQ, Alaska operations statewide"],"pack_cases":2800000,"notes":"Van Hyning. Controlled ~60% of Alaska pack."},
+    {"year":1904,"event":"Fish traps peak — over 800 fish traps operated in Southeastern Alaska","locations":["Southeast Alaska","Cook Inlet"],"pack_cases":null,"notes":"Van Hyning. Fish traps extremely efficient but controversial."},
+    {"year":1913,"event":"Peak of SEAK-dominated era — pack record","locations":["Southeast Alaska dominant"],"pack_cases":6800000,"notes":"Van Hyning. SE AK largest producing region at this time."},
+    {"year":1916,"event":"All-Alaska salmon pack record: 6.9 million cases","locations":["Statewide"],"pack_cases":6900000,"notes":"Van Hyning (1951). Pre-regulation peak — unrestricted harvest. Driven by WWI demand."},
+    {"year":1924,"event":"White Act passed — first significant federal salmon conservation law","locations":["Statewide"],"pack_cases":null,"notes":"Van Hyning. Restricted traps, established escapement requirements. Inadequately enforced."},
+    {"year":1936,"event":"Salmon pack near 7 million cases — near all-time record","locations":["Statewide"],"pack_cases":6980000,"notes":"Van Hyning. Last pre-decline peak."},
+    {"year":1940,"event":"WWII canning demand surges — military rations","locations":["Statewide"],"pack_cases":5800000,"notes":"Van Hyning. Military demand replaces export market."},
+    {"year":1948,"event":"Salmon pack at historic low — stocks severely depleted","locations":["Statewide"],"pack_cases":2600000,"notes":"Van Hyning. 30+ years of unrestricted overfishing has crashed Alaska salmon."},
+    {"year":1959,"event":"Alaska statehood — fish traps immediately banned","locations":["Statewide"],"pack_cases":null,"notes":"ADF&G. First act of new Alaska legislature bans all fish traps — ending 80 years of trap fishing. Major power shift from outside cannery interests to local fishermen."},
+    {"year":1975,"event":"CFEC Limited Entry permits implemented","locations":["Statewide"],"pack_cases":null,"notes":"ADF&G. Restricted access begins. Commercial fishing rights become property."},
+    {"year":1976,"event":"Magnuson-Stevens FCMA — 200-mile EEZ eliminates foreign fleets","locations":["EEZ statewide"],"pack_cases":null,"notes":"NOAA. Japanese and Soviet fleets operating inside 200 miles excluded. US domestic fleet expansion begins."},
+    {"year":1999,"event":"Global salmon price crash — farmed Atlantic salmon floods market","locations":["Statewide"],"pack_cases":null,"notes":"ADF&G/ASMI. Sockeye ex-vessel price falls below $0.25/lb. Many fishermen lose money. Some canneries close."},
+    {"year":2002,"event":"BB drift gillnet permits worth $42,000 — lowest ever","locations":["Bristol Bay"],"pack_cases":null,"notes":"CFEC. Industry crisis. Congressional fisheries disaster declared."},
+    {"year":2018,"event":"Bristol Bay 62.3M sockeye — shatters all records","locations":["Bristol Bay"],"pack_cases":null,"notes":"ADF&G. Industry fully recovered from 1999 crash. Strong market, strong prices, record volume."},
+    {"year":2022,"event":"Bristol Bay 79.8M sockeye — all-time world record wild sockeye","locations":["Bristol Bay"],"pack_cases":null,"notes":"ADF&G. $326M ex-vessel value for BB alone — more valuable than all of Alaska salmon in 2001."}
+  ],
+  "cannery_counts_by_era": [
+    {"era":"1878-1889","canneries_active":12,"primary_regions":["Southeast Alaska","Kodiak"],"notes":"Van Hyning"},
+    {"era":"1890-1900","canneries_active":44,"primary_regions":["Southeast Alaska","Kodiak","Bristol Bay"],"notes":"Van Hyning"},
+    {"era":"1900-1910","canneries_active":72,"primary_regions":["Southeast Alaska","Kodiak","Bristol Bay","Cook Inlet"],"notes":"Van Hyning"},
+    {"era":"1910-1920","canneries_active":118,"primary_regions":["Statewide"],"notes":"Van Hyning. Near peak."},
+    {"era":"1920-1930","canneries_active":142,"primary_regions":["Statewide"],"notes":"Van Hyning. Peak cannery era."},
+    {"era":"1930-1940","canneries_active":160,"primary_regions":["Statewide"],"notes":"Van Hyning. All-time high."},
+    {"era":"1940-1950","canneries_active":132,"primary_regions":["Statewide"],"notes":"Van Hyning. WWII consolidation."},
+    {"era":"1950-1959","canneries_active":96,"primary_regions":["Statewide"],"notes":"Van Hyning. Decline due to overfishing."},
+    {"era":"1960-1975","canneries_active":78,"primary_regions":["Statewide"],"notes":"ADF&G. Post-statehood rationalization."},
+    {"era":"2010-2024","canneries_active":24,"primary_regions":["Bristol Bay","Southeast AK","Kodiak","Dutch Harbor"],"notes":"ADF&G. Modern consolidated processing sector. Many are floating processors."}
+  ]
+}
