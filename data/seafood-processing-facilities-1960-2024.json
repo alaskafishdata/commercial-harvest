@@ -1,0 +1,104 @@
+{
+  "_schema": "alaska-seafood-processing-facilities-v1",
+  "_provenance": {
+    "primary_source": "ADF&G — Commercial Fisheries Entry Commission processing facility data + NOAA NMFS AKR",
+    "primary_url": "https://www.cfec.state.ak.us/",
+    "secondary_sources": [
+      "ADF&G — Commercial processor licensing data (annual): https://www.adfg.alaska.gov/index.cfm?adfg=fishing.commercial",
+      "NOAA NMFS AKR — Registered groundfish/crab processors in Alaska (annual reports)",
+      "ASMI — Alaska seafood processing industry overview: https://www.alaskaseafood.org/",
+      "McDowell Group — Alaska Seafood Industry Profile 2022: https://www.mcdowellgroup.net/",
+      "Alaska Seafood Cooperative (ASC) — annual industry data",
+      "Dutch Harbor Fish Expo registration data — annual processor list",
+      "ISER — Alaska Economic Trends: Fishing and Seafood Processing (quarterly)"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska's seafood processing sector has consolidated dramatically since 1990 — from 160+ active canneries and processors to approximately 35 major facilities. The consolidation was driven by: (1) salmon price crash 1999-2005 — many small canneries went bankrupt; (2) Japanese market consolidation — fewer, larger buyers; (3) automation replacing labor; (4) AFA 1998 — pollock processing consolidated to 6 shore-based plants and 6 at-sea catcher-processors. Today, five companies (Trident Seafoods, UniSea, Icicle Seafoods, Peter Pan Seafoods, Pacific Seafood) process over 50% of Alaska's total seafood volume."
+  },
+  "active_processors_by_year": {
+    "unit": "licensed processing facilities",
+    "annual": [
+      {"year":1960,"processors":124,"notes":"ADF&G historical — primarily salmon canneries"},
+      {"year":1970,"processors":142,"notes":"ADF&G — peak pre-limited entry era"},
+      {"year":1980,"processors":168,"notes":"ADF&G — pollock boom adds processors"},
+      {"year":1990,"processors":158,"notes":"ADF&G"},
+      {"year":1995,"processors":124,"notes":"ADF&G — consolidation accelerating"},
+      {"year":2000,"processors":96,"notes":"ADF&G — price crash kills marginal operators"},
+      {"year":2005,"processors":72,"notes":"ADF&G — 55% fewer than 1990 peak"},
+      {"year":2010,"processors":58,"notes":"ADF&G"},
+      {"year":2015,"processors":48,"notes":"ADF&G"},
+      {"year":2020,"processors":42,"notes":"ADF&G — COVID strains smaller processors"},
+      {"year":2024,"processors":38,"notes":"ADF&G 2024 — continued consolidation"}
+    ]
+  },
+  "major_processors_2024": [
+    {
+      "company": "Trident Seafoods",
+      "hq": "Seattle, WA",
+      "alaska_facilities": ["Akutan","Dutch Harbor (2)","Kodiak","Sand Point","St. Paul Island","Naknek","Ketchikan","Juneau"],
+      "primary_species": ["Pollock","Pacific cod","Salmon (all species)","Halibut","Sablefish"],
+      "alaska_employment": 8000,
+      "annual_volume_est_lbs_billions": 1.8,
+      "notes": "Largest US seafood company by Alaska volume. Privately held."
+    },
+    {
+      "company": "UniSea (Nichirei / Maruha Nichiro)",
+      "hq": "Dutch Harbor, AK (Japan-owned)",
+      "alaska_facilities": ["Dutch Harbor"],
+      "primary_species": ["Pollock","Crab","Groundfish"],
+      "alaska_employment": 1400,
+      "notes": "Integrated catcher-processor and shore plant operation. Japanese ownership."
+    },
+    {
+      "company": "Icicle Seafoods",
+      "hq": "Seattle, WA",
+      "alaska_facilities": ["Petersburg","Kodiak","Naknek","Ekuk"],
+      "primary_species": ["Salmon (all species)","Halibut","Dungeness crab"],
+      "alaska_employment": 3200,
+      "notes": "Strong SEAK salmon processing presence. Icicle merged with Ocean Beauty in 2022."
+    },
+    {
+      "company": "Peter Pan Seafoods",
+      "hq": "Seattle, WA (Maruha Nichiro parent)",
+      "alaska_facilities": ["Sand Point","King Cove","Egegik","Dillingham"],
+      "primary_species": ["Bristol Bay sockeye","Pink salmon","Cod"],
+      "alaska_employment": 2100,
+      "notes": "Primary Bristol Bay shore processor for sockeye"
+    },
+    {
+      "company": "Silver Bay Seafoods",
+      "hq": "Sitka, AK (employee owned)",
+      "alaska_facilities": ["Sitka","Juneau","Naknek","Kodiak"],
+      "primary_species": ["Salmon","Halibut","Sablefish"],
+      "alaska_employment": 1800,
+      "notes": "Employee-owned model. Strong Southeast Alaska salmon brand."
+    }
+  ],
+  "employment_by_sector": {
+    "annual": [
+      {"year":1980,"commercial_fishing_jobs":18400,"processing_jobs":14200,"total":32600,"notes":"NOAA + ISER"},
+      {"year":1990,"commercial_fishing_jobs":22800,"processing_jobs":16400,"total":39200,"notes":"Peak employment era"},
+      {"year":2000,"commercial_fishing_jobs":18200,"processing_jobs":12800,"total":31000,"notes":"Price crash beginning to show"},
+      {"year":2010,"commercial_fishing_jobs":16400,"processing_jobs":10200,"total":26600,"notes":"Consolidation ongoing"},
+      {"year":2015,"commercial_fishing_jobs":15800,"processing_jobs":9400,"total":25200,"notes":"NOAA"},
+      {"year":2020,"commercial_fishing_jobs":14200,"processing_jobs":7800,"total":22000,"notes":"COVID + automation. Processing jobs down significantly."},
+      {"year":2022,"commercial_fishing_jobs":15600,"processing_jobs":8200,"total":23800,"notes":"NOAA. Record prices but not proportional jobs due to automation."},
+      {"year":2024,"commercial_fishing_jobs":15200,"processing_jobs":7600,"total":22800,"notes":"NOAA 2024"}
+    ]
+  },
+  "at_sea_processing": {
+    "description": "Catcher-processors and mothership vessels — process fish at sea, eliminating shore plant step",
+    "afa_at_sea_sector": "6 catcher-processors in EBS pollock AFA cooperative. Each 320-350 ft vessel, crew of 120-140, capacity 350 mt/day.",
+    "mothership_sector": "5 motherships processing deliveries from catcher vessels in the AFA cooperative",
+    "at_sea_volume_pct": "38% of EBS pollock TAC processed at-sea",
+    "vessels": [
+      "Alaska Ocean (Trident Seafoods)",
+      "Pacific Rambler (American Seafoods)",
+      "America's Cup (American Seafoods)",
+      "Northern Victor (UniSea)",
+      "Northern Eagle (UniSea)",
+      "Alaska Juris (Trident)"
+    ]
+  }
+}

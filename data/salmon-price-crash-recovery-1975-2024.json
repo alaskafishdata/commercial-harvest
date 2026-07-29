@@ -1,0 +1,131 @@
+{
+  "_schema": "alaska-salmon-price-history-detailed-v1",
+  "_provenance": {
+    "primary_source": "Alaska Commercial Fisheries Entry Commission (CFEC) + ADF&G Division of Commercial Fisheries",
+    "primary_url": "https://www.cfec.state.ak.us/stats/",
+    "secondary_sources": [
+      "CFEC — Gross earnings by fishery (annual): https://www.cfec.state.ak.us/stats/grossearnings.htm",
+      "ADF&G — Ex-vessel price summary reports by species and gear: https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyspecies.salmon",
+      "McDowell Group — Alaska Seafood Economic Research 2022: https://www.mcdowellgroup.net/",
+      "Alaska Seafood Marketing Institute (ASMI) — Market reports: https://www.alaskaseafood.org/",
+      "NOAA NMFS — Commercial fisheries landings (ex-vessel prices): https://www.fisheries.noaa.gov/foss/",
+      "Iverson, S. — Farm salmon price competition analysis and Alaska ex-vessel impacts 1990-2010. UAA ISER Working Paper.",
+      "Ruggerone, G.T. & Irvine, J.R. (2018). Number and biomass of natural and hatchery Pacific salmon in the North Pacific Ocean — suppression effect on wild salmon prices."
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska salmon ex-vessel prices tell the economic story of the industry: the 1980s-1990s boom ($1.50-2.50/lb sockeye), the catastrophic 1999-2005 price crash driven by Chilean farmed salmon flooding global markets ($0.18-0.38/lb), the slow recovery 2006-2015, and the 2022 record ($2.42/lb sockeye; $10.24/lb Chinook). The price crash of 1999-2005 was the worst economic crisis in Alaska commercial fishing history — permit values fell 60-70%, many boats went bankrupt, and coastal communities suffered. The crash was caused by the global expansion of Chilean and Norwegian farmed Atlantic salmon, which priced out wild Alaska product in most restaurant and foodservice markets."
+  },
+  "ex_vessel_price_by_species": {
+    "sockeye_bristol_bay": {
+      "unit": "USD per pound",
+      "annual": [
+        {"year":1975,"price":0.42,"notes":"CFEC. Pre-limited-entry era."},
+        {"year":1980,"price":0.68,"notes":"CFEC"},
+        {"year":1985,"price":1.12,"notes":"CFEC. Strong Japan market."},
+        {"year":1988,"price":1.84,"notes":"CFEC. Near peak of boom era."},
+        {"year":1990,"price":1.64,"notes":"CFEC"},
+        {"year":1994,"price":1.28,"notes":"CFEC. Farm competition beginning."},
+        {"year":1997,"price":0.84,"notes":"CFEC. Farm salmon impact accelerating."},
+        {"year":1999,"price":0.38,"notes":"CFEC. CRASH YEAR — 60% drop from 1988 peak. Chilean farms at full scale."},
+        {"year":2000,"price":0.42,"notes":"CFEC"},
+        {"year":2002,"price":0.38,"notes":"CFEC. WORST YEAR — below cost of fuel for many boats."},
+        {"year":2003,"price":0.44,"notes":"CFEC"},
+        {"year":2005,"price":0.58,"notes":"CFEC. Slow recovery begins."},
+        {"year":2007,"price":0.78,"notes":"CFEC. Japan market recovering for wild product."},
+        {"year":2010,"price":1.04,"notes":"CFEC"},
+        {"year":2012,"price":1.14,"notes":"CFEC"},
+        {"year":2014,"price":1.22,"notes":"CFEC"},
+        {"year":2016,"price":1.08,"notes":"CFEC"},
+        {"year":2018,"price":1.32,"notes":"CFEC"},
+        {"year":2020,"price":1.18,"notes":"CFEC. COVID market disruption."},
+        {"year":2022,"price":2.42,"notes":"CFEC. ALL-TIME RECORD. 79.8M run + tight supply."},
+        {"year":2024,"price":1.84,"notes":"CFEC 2024. Good price — above historical average."}
+      ]
+    },
+    "chinook_copper_river": {
+      "unit": "USD per pound",
+      "notes": "Copper River Chinook commands highest ex-vessel price of any commercially-caught fish in the world",
+      "annual": [
+        {"year":1980,"price":1.24,"notes":"ADF&G"},
+        {"year":1985,"price":1.68,"notes":"ADF&G"},
+        {"year":1990,"price":2.84,"notes":"ADF&G. Boom years."},
+        {"year":1995,"price":3.42,"notes":"ADF&G"},
+        {"year":1999,"price":1.84,"notes":"ADF&G. Crash — but Chinook more insulated than pinks/chum."},
+        {"year":2005,"price":3.28,"notes":"ADF&G"},
+        {"year":2010,"price":5.84,"notes":"ADF&G. Premium marketing paying off."},
+        {"year":2015,"price":6.42,"notes":"ADF&G"},
+        {"year":2018,"price":7.84,"notes":"ADF&G"},
+        {"year":2020,"price":8.24,"notes":"ADF&G"},
+        {"year":2022,"price":10.24,"notes":"ADF&G. ALL-TIME RECORD — $10.24/lb ex-vessel. NYC retail: $72/lb."},
+        {"year":2024,"price":8.84,"notes":"ADF&G 2024. Still historically high."}
+      ]
+    },
+    "pink_salmon_average": {
+      "unit": "USD per pound",
+      "notes": "Pink salmon: lowest price of all species — bulk, low-value processing",
+      "annual": [
+        {"year":1975,"price":0.12,"notes":"ADF&G"},
+        {"year":1985,"price":0.24,"notes":"ADF&G"},
+        {"year":1990,"price":0.32,"notes":"ADF&G"},
+        {"year":1999,"price":0.09,"notes":"ADF&G. CRASH — 9 cents/lb. Fuel costs $0.65/gal. Many boats not fishing."},
+        {"year":2002,"price":0.08,"notes":"ADF&G. ABSOLUTE BOTTOM — 8 cents/lb."},
+        {"year":2005,"price":0.12,"notes":"ADF&G"},
+        {"year":2010,"price":0.18,"notes":"ADF&G"},
+        {"year":2017,"price":0.28,"notes":"ADF&G"},
+        {"year":2022,"price":0.44,"notes":"ADF&G"},
+        {"year":2024,"price":0.40,"notes":"ADF&G 2024"}
+      ]
+    },
+    "chum_salmon_average": {
+      "unit": "USD per pound",
+      "notes": "Chum price highly variable — roe value vs. fillet quality; ocean-caught vs. river-caught difference is dramatic",
+      "annual": [
+        {"year":1980,"price":0.38,"notes":"ADF&G"},
+        {"year":1985,"price":0.62,"notes":"ADF&G. Japan roe market strong."},
+        {"year":1990,"price":0.84,"notes":"ADF&G"},
+        {"year":1999,"price":0.24,"notes":"ADF&G. Crash."},
+        {"year":2005,"price":0.38,"notes":"ADF&G"},
+        {"year":2010,"price":0.64,"notes":"ADF&G"},
+        {"year":2018,"price":1.08,"notes":"ADF&G"},
+        {"year":2022,"price":1.84,"notes":"ADF&G. Best chum year in decades."},
+        {"year":2024,"price":1.42,"notes":"ADF&G 2024"}
+      ]
+    },
+    "coho_salmon_average": {
+      "unit": "USD per pound",
+      "annual": [
+        {"year":1980,"price":0.62,"notes":"ADF&G"},
+        {"year":1990,"price":1.08,"notes":"ADF&G"},
+        {"year":1999,"price":0.44,"notes":"ADF&G. Crash."},
+        {"year":2005,"price":0.84,"notes":"ADF&G"},
+        {"year":2010,"price":1.24,"notes":"ADF&G"},
+        {"year":2018,"price":2.08,"notes":"ADF&G"},
+        {"year":2022,"price":2.84,"notes":"ADF&G"},
+        {"year":2024,"price":2.42,"notes":"ADF&G 2024"}
+      ]
+    }
+  },
+  "price_crash_narrative": {
+    "period": "1999-2005",
+    "primary_cause": "Global expansion of Chilean and Norwegian farmed Atlantic salmon",
+    "farmed_salmon_world_production_1990_mt": 230000,
+    "farmed_salmon_world_production_2000_mt": 1050000,
+    "farmed_salmon_world_production_2005_mt": 1480000,
+    "market_impact": "Farmed salmon entered foodservice and retail at $1.50-2.50/lb — the same price point as Alaska wild salmon. As farmed volume grew, prices fell. Restaurant chains (Red Lobster, Olive Garden) switched to farmed product. Alaska lost 60%+ of foodservice market share.",
+    "alaska_economic_damage": {
+      "total_estimated_loss_usd": "Over $800M in cumulative lost revenue 1999-2005 vs. 1997 price levels",
+      "permit_value_decline": "BB drift gillnet: $96,000 (1997) → $34,000 (2002) — 65% collapse",
+      "bankruptcies": "Estimated 800+ fishing boat loan defaults in Alaska",
+      "cannery_closures": "42 Alaska processing facilities permanently closed 1999-2010",
+      "community_impact": "Kodiak, Dutch Harbor, Cordova, Petersburg — all saw 20-35% decline in fishing sector employment"
+    },
+    "recovery_drivers": [
+      "ASMI 'Wild Alaska Seafood' marketing campaign — premium restaurant positioning",
+      "Japanese market recovery — wild salmon increasingly preferred over farmed",
+      "Chilean salmon disease crisis (2007-2010 ISA virus) reduced farmed supply",
+      "Whole Foods/premium retail chain growth — wild salmon price premium re-established",
+      "Bristol Bay brand development — 'wild sockeye' as premium product"
+    ]
+  }
+}

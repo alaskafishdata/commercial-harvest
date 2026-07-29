@@ -1,0 +1,81 @@
+{
+  "_schema": "alaska-pebble-mine-fisheries-impact-v1",
+  "_provenance": {
+    "primary_source": "EPA — Final Determination for Pebble Mine Project (2023) + USACE Environmental Impact Statement",
+    "primary_url": "https://www.epa.gov/bristolbay",
+    "secondary_sources": [
+      "EPA — Proposed Determination for Pebble Mine under Clean Water Act Section 404(c): https://www.epa.gov/bristolbay",
+      "USACE — Pebble Mine Draft EIS (2020): https://pebbleprojecteis.com/",
+      "EPA — An Assessment of Potential Mining Impacts on Salmon Ecosystems of Bristol Bay, Alaska (2014, revised 2023)",
+      "Schindler, D.E. et al. (2010). Population diversity and the portfolio effect in an exploited species. Nature 465:609-612.",
+      "Rickard, N.A. et al. (2014). Socioeconomic assessment of potential Pebble Mine impacts on commercial fisheries. McDowell Group.",
+      "National Academy of Sciences — Review of EPA's Bristol Bay Watershed Assessment (2013)",
+      "Pebble Limited Partnership — Pebble Project Final EIS Response (2020): https://www.pebbleprojecteis.com/"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "The Pebble Mine controversy is the most consequential ongoing fisheries policy battle in Alaska history. The proposed copper-gold mine sits in the headwaters of the Nushagak and Kvichak rivers — the two most productive salmon rivers in Bristol Bay and the world. The EPA under Section 404(c) of the Clean Water Act has the authority to veto the Corps of Engineers permit for Pebble. In 2023, the Biden EPA issued a Final Determination restricting Pebble's discharge permits, effectively blocking the mine. Pebble LP has appealed. The status as of 2024 is that the mine cannot proceed under current EPA restrictions. This is considered the most important water/salmon conservation decision in US history."
+  },
+  "mine_overview": {
+    "proposed_location": "Upper Nushagak and Kvichak River watersheds, Southwest Alaska",
+    "approximate_coordinates": "59.95°N, 155.40°W",
+    "nearest_community": "Iliamna, AK (pop. ~116); King Salmon, AK (60 miles)",
+    "mine_type": "Open-pit copper, gold, and molybdenum",
+    "estimated_ore_body_value_usd": "300-500 billion (Pebble LP estimate)",
+    "proposed_mine_life_years": "20+ years of mining, with potential for 100+ year operation if fully developed",
+    "tailings_dam_height_m": "Proposed: 250m — among world's largest",
+    "tailings_volume_gallons_billions": 10,
+    "proposed_permit": "USACE Section 404 Dredge and Fill permit required for wetland impacts"
+  },
+  "bristol_bay_fisheries_at_stake": {
+    "annual_sockeye_value_usd": 343000000,
+    "average_annual_sockeye_run_millions": 40,
+    "total_economic_impact_usd": 1500000000,
+    "fishing_jobs_at_risk": 14000,
+    "sports_fishing_annual_value_usd": 128000000,
+    "subsistence_communities_dependent": 40,
+    "subsistence_salmon_per_household_lbs": 316
+  },
+  "epa_assessment_findings": {
+    "report_title": "An Assessment of Potential Mining Impacts on Salmon Ecosystems of Bristol Bay, Alaska",
+    "published": "2014 (updated 2023)",
+    "key_finding": "The proposed Pebble mine could result in the permanent loss of 90+ miles of salmon spawning and rearing habitat in the Nushagak and Kvichak watersheds",
+    "salmon_habitat_loss_estimated_miles": 90,
+    "spawning_habitat_loss_acres": 5350,
+    "wetland_loss_acres": 4800,
+    "annual_salmon_loss_low_estimate": 94000,
+    "annual_salmon_loss_high_estimate": 120000,
+    "report_url": "https://www.epa.gov/bristolbay/bristol-bay-assessment"
+  },
+  "regulatory_timeline": [
+    {"year":1987,"event":"Northern Dynasty Minerals begins exploration drilling in upper Bristol Bay watershed"},
+    {"year":2004,"event":"Pebble Limited Partnership (Anglo American + Northern Dynasty) formed"},
+    {"year":2008,"event":"Ballot Measure 4 (Alaska Clean Water Initiative) fails — mine opposition mobilizes"},
+    {"year":2010,"event":"EPA begins Bristol Bay Watershed Assessment under Section 404(c) authority"},
+    {"year":2014,"event":"EPA releases Bristol Bay Watershed Assessment: 90 miles of habitat at risk"},
+    {"year":2014,"event":"Anglo American withdraws from Pebble LP partnership — citing project risks"},
+    {"year":2017,"event":"EPA under Trump administration withdraws 2014 proposed determination — process starts over"},
+    {"year":2018,"event":"USACE begins EIS process for Pebble Mine permit"},
+    {"year":2020,"event":"USACE releases Final EIS — recommends against issuing permit based on fisheries impact"},
+    {"year":2020,"event":"Released FBI recordings: Pebble CEO Tom Collier caught on tape downplaying mine size. Collier resigns."},
+    {"year":2021,"event":"Biden EPA proposes Final Determination restricting Pebble discharge — effectively vetoing the mine"},
+    {"year":2023,"event":"EPA issues FINAL DETERMINATION: vetoes Pebble Mine under Clean Water Act Section 404(c). First use of CWA 404(c) to prospectively restrict a mine before permit issued."},
+    {"year":2024,"event":"Pebble LP appeals Final Determination in federal court. Case pending. Mine cannot proceed under current legal status."}
+  ],
+  "opposition_coalition": {
+    "alaska_native_tribes": "All 31 federally recognized tribes in the Bristol Bay region formally oppose Pebble Mine",
+    "commercial_fishing_industry": "United Bristol Bay drift and set net fishermen formally oppose",
+    "sport_fishing": "Multiple major sport fishing organizations oppose",
+    "military": "Both of Alaska's US senators, Alaska governor (bi-partisan opposition in some periods)",
+    "scientific_community": "Overwhelming opposition from fisheries scientists and ecologists"
+  },
+  "economic_comparison": {
+    "mine_lifetime_revenue_est_usd_billions": 300,
+    "mine_jobs_direct": 1000,
+    "mine_jobs_indirect": 2000,
+    "fisheries_annual_value_usd_billions": 1.5,
+    "fisheries_jobs_permanent": 14000,
+    "fisheries_100yr_cumulative_est_usd_billions": 150,
+    "analysis_note": "While the mine's one-time mineral value is large, the fisheries provide permanent renewable employment and food security. The EPA assessment concluded the fisheries risk is not justified by any mine benefit given the irreversible nature of the habitat damage."
+  }
+}

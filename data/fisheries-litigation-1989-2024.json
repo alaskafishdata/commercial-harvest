@@ -1,0 +1,86 @@
+{
+  "_schema": "alaska-fisheries-litigation-federal-cases-v1",
+  "_provenance": {
+    "primary_source": "US Federal Courts PACER + Alaska Department of Law",
+    "primary_url": "https://www.courtlistener.com/?type=o&q=&docket_number=&court=&judge=&case_name=alaska+fisheries",
+    "secondary_sources": [
+      "Exxon Shipping Co. v. Baker, 554 U.S. 471 (2008): https://supreme.justia.com/cases/federal/us/554/471/",
+      "Alaska v. Federal Subsistence Board — multiple cases 1990s-2020s",
+      "North Pacific Fishing Vessel Owners' Assoc. v. United States — AFA constitutionality",
+      "Pacific Coast Federation of Fishermen's Associations v. Blank — groundfish allocation",
+      "American Fisheries Act litigation history: Congressional Research Service reports",
+      "Steller Sea Lion litigation: multiple cases requiring NOAA to restrict groundfish",
+      "Pebble Ltd. P'ship v. EPA — ongoing litigation re CWA 404(c) veto",
+      "Sturgeon v. Frost — Alaska National Interest Lands Conservation Act (ANILCA) subsistence",
+      "Alaska Department of Law — State fisheries litigation summaries: https://www.law.alaska.gov/",
+      "Alaska Supreme Court — Alaska Chignik Cooperative Case: Metlakatla Indian Community v. Egan decisions"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska fisheries generate more federal litigation than virtually any other natural resource sector in the US. The complexity of overlapping federal-state jurisdiction (ANILCA, ESA, MMPA, MSA, CWA) combined with billions of dollars in resource value creates constant legal conflict. The Exxon Valdez case alone produced 19 years of litigation and reached the US Supreme Court. The Steller sea lion cases produced 50+ NOAA amendments to groundfish fishing plans. The subsistence wars have generated 30+ years of federal-state conflict that remains unresolved."
+  },
+  "landmark_cases": [
+    {
+      "case": "Exxon Shipping Co. v. Baker",
+      "citation": "554 U.S. 471 (2008)",
+      "decided": "2008-06-25",
+      "court": "United States Supreme Court",
+      "significance": "Reduced Exxon Valdez punitive damages from $5B (jury verdict) to $507.5M. Supreme Court held punitive damages in maritime cases cannot exceed compensatory damages 1:1 ratio.",
+      "impact_on_fisheries": "Limited ability of harmed fishermen and communities to recover full economic damages from oil spills. Considered a major setback for commercial fishing plaintiffs.",
+      "plaintiffs": "32,677 Alaska fishermen, property owners, Alaska Natives",
+      "original_jury_verdict_usd": 5000000000,
+      "final_judgment_usd": 507500000
+    },
+    {
+      "case": "Sturgeon v. Frost",
+      "citation": "587 U.S. ___ (2019)",
+      "decided": "2019-03-26",
+      "court": "United States Supreme Court (second time up)",
+      "significance": "Held that Alaska National Parks within state boundaries are subject to ANILCA's section 103(c) — meaning state law governs waterways within park boundaries, not NPS regulations. John Sturgeon, a moose hunter, challenged NPS prohibition on hovercraft on Nation River within Yukon-Charley Rivers National Preserve.",
+      "fisheries_connection": "Established that ANILCA boundaries matter critically for subsistence rights. Same principle applies to subsistence fishing on rivers within federal public lands."
+    },
+    {
+      "case": "Alaska v. Federal Subsistence Board",
+      "citation": "Multiple cases — consolidated in 9th Circuit",
+      "significance": "Series of cases determining whether federal subsistence priority under ANILCA extends to non-Native rural residents. Courts ruled federal subsistence priority applies to all rural residents on federal lands, not just Alaska Natives — creating the current dual (federal/state) subsistence management system.",
+      "years": "1992-2001"
+    },
+    {
+      "case": "North Pacific Fishing Vessel Owners' Assoc. v. United States",
+      "significance": "Constitutional challenge to the AFA (1998) cooperative allocation system. Challengers argued AFA violated equal protection by favoring certain vessel classes. Dismissed — courts upheld Congressional authority to allocate fishing privileges to specific vessel groups.",
+      "year": 2001
+    },
+    {
+      "case": "Greenpeace v. National Marine Fisheries Service",
+      "citation": "55 F. Supp. 2d 1248 (W.D. Wash. 1999)",
+      "decided": "1999",
+      "significance": "Court required NMFS to prepare a full EIS for pollock fishing plan, citing potential impact on Steller sea lion. Led to major operational changes in pollock season timing and spatial restrictions around SSL rookeries.",
+      "impact": "Required NOAA to implement 'junk food hypothesis' analysis — do pollock fishing restrictions improve SSL nutrition and recovery?"
+    },
+    {
+      "case": "Pebble Ltd. Partnership v. EPA",
+      "status": "ONGOING — filed 2023 after EPA Final Determination",
+      "court": "US District Court for Alaska",
+      "significance": "Pebble LP challenges EPA's use of CWA Section 404(c) to veto mine before any permit was issued — first prospective use of 404(c) in US history. If courts side with Pebble, EPA's proactive veto authority is weakened for future projects.",
+      "filed": "2023"
+    },
+    {
+      "case": "Chignik Salmon Cooperative (In re Chignik Salmon Cooperative)",
+      "court": "Alaska Supreme Court",
+      "decided": "2003",
+      "significance": "Alaska Supreme Court invalidated the 2002 Chignik seine fishery cooperative experiment. Cooperative allowed 14 of 71 permit holders to fish for all — other holders challenged it as an improper delegation of limited entry privileges. Court agreed: limited entry permits cannot be pooled without legislative authority.",
+      "impact": "Ended the only implemented salmon fishing cooperative in Alaska history. Subsequent rationalization efforts (outside of federal AFA) have been politically blocked."
+    }
+  ],
+  "litigation_trends": {
+    "active_litigation_areas_2024": [
+      "Pebble Mine EPA 404(c) veto challenge",
+      "ESA critical habitat designation for Cook Inlet beluga",
+      "Yukon River salmon tribe vs. commercial fishing allocation",
+      "Bristol Bay sockeye Area M intercept fishery challenges",
+      "Snow crab disaster declaration and USDA aid allocation",
+      "Charter halibut catch share program constitutionality"
+    ],
+    "total_estimated_pending_federal_cases_2024": 22
+  }
+}

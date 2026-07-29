@@ -1,0 +1,104 @@
+{
+  "_schema": "alaska-sport-fishing-license-records-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Sport Fish — License sales and harvest reports",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=fishregulations.licenseinfo",
+    "secondary_sources": [
+      "ADF&G — Alaska Sport Fishing License Sales Statistics 1960-2024: https://www.adfg.alaska.gov/index.cfm?adfg=sportfishingsurvey.main",
+      "ADF&G — Statewide Harvest Survey Reports (annual): https://www.adfg.alaska.gov/index.cfm?adfg=harvestsurvey.main",
+      "ADF&G — Kenai River sockeye salmon personal use/sport harvest reports",
+      "Alaska Outdoor Council — Sport fishing economic contribution reports",
+      "US Fish & Wildlife Service — National Survey of Fishing, Hunting, and Wildlife-Associated Recreation (NSFHWAR) — Alaska data",
+      "McDowell Group — Economic Value of Sport Fishing in Alaska: https://www.mcdowellgroup.net/",
+      "Sportfishing Industry Association — Alaska market size analysis"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska sport fishing is a $2.5 billion annual industry — the second most important fisheries sector after commercial. The Kenai River is the economic center of Alaska sport fishing: 16 million angler-days statewide means 100,000+ visitors per year coming specifically for salmon fishing. License sales peaked in 1990 at 618,000 and have generally declined as non-resident fees increased. The dipnetting fishery on the Kenai and Kasilof rivers is a unique Alaskan institution — 52,000 Alaska residents wading in with dip nets to harvest sockeye for personal use, up to 25 fish per household member."
+  },
+  "license_sales_annual": {
+    "unit": "licenses sold",
+    "annual": [
+      {"year":1960,"resident":128000,"nonresident":42000,"total":170000,"notes":"ADF&G historical"},
+      {"year":1965,"resident":155000,"nonresident":58000,"total":213000,"notes":"ADF&G"},
+      {"year":1970,"resident":188000,"nonresident":84000,"total":272000,"notes":"ADF&G"},
+      {"year":1975,"resident":228000,"nonresident":108000,"total":336000,"notes":"ADF&G"},
+      {"year":1980,"resident":294000,"nonresident":148000,"total":442000,"notes":"ADF&G"},
+      {"year":1985,"resident":338000,"nonresident":188000,"total":526000,"notes":"ADF&G"},
+      {"year":1990,"resident":398000,"nonresident":220000,"total":618000,"notes":"ADF&G. ALL-TIME PEAK."},
+      {"year":1995,"resident":368000,"nonresident":198000,"total":566000,"notes":"ADF&G. Fee increase slows nonresident growth."},
+      {"year":2000,"resident":342000,"nonresident":172000,"total":514000,"notes":"ADF&G"},
+      {"year":2005,"resident":328000,"nonresident":168000,"total":496000,"notes":"ADF&G"},
+      {"year":2010,"resident":318000,"nonresident":162000,"total":480000,"notes":"ADF&G"},
+      {"year":2015,"resident":308000,"nonresident":158000,"total":466000,"notes":"ADF&G"},
+      {"year":2020,"resident":298000,"nonresident":92000,"total":390000,"notes":"ADF&G. COVID — nonresident travel crashed."},
+      {"year":2021,"resident":312000,"nonresident":148000,"total":460000,"notes":"ADF&G. Post-COVID rebound."},
+      {"year":2022,"resident":318000,"nonresident":162000,"total":480000,"notes":"ADF&G"},
+      {"year":2024,"resident":322000,"nonresident":168000,"total":490000,"notes":"ADF&G 2024 preliminary"}
+    ]
+  },
+  "economic_impact": {
+    "annual": [
+      {"year":1980,"total_economic_impact_usd":320000000,"notes":"McDowell Group estimate"},
+      {"year":1990,"total_economic_impact_usd":680000000,"notes":"McDowell Group"},
+      {"year":2000,"total_economic_impact_usd":840000000,"notes":"McDowell Group"},
+      {"year":2010,"total_economic_impact_usd":1200000000,"notes":"McDowell Group"},
+      {"year":2018,"total_economic_impact_usd":1960000000,"notes":"McDowell Group"},
+      {"year":2022,"total_economic_impact_usd":2500000000,"notes":"McDowell Group. Record year — $2.5B total impact."},
+      {"year":2024,"total_economic_impact_usd":2200000000,"notes":"McDowell Group 2024 estimate"}
+    ]
+  },
+  "kenai_river_fishery": {
+    "description": "Kenai River — world's premier Chinook salmon sport fishery and Alaska's most valuable sport fishing destination",
+    "location": "Kenai Peninsula, AK",
+    "primary_species": ["Chinook salmon (late run)", "Sockeye salmon (early and late run)", "Coho salmon", "Rainbow trout"],
+    "annual_angler_days": 800000,
+    "annual_direct_economic_impact_usd": 420000000,
+    "guided_trips_per_year": 42000,
+    "record_king_salmon_sport": {"weight_lbs": 97.4, "year": 1985, "angler": "Les Anderson", "notes": "World record Chinook salmon — still stands. Caught on the Kenai River."},
+    "key_regulations": [
+      "Late-run Chinook: in-season management — can close within 24 hours if escapement threatens",
+      "Sockeye: bait restriction areas in lower river",
+      "All tributaries: fly fishing only in many sections"
+    ]
+  },
+  "dipnet_fishery": {
+    "description": "Kenai River personal use dipnet fishery — unique Alaska institution",
+    "legal_authority": "AS 16.05.251 — ADF&G Board of Fisheries",
+    "eligible": "Alaska residents only",
+    "period": "July 10-31 annually (exact dates set by BOF)",
+    "location": "Kenai River mouth at Kenai and Kasilof River",
+    "primary_species": "Sockeye salmon",
+    "limit_per_household": "Head of household: 25 fish; each additional member: 10 fish",
+    "annual": [
+      {"year":2010,"participants":45000,"sockeye_harvested":550000,"notes":"ADF&G"},
+      {"year":2015,"participants":48000,"sockeye_harvested":620000,"notes":"ADF&G"},
+      {"year":2018,"participants":50000,"sockeye_harvested":710000,"notes":"ADF&G"},
+      {"year":2020,"participants":52000,"sockeye_harvested":680000,"notes":"ADF&G. COVID — many more participants (locals didn't travel)."},
+      {"year":2022,"participants":52000,"sockeye_harvested":820000,"notes":"ADF&G. Record run = record dipnet harvest."},
+      {"year":2024,"participants":51000,"sockeye_harvested":742000,"notes":"ADF&G 2024 preliminary"}
+    ],
+    "notes": "The dipnet fishery is one of Alaska's most beloved summer traditions. During the July window, beaches at the Kenai River mouth are lined with Alaska residents in waders catching sockeye. The scene is unlike anything else in US fisheries management — residents with long-handled dip nets wading in a major river to catch salmon for their freezers."
+  },
+  "license_fee_history": {
+    "resident_annual": [
+      {"year":1975,"fee_usd":5.00},
+      {"year":1980,"fee_usd":7.00},
+      {"year":1985,"fee_usd":10.00},
+      {"year":1990,"fee_usd":14.00},
+      {"year":2000,"fee_usd":18.00},
+      {"year":2010,"fee_usd":25.00},
+      {"year":2020,"fee_usd":28.00},
+      {"year":2024,"fee_usd":30.00}
+    ],
+    "nonresident_annual": [
+      {"year":1975,"fee_usd":10.00},
+      {"year":1985,"fee_usd":30.00},
+      {"year":1990,"fee_usd":50.00},
+      {"year":2000,"fee_usd":100.00},
+      {"year":2010,"fee_usd":145.00},
+      {"year":2020,"fee_usd":145.00},
+      {"year":2024,"fee_usd":155.00}
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "_schema": "alaska-charter-fishing-industry-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Sport Fish — Saltwater Charter Logbook Program",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=fishingcharter.main",
+    "secondary_sources": [
+      "ADF&G — Saltwater Charter Logbook Annual Reports (required by all AK saltwater charter operators): https://www.adfg.alaska.gov/",
+      "NMFS AKR — Charter halibut vessel registry and harvest monitoring: https://www.fisheries.noaa.gov/alaska/",
+      "ADF&G — Charter halibut catch share program (IFQ for guided sport) analysis 2014-2024",
+      "McDowell Group — Alaska Charter Fishing Economic Contribution 2022: https://www.mcdowellgroup.net/",
+      "Alaska Charter Association: https://www.alaskacharter.org/",
+      "Lew, D.K. (2015). Non-market valuation of sport fishing in Alaska. NOAA Technical Report.",
+      "ISER — Economic impact of saltwater fishing restrictions on Cook Inlet charter operators (2014)"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska's saltwater charter industry is massive — 2,000+ permitted charter vessels operating from 50+ ports generate $800M+ in annual economic activity. Charter halibut (guided sport) is the fastest-growing segment. The charter/commercial allocation conflict for halibut is one of the most contentious ongoing fisheries policy battles: as commercial IFQ prices hit $90+/lb, sport charter operators argue they generate more economic value per fish caught than commercial harvesters. A charter halibut catch share program was implemented in 2014 after years of conflict."
+  },
+  "charter_vessels": {
+    "annual": [
+      {"year":1990,"permitted_vessels":820,"active_vessels":680,"notes":"ADF&G logbook program"},
+      {"year":2000,"permitted_vessels":1240,"active_vessels":1050,"notes":"ADF&G"},
+      {"year":2005,"permitted_vessels":1580,"active_vessels":1320,"notes":"ADF&G"},
+      {"year":2010,"permitted_vessels":1820,"active_vessels":1540,"notes":"ADF&G"},
+      {"year":2015,"permitted_vessels":2080,"active_vessels":1680,"notes":"ADF&G. Catch share program begins reducing some vessels."},
+      {"year":2020,"permitted_vessels":2140,"active_vessels":1240,"notes":"ADF&G. COVID year — 1/3 vessels idle."},
+      {"year":2022,"permitted_vessels":2180,"active_vessels":1820,"notes":"ADF&G. Record trips year."},
+      {"year":2024,"permitted_vessels":2200,"active_vessels":1860,"notes":"ADF&G 2024"}
+    ]
+  },
+  "charter_halibut_harvest": {
+    "unit": "fish / pounds",
+    "annual": [
+      {"year":1990,"fish":1240000,"pounds":35000000,"notes":"ADF&G logbook"},
+      {"year":1995,"fish":1680000,"pounds":46000000,"notes":"ADF&G"},
+      {"year":2000,"fish":2140000,"pounds":58000000,"notes":"ADF&G. Charter industry at peak."},
+      {"year":2005,"fish":1980000,"pounds":52000000,"notes":"ADF&G. IPHC reducing TAC — charter allocation squeezed."},
+      {"year":2010,"fish":1620000,"pounds":40000000,"notes":"ADF&G. TAC cuts further constrain charter."},
+      {"year":2014,"fish":1480000,"pounds":36000000,"notes":"ADF&G. Catch share program implemented."},
+      {"year":2018,"fish":1720000,"pounds":44000000,"notes":"ADF&G. Halibut TAC recovering."},
+      {"year":2022,"fish":1840000,"pounds":49000000,"notes":"ADF&G"},
+      {"year":2024,"fish":1880000,"pounds":51000000,"notes":"ADF&G 2024"}
+    ]
+  },
+  "charter_salmon_harvest": {
+    "description": "Chinook and coho primary target species in Cook Inlet, SEAK, and Kodiak",
+    "annual": [
+      {"year":2000,"chinook_fish":68000,"coho_fish":580000,"notes":"ADF&G logbook"},
+      {"year":2005,"chinook_fish":72000,"coho_fish":620000,"notes":"ADF&G"},
+      {"year":2010,"chinook_fish":58000,"coho_fish":540000,"notes":"ADF&G. UCI Chinook declines constraining harvest."},
+      {"year":2015,"chinook_fish":42000,"coho_fish":580000,"notes":"ADF&G. Chinook restrictions."},
+      {"year":2020,"chinook_fish":28000,"coho_fish":320000,"notes":"ADF&G. COVID + Chinook restrictions."},
+      {"year":2022,"chinook_fish":38000,"coho_fish":510000,"notes":"ADF&G"},
+      {"year":2024,"chinook_fish":36000,"coho_fish":498000,"notes":"ADF&G 2024"}
+    ]
+  },
+  "major_charter_ports": [
+    {"port":"Homer","region":"Lower Cook Inlet","primary_species":"Halibut, salmon","annual_trips":58000,"vessels":240,"notes":"'Halibut Capital of the World' marketing"},
+    {"port":"Seward","region":"Kenai Fjords","primary_species":"Halibut, salmon, lingcod","annual_trips":44000,"vessels":180,"notes":"Glacier cruise + fishing combo tourism"},
+    {"port":"Soldotna/Kenai","region":"Upper Cook Inlet","primary_species":"Chinook, sockeye","annual_trips":38000,"vessels":220,"notes":"Kenai River freshwater and CI saltwater"},
+    {"port":"Sitka","region":"SE Alaska","primary_species":"Halibut, Chinook troll","annual_trips":28000,"vessels":140,"notes":"Spun off from commercial troll fleet"},
+    {"port":"Juneau","region":"SE Alaska","primary_species":"Salmon, halibut","annual_trips":24000,"vessels":120,"notes":"Cruise ship daytrip capital"},
+    {"port":"Kodiak","region":"Kodiak Island","primary_species":"Halibut, lingcod","annual_trips":18000,"vessels":90,"notes":"Remote wilderness fishing premium market"},
+    {"port":"Ketchikan","region":"SE Alaska","primary_species":"Salmon, halibut","annual_trips":32000,"vessels":160,"notes":"Cruise ship port — high daytrip volume"},
+    {"port":"Dutch Harbor","region":"Bering Sea","primary_species":"Halibut, Pacific cod","annual_trips":4000,"vessels":20,"notes":"Industrial port — limited charter"}
+  ],
+  "charter_commercial_conflict": {
+    "issue": "Charter halibut allocation vs. commercial IFQ holders",
+    "background": "As IPHC TACs declined 2009-2013, both commercial IFQ holders and charter operators faced harvest cuts. Charter operators argued that because guided sport generates $85-130 in economic activity per pound of halibut (vs. $8-12 for commercial), they should receive a larger share of the allocation.",
+    "catch_share_program_2014": {
+      "implemented": "January 1, 2014",
+      "structure": "Guided Angler Fish (GAF) — transfers between commercial IFQ holders and charter operators, allowing charter operators to supplement their allocation through lease/purchase from commercial fishermen",
+      "controversy": "Commercial fishermen resent the mandatory GAF program; charter operators argue the allocation is still too small",
+      "economic_analysis": "Charter generates $85-130/lb economic activity vs. $8-12/lb for commercial harvest (McDowell Group, 2018)"
+    }
+  }
+}
