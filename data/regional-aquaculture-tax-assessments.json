@@ -1,0 +1,21 @@
+{
+  "_schema": "alaska-aquaculture-tax-assessments-v1",
+  "_provenance": {
+    "primary_source": "Alaska Department of Revenue — Tax Division Salmon Enhancement Tax Reports",
+    "primary_url": "https://tax.alaska.gov/programs/programs.aspx?60620",
+    "secondary_sources": [
+      "AS 43.76 — Salmon Enhancement Tax and Regional Aquaculture Association Assessments",
+      "ADF&G Division of Commercial Fisheries — Regional Planning Teams"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Under Alaska Statute AS 43.76, commercial fishermen in designated aquaculture regions vote to self-assess a 2% or 3% Salmon Enhancement Tax (SET) on the ex-vessel value of all commercial salmon landed. The revenues collected by the Alaska Department of Revenue are remitted directly to regional PNP aquaculture associations (PWSAC, SSRAA, NSRAA, KRAA, CIAA) to fund salmon hatchery operations, wild stock enhancement, and regional fish restoration projects."
+  },
+  "regional_tax_rates": [
+    { "region": "Prince William Sound (Region 2)", "association": "PWSAC", "tax_rate_pct": 2.0, "annual_revenue_usd_m": 4.8 },
+    { "region": "Southern Southeast (Region 1A)", "association": "SSRAA", "tax_rate_pct": 3.0, "annual_revenue_usd_m": 3.2 },
+    { "region": "Northern Southeast (Region 1B)", "association": "NSRAA", "tax_rate_pct": 3.0, "annual_revenue_usd_m": 2.9 },
+    { "region": "Kodiak (Region 4)", "association": "KRAA", "tax_rate_pct": 2.0, "annual_revenue_usd_m": 1.4 },
+    { "region": "Cook Inlet (Region 3)", "association": "CIAA", "tax_rate_pct": 2.0, "annual_revenue_usd_m": 0.6 }
+  ]
+}
