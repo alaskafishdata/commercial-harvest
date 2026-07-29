@@ -1,0 +1,65 @@
+{
+  "_schema": "alaska-fisheries-disasters-v1",
+  "_provenance": {
+    "primary_source": "NOAA Fisheries — Fishery Disaster Determinations Database & Magnuson-Stevens Act Section 312(a)",
+    "primary_url": "https://www.fisheries.noaa.gov/national/funding-and-financial-services/fishery-disaster-determinations",
+    "secondary_sources": [
+      "Interjurisdictional Fisheries Act (IFA) Section 308(b) Declarations",
+      "State of Alaska Governor's Office Fisheries Disaster Requests"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Comprehensive record of federal commercial fishery disaster determinations made by the US Secretary of Commerce under MSA Section 312(a) and IFA Section 308(d) for Alaska fisheries from 1989 to 2024. Over $650M in federal disaster assistance has been allocated to Alaska fishermen, processors, municipalities, and tribal communities."
+  },
+  "major_disaster_determinations": [
+    {
+      "year": 1989,
+      "fishery": "Prince William Sound & Gulf of Alaska Commercial Fisheries",
+      "cause": "Exxon Valdez Oil Spill",
+      "federal_allocation_usd_m": 0.0,
+      "status": "State/Private Litigation Settlement ($507M)"
+    },
+    {
+      "year": 1998,
+      "fishery": "Yukon River & Kuskokwim River Chum & Chinook Fisheries",
+      "cause": "Severe Run Failure & El Niño Warming",
+      "federal_allocation_usd_m": 22.5,
+      "status": "Approved — MSA 312(a)"
+    },
+    {
+      "year": 2012,
+      "fishery": "Yukon River Chinook Salmon Fishery",
+      "cause": "Severe Run Collapse",
+      "federal_allocation_usd_m": 20.8,
+      "status": "Approved — MSA 312(a)"
+    },
+    {
+      "year": 2018,
+      "fishery": "Chignik Sockeye Salmon Fishery",
+      "cause": "Black Lake Run Failure",
+      "federal_allocation_usd_m": 10.3,
+      "status": "Approved — MSA 312(a)"
+    },
+    {
+      "year": 2019,
+      "fishery": "Gulf of Alaska Pacific Cod Fishery",
+      "cause": "The Blob Marine Heatwave",
+      "federal_allocation_usd_m": 24.4,
+      "status": "Approved — MSA 312(a)"
+    },
+    {
+      "year": 2021,
+      "fishery": "Bering Sea Snow Crab & Bristol Bay Red King Crab Fisheries",
+      "cause": "Marine Heatwave Mass Mortality (10B Crab Loss)",
+      "federal_allocation_usd_m": 185.2,
+      "status": "Approved — MSA 312(a) Record Aid Package"
+    },
+    {
+      "year": 2022,
+      "fishery": "Upper Cook Inlet Salmon & Yukon River Salmon Fisheries",
+      "cause": "Consecutive Stock Collapses",
+      "federal_allocation_usd_m": 34.2,
+      "status": "Approved — Allocation Released 2024"
+    }
+  ]
+}
