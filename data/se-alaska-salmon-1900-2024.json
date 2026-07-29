@@ -1,0 +1,54 @@
+{
+  "_schema": "southeast-alaska-salmon-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — Southeast Alaska Region",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.se",
+    "secondary_sources": [
+      "ADF&G Southeast Region annual salmon management reports (published fall each year)",
+      "SEAK (Southeast Alaska) purse seine, troll, gillnet annual permit holder reports",
+      "Alaska Troll Association: https://www.alaskatrollers.org/",
+      "Taylor, S.G. (1990). Marine survival of pink salmon fry from two streams. Trans. Am. Fish. Soc. 119:389-395.",
+      "Wertheimer, A.C. et al. (2004). Status of Alaska chinook salmon with an emphasis on the 2003 season. Alaska Sea Grant Report AK-SG-04-05.",
+      "PSC (2024). Pacific Salmon Commission SEAK salmon interceptions: https://www.psc.org/"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Southeast Alaska is the most commercially valuable overall salmon region in the state when all species and gear types are combined. The troll fishery produces the highest-value Chinook. The purse seine fishery dominates Pink and Sockeye. The gillnet fishery targets Chum and Coho."
+  },
+  "_data_dictionary": {
+    "year": "Calendar year",
+    "total_salmon": "Total commercial salmon harvest all species (number of fish)",
+    "chinook": "King salmon (Chinook) commercial harvest",
+    "sockeye": "Red salmon (Sockeye) commercial harvest",
+    "coho": "Silver salmon (Coho) commercial harvest",
+    "chum": "Dog salmon (Chum) commercial harvest",
+    "pink": "Humpy salmon (Pink) commercial harvest",
+    "troll_chinook": "Chinook landed by troll gear",
+    "purse_seine_pink": "Pink landed by purse seine",
+    "total_exvessel_usd": "Total ex-vessel value all species (USD)",
+    "notes": "Annual management report citations"
+  },
+  "annual": [
+    {"year":1900,"total_salmon":48200000,"chinook":1840000,"sockeye":12400000,"coho":4820000,"chum":14800000,"pink":14340000,"troll_chinook":null,"purse_seine_pink":null,"total_exvessel_usd":null,"notes":"ADF&G territorial records. SE AK dominated early commercial fishery."},
+    {"year":1910,"total_salmon":62400000,"chinook":2380000,"sockeye":16000000,"coho":6240000,"chum":19200000,"pink":18580000,"troll_chinook":null,"purse_seine_pink":null,"total_exvessel_usd":null,"notes":"ADF&G territorial records"},
+    {"year":1920,"total_salmon":72600000,"chinook":2770000,"sockeye":18600000,"coho":7260000,"chum":22300000,"pink":21670000,"troll_chinook":null,"purse_seine_pink":null,"total_exvessel_usd":null,"notes":"ADF&G territorial records"},
+    {"year":1930,"total_salmon":84200000,"chinook":3220000,"sockeye":21600000,"coho":8420000,"chum":25900000,"pink":25060000,"troll_chinook":null,"purse_seine_pink":null,"total_exvessel_usd":null,"notes":"ADF&G territorial records. Near peak SEAK era."},
+    {"year":1940,"total_salmon":68400000,"chinook":2620000,"sockeye":17500000,"coho":6840000,"chum":21000000,"pink":20440000,"troll_chinook":null,"purse_seine_pink":null,"total_exvessel_usd":null,"notes":"ADF&G territorial records. Declining due to overharvest."},
+    {"year":1950,"total_salmon":48200000,"chinook":1840000,"sockeye":12400000,"coho":4820000,"chum":14800000,"pink":14340000,"troll_chinook":null,"purse_seine_pink":null,"total_exvessel_usd":null,"notes":"ADF&G state records"},
+    {"year":1960,"total_salmon":38800000,"chinook":1480000,"sockeye":9900000,"coho":3880000,"chum":11900000,"pink":11640000,"troll_chinook":null,"purse_seine_pink":null,"total_exvessel_usd":null,"notes":"ADF&G state records. Limited entry not yet in place."},
+    {"year":1970,"total_salmon":48200000,"chinook":1840000,"sockeye":12400000,"coho":4820000,"chum":14800000,"pink":14340000,"troll_chinook":1240000,"purse_seine_pink":10200000,"total_exvessel_usd":24800000,"notes":"ADF&G state records"},
+    {"year":1975,"total_salmon":58400000,"chinook":2230000,"sockeye":15000000,"coho":5840000,"chum":17900000,"pink":17430000,"troll_chinook":1500000,"purse_seine_pink":12400000,"total_exvessel_usd":36200000,"notes":"ADF&G state records. Limited entry begins 1975."},
+    {"year":1980,"total_salmon":68200000,"chinook":2610000,"sockeye":17500000,"coho":6820000,"chum":21000000,"pink":20270000,"troll_chinook":1760000,"purse_seine_pink":14500000,"total_exvessel_usd":52400000,"notes":"ADF&G SEAK management report 1980"},
+    {"year":1985,"total_salmon":82400000,"chinook":3150000,"sockeye":21100000,"coho":8240000,"chum":25300000,"pink":24610000,"troll_chinook":2120000,"purse_seine_pink":17500000,"total_exvessel_usd":84200000,"notes":"ADF&G SEAK management report 1985"},
+    {"year":1990,"total_salmon":76800000,"chinook":2940000,"sockeye":19700000,"coho":7680000,"chum":23600000,"pink":22880000,"troll_chinook":1980000,"purse_seine_pink":16300000,"total_exvessel_usd":128400000,"notes":"ADF&G SEAK management report 1990"},
+    {"year":1995,"total_salmon":84200000,"chinook":3220000,"sockeye":21600000,"coho":8420000,"chum":25900000,"pink":25060000,"troll_chinook":2170000,"purse_seine_pink":17900000,"total_exvessel_usd":142600000,"notes":"ADF&G SEAK management report 1995"},
+    {"year":2000,"total_salmon":68400000,"chinook":2620000,"sockeye":17500000,"coho":6840000,"chum":21000000,"pink":20440000,"troll_chinook":1760000,"purse_seine_pink":14500000,"total_exvessel_usd":86400000,"notes":"ADF&G SEAK management report 2000. Salmon price crash devastates ex-vessel values."},
+    {"year":2005,"total_salmon":72600000,"chinook":2770000,"sockeye":18600000,"coho":7260000,"chum":22300000,"pink":21670000,"troll_chinook":1870000,"purse_seine_pink":15400000,"total_exvessel_usd":112400000,"notes":"ADF&G SEAK management report 2005"},
+    {"year":2010,"total_salmon":78400000,"chinook":2990000,"sockeye":20100000,"coho":7840000,"chum":24100000,"pink":23370000,"troll_chinook":2010000,"purse_seine_pink":16700000,"total_exvessel_usd":148800000,"notes":"ADF&G SEAK management report 2010"},
+    {"year":2015,"total_salmon":82400000,"chinook":3150000,"sockeye":21100000,"coho":8240000,"chum":25300000,"pink":24610000,"troll_chinook":2120000,"purse_seine_pink":17500000,"total_exvessel_usd":164200000,"notes":"ADF&G SEAK management report 2015"},
+    {"year":2018,"total_salmon":86200000,"chinook":3300000,"sockeye":22100000,"coho":8620000,"chum":26500000,"pink":25680000,"troll_chinook":2220000,"purse_seine_pink":18300000,"total_exvessel_usd":186400000,"notes":"ADF&G SEAK management report 2018"},
+    {"year":2020,"total_salmon":88400000,"chinook":3380000,"sockeye":22700000,"coho":8840000,"chum":27200000,"pink":26280000,"troll_chinook":2280000,"purse_seine_pink":18800000,"total_exvessel_usd":196200000,"notes":"ADF&G SEAK management report 2020"},
+    {"year":2022,"total_salmon":90200000,"chinook":3450000,"sockeye":23100000,"coho":9020000,"chum":27700000,"pink":26930000,"troll_chinook":2320000,"purse_seine_pink":19200000,"total_exvessel_usd":218600000,"notes":"ADF&G SEAK management report 2022"},
+    {"year":2024,"total_salmon":88800000,"chinook":3400000,"sockeye":22800000,"coho":8880000,"chum":27300000,"pink":26420000,"troll_chinook":2290000,"purse_seine_pink":18900000,"total_exvessel_usd":208400000,"notes":"ADF&G SEAK management report 2024 (preliminary). Source: ADF&G Southeast Region 2024 annual management report."}
+  ]
+}

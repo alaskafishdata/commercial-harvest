@@ -1,0 +1,489 @@
+{
+  "_meta": {
+    "generated": "2026-07-29T05:41:00Z",
+    "total_chunks": 50,
+    "total_bytes_jsonl": 51682,
+    "description": "AlaskaFishData RAG index \u2014 semantic chunks from all 5 public repos for retrieval-augmented generation",
+    "entrypoint": "https://raw.githubusercontent.com/alaskafishdata/commercial-harvest/main/data/rag/alaska-fisheries.jsonl",
+    "usage": "Each line is a JSON object with id, text, metadata. text is pre-formatted for embedding APIs (OpenAI text-embedding-3-large, Cohere embed-v3, HuggingFace sentence-transformers). metadata provides full provenance including source_url and raw_url back to canonical data."
+  },
+  "data_types": [
+    "annual_harvest",
+    "biological_overview",
+    "climate_overview",
+    "economics_overview",
+    "fishery_overview",
+    "hydrology_overview",
+    "industry_overview",
+    "key_event",
+    "management_overview",
+    "policy_overview",
+    "species_overview",
+    "statewide_overview"
+  ],
+  "species": [
+    "All Salmon",
+    "Chinook",
+    "Chinook/Sockeye",
+    "King Crab",
+    "King Crab/Snow Crab",
+    "Pacific Halibut",
+    "Pacific Herring",
+    "Sablefish",
+    "Salmon",
+    "Sockeye",
+    "Walleye Pollock"
+  ],
+  "repos": [
+    "commercial-harvest",
+    "emergency-orders",
+    "ocean-harvest",
+    "run-timing",
+    "weather-hydrology"
+  ],
+  "year_ranges_documented": [
+    "1878-2024",
+    "1882-2024",
+    "1884-2024",
+    "1888-2024",
+    "1900-2024",
+    "1930-2024",
+    "1950-2024",
+    "1960-2024",
+    "1961-2024",
+    "1964-2024",
+    "1970-2024",
+    "1975-2024",
+    "1978-2024",
+    "1979-2024",
+    "1985-2024",
+    "1986-2024",
+    "1994-2024",
+    "2000-2024"
+  ],
+  "historical_depth": {
+    "oldest_dataset_year": 1878,
+    "oldest_dataset": "Alaska commercial salmon harvest (Van Hyning 1951)",
+    "newest_data_year": 2024,
+    "total_years_covered": 146
+  },
+  "chunk_schema": {
+    "id": "unique chunk ID: afd-XXXXXX",
+    "text": "natural language description optimized for semantic embedding and retrieval",
+    "metadata": {
+      "repo": "source GitHub repository name",
+      "file": "source JSON data file",
+      "data_type": "category: fishery_overview | annual_harvest | species_overview | climate_overview | economics_overview | management_overview | key_event | policy_overview | industry_overview | biological_overview | hydrology_overview",
+      "year": "calendar year for annual records",
+      "year_range": "year range string for multi-year overviews",
+      "species": "fish species if applicable",
+      "region": "Alaska management area or geographic region",
+      "source": "primary data source name",
+      "source_url": "URL to canonical primary source",
+      "raw_url": "GitHub raw URL to source JSON data file",
+      "last_updated": "ISO timestamp"
+    }
+  },
+  "all_chunks_index": [
+    {
+      "id": "afd-000001",
+      "data_type": "fishery_overview",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": "",
+      "year_range": "1884-2024"
+    },
+    {
+      "id": "afd-000002",
+      "data_type": "annual_harvest",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": 1884,
+      "year_range": ""
+    },
+    {
+      "id": "afd-000003",
+      "data_type": "annual_harvest",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": 1916,
+      "year_range": ""
+    },
+    {
+      "id": "afd-000004",
+      "data_type": "annual_harvest",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": 1938,
+      "year_range": ""
+    },
+    {
+      "id": "afd-000005",
+      "data_type": "annual_harvest",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": 1950,
+      "year_range": ""
+    },
+    {
+      "id": "afd-000006",
+      "data_type": "annual_harvest",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": 1975,
+      "year_range": ""
+    },
+    {
+      "id": "afd-000007",
+      "data_type": "annual_harvest",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": 1977,
+      "year_range": ""
+    },
+    {
+      "id": "afd-000008",
+      "data_type": "annual_harvest",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": 1980,
+      "year_range": ""
+    },
+    {
+      "id": "afd-000009",
+      "data_type": "annual_harvest",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": 1988,
+      "year_range": ""
+    },
+    {
+      "id": "afd-000010",
+      "data_type": "annual_harvest",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": 1996,
+      "year_range": ""
+    },
+    {
+      "id": "afd-000011",
+      "data_type": "annual_harvest",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": 2002,
+      "year_range": ""
+    },
+    {
+      "id": "afd-000012",
+      "data_type": "annual_harvest",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": 2010,
+      "year_range": ""
+    },
+    {
+      "id": "afd-000013",
+      "data_type": "annual_harvest",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": 2013,
+      "year_range": ""
+    },
+    {
+      "id": "afd-000014",
+      "data_type": "annual_harvest",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": 2018,
+      "year_range": ""
+    },
+    {
+      "id": "afd-000015",
+      "data_type": "annual_harvest",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": 2019,
+      "year_range": ""
+    },
+    {
+      "id": "afd-000016",
+      "data_type": "annual_harvest",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": 2020,
+      "year_range": ""
+    },
+    {
+      "id": "afd-000017",
+      "data_type": "annual_harvest",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": 2021,
+      "year_range": ""
+    },
+    {
+      "id": "afd-000018",
+      "data_type": "annual_harvest",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": 2022,
+      "year_range": ""
+    },
+    {
+      "id": "afd-000019",
+      "data_type": "annual_harvest",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": 2023,
+      "year_range": ""
+    },
+    {
+      "id": "afd-000020",
+      "data_type": "annual_harvest",
+      "species": "Sockeye",
+      "region": "Bristol Bay",
+      "year": 2024,
+      "year_range": ""
+    },
+    {
+      "id": "afd-000021",
+      "data_type": "statewide_overview",
+      "species": "",
+      "region": "",
+      "year": "",
+      "year_range": "1878-2024"
+    },
+    {
+      "id": "afd-000022",
+      "data_type": "species_overview",
+      "species": "Pacific Halibut",
+      "region": "",
+      "year": "",
+      "year_range": "1888-2024"
+    },
+    {
+      "id": "afd-000023",
+      "data_type": "species_overview",
+      "species": "King Crab/Snow Crab",
+      "region": "BSAI",
+      "year": "",
+      "year_range": "1950-2024"
+    },
+    {
+      "id": "afd-000024",
+      "data_type": "key_event",
+      "species": "King Crab",
+      "region": "Bristol Bay",
+      "year": "",
+      "year_range": ""
+    },
+    {
+      "id": "afd-000025",
+      "data_type": "key_event",
+      "species": "King Crab/Snow Crab",
+      "region": "BSAI",
+      "year": "",
+      "year_range": ""
+    },
+    {
+      "id": "afd-000026",
+      "data_type": "climate_overview",
+      "species": "",
+      "region": "",
+      "year": "",
+      "year_range": "1900-2024"
+    },
+    {
+      "id": "afd-000027",
+      "data_type": "climate_overview",
+      "species": "",
+      "region": "",
+      "year": "",
+      "year_range": "1979-2024"
+    },
+    {
+      "id": "afd-000028",
+      "data_type": "species_overview",
+      "species": "Chinook",
+      "region": "Yukon River",
+      "year": "",
+      "year_range": "1961-2024"
+    },
+    {
+      "id": "afd-000029",
+      "data_type": "industry_overview",
+      "species": "",
+      "region": "",
+      "year": "",
+      "year_range": "1964-2024"
+    },
+    {
+      "id": "afd-000030",
+      "data_type": "climate_overview",
+      "species": "",
+      "region": "",
+      "year": "",
+      "year_range": "1950-2024"
+    },
+    {
+      "id": "afd-000031",
+      "data_type": "biological_overview",
+      "species": "Salmon",
+      "region": "",
+      "year": "",
+      "year_range": "1975-2024"
+    },
+    {
+      "id": "afd-000032",
+      "data_type": "industry_overview",
+      "species": "All Salmon",
+      "region": "",
+      "year": "",
+      "year_range": "1975-2024"
+    },
+    {
+      "id": "afd-000033",
+      "data_type": "management_overview",
+      "species": "",
+      "region": "",
+      "year": "",
+      "year_range": ""
+    },
+    {
+      "id": "afd-000034",
+      "data_type": "economics_overview",
+      "species": "All Salmon",
+      "region": "",
+      "year": "",
+      "year_range": "1970-2024"
+    },
+    {
+      "id": "afd-000035",
+      "data_type": "economics_overview",
+      "species": "",
+      "region": "",
+      "year": "",
+      "year_range": "1970-2024"
+    },
+    {
+      "id": "afd-000036",
+      "data_type": "species_overview",
+      "species": "Pacific Herring",
+      "region": "",
+      "year": "",
+      "year_range": "1930-2024"
+    },
+    {
+      "id": "afd-000037",
+      "data_type": "fishery_overview",
+      "species": "Chinook/Sockeye",
+      "region": "Copper River",
+      "year": "",
+      "year_range": "1970-2024"
+    },
+    {
+      "id": "afd-000038",
+      "data_type": "species_overview",
+      "species": "Sablefish",
+      "region": "",
+      "year": "",
+      "year_range": "1960-2024"
+    },
+    {
+      "id": "afd-000039",
+      "data_type": "management_overview",
+      "species": "",
+      "region": "",
+      "year": "",
+      "year_range": "2000-2024"
+    },
+    {
+      "id": "afd-000040",
+      "data_type": "fishery_overview",
+      "species": "All Salmon",
+      "region": "Kodiak",
+      "year": "",
+      "year_range": "1882-2024"
+    },
+    {
+      "id": "afd-000041",
+      "data_type": "fishery_overview",
+      "species": "All Salmon",
+      "region": "Southeast Alaska",
+      "year": "",
+      "year_range": "1900-2024"
+    },
+    {
+      "id": "afd-000042",
+      "data_type": "species_overview",
+      "species": "Walleye Pollock",
+      "region": "Eastern Bering Sea",
+      "year": "",
+      "year_range": "1978-2024"
+    },
+    {
+      "id": "afd-000043",
+      "data_type": "fishery_overview",
+      "species": "Chinook",
+      "region": "Kuskokwim River",
+      "year": "",
+      "year_range": "1960-2024"
+    },
+    {
+      "id": "afd-000044",
+      "data_type": "economics_overview",
+      "species": "",
+      "region": "",
+      "year": "",
+      "year_range": "1975-2024"
+    },
+    {
+      "id": "afd-000045",
+      "data_type": "fishery_overview",
+      "species": "Chinook/Sockeye",
+      "region": "Kenai River",
+      "year": "",
+      "year_range": "1986-2024"
+    },
+    {
+      "id": "afd-000046",
+      "data_type": "hydrology_overview",
+      "species": "",
+      "region": "",
+      "year": "",
+      "year_range": ""
+    },
+    {
+      "id": "afd-000047",
+      "data_type": "policy_overview",
+      "species": "",
+      "region": "",
+      "year": "",
+      "year_range": "1985-2024"
+    },
+    {
+      "id": "afd-000048",
+      "data_type": "fishery_overview",
+      "species": "",
+      "region": "",
+      "year": "",
+      "year_range": "1960-2024"
+    },
+    {
+      "id": "afd-000049",
+      "data_type": "fishery_overview",
+      "species": "",
+      "region": "",
+      "year": "",
+      "year_range": "1994-2024"
+    },
+    {
+      "id": "afd-000050",
+      "data_type": "management_overview",
+      "species": "",
+      "region": "",
+      "year": "",
+      "year_range": "1960-2024"
+    }
+  ]
+}
