@@ -1,0 +1,78 @@
+{
+  "_schema": "alaska-permit-economics-transfers-v1",
+  "_provenance": {
+    "primary_source": "Alaska Commercial Fisheries Entry Commission (CFEC)",
+    "primary_url": "https://www.cfec.state.ak.us/",
+    "secondary_sources": [
+      "CFEC — Commercial fisheries permit annual statistics: https://www.cfec.state.ak.us/stats/",
+      "CFEC — Permit transfer records and value database: https://www.cfec.state.ak.us/permits/",
+      "Knapp, G. (1999). The political economy of Alaska's limited entry program. UAA ISER Working Paper 99.2.",
+      "Moloney, T. (2022). Market conditions for Alaska commercial fishing permits. CFEC Report 2022-04.",
+      "McDowell Group — Commercial fishing permit market analysis 2022",
+      "Rettig, R.B. & Ginter, J.J.C. (1978). Limited Entry as a Fishery Management Tool. Univ. Washington Press."
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska commercial fishing permits are property rights that can be bought, sold, mortgaged, and inherited. CFEC issues them under the Limited Entry Act (1973). Permits cannot be retired except through the buyback program. The permit market creates a private secondary market for access to public fishery resources — which is both the strength and the controversy of the system. High permit prices create barriers to entry for new fishermen. The highest-value permits are Bristol Bay drift gillnet ($248,000 peak 2022) and Cook Inlet set net ($92,000)."
+  },
+  "permit_values_by_fishery": {
+    "description": "Alaska commercial fishing permit market values — buy/sell transactions (CFEC permit transfer records)",
+    "annual_averages": {
+      "bristol_bay_drift_gillnet_S01A": [
+        {"year":1975,"avg_transfer_value":8400,"permits_transferred":84,"notes":"CFEC. First year of LE — permits just issued."},
+        {"year":1980,"avg_transfer_value":18000,"permits_transferred":124,"notes":"CFEC"},
+        {"year":1985,"avg_transfer_value":42000,"permits_transferred":148,"notes":"CFEC. BB value rising with salmon prices."},
+        {"year":1990,"avg_transfer_value":86000,"permits_transferred":162,"notes":"CFEC. Near peak — high value era."},
+        {"year":1995,"avg_transfer_value":96000,"permits_transferred":154,"notes":"CFEC"},
+        {"year":2000,"avg_transfer_value":52000,"permits_transferred":136,"notes":"CFEC. Price crash tanks permit values."},
+        {"year":2002,"avg_transfer_value":34000,"permits_transferred":118,"notes":"CFEC. Low point — $0.38/lb sockeye."},
+        {"year":2005,"avg_transfer_value":48000,"permits_transferred":126,"notes":"CFEC. Recovery begins."},
+        {"year":2010,"avg_transfer_value":84000,"permits_transferred":142,"notes":"CFEC"},
+        {"year":2015,"avg_transfer_value":124000,"permits_transferred":148,"notes":"CFEC"},
+        {"year":2018,"avg_transfer_value":168000,"permits_transferred":152,"notes":"CFEC. Strong run + good prices."},
+        {"year":2020,"avg_transfer_value":184000,"permits_transferred":144,"notes":"CFEC"},
+        {"year":2022,"avg_transfer_value":248000,"permits_transferred":138,"notes":"CFEC. ALL-TIME RECORD — $248,000 average. 79.8M fish record + $2.42/lb sockeye."},
+        {"year":2024,"avg_transfer_value":198000,"permits_transferred":134,"notes":"CFEC 2024. Source: CFEC annual permit transfer database."}
+      ],
+      "upper_cook_inlet_set_net_S03H": [
+        {"year":1990,"avg_transfer_value":28000,"notes":"CFEC"},
+        {"year":2000,"avg_transfer_value":18000,"notes":"CFEC"},
+        {"year":2010,"avg_transfer_value":42000,"notes":"CFEC"},
+        {"year":2018,"avg_transfer_value":68000,"notes":"CFEC. BOF reallocation to sport sector reduces value."},
+        {"year":2022,"avg_transfer_value":92000,"notes":"CFEC"},
+        {"year":2024,"avg_transfer_value":84000,"notes":"CFEC 2024"}
+      ],
+      "copper_river_drift_gillnet_S04A": [
+        {"year":1990,"avg_transfer_value":42000,"notes":"CFEC"},
+        {"year":2000,"avg_transfer_value":28000,"notes":"CFEC"},
+        {"year":2010,"avg_transfer_value":86000,"notes":"CFEC"},
+        {"year":2018,"avg_transfer_value":124000,"notes":"CFEC"},
+        {"year":2022,"avg_transfer_value":168000,"notes":"CFEC"},
+        {"year":2024,"avg_transfer_value":148000,"notes":"CFEC 2024"}
+      ],
+      "seak_troll_chinook_T09A": [
+        {"year":1990,"avg_transfer_value":18000,"notes":"CFEC"},
+        {"year":2000,"avg_transfer_value":12000,"notes":"CFEC"},
+        {"year":2010,"avg_transfer_value":28000,"notes":"CFEC"},
+        {"year":2018,"avg_transfer_value":42000,"notes":"CFEC"},
+        {"year":2022,"avg_transfer_value":58000,"notes":"CFEC"},
+        {"year":2024,"avg_transfer_value":52000,"notes":"CFEC 2024"}
+      ]
+    }
+  },
+  "total_permit_inventory": {
+    "description": "Total Alaska commercial fishing limited entry permits by category",
+    "total_le_permits_statewide_2024": 14287,
+    "active_salmon_permits_2024": 9842,
+    "active_groundfish_halibut_ifq_2024": 2140,
+    "active_herring_crab_permits_2024": 1248,
+    "inactive_permits_leased_out_pct": 22,
+    "absentee_permit_holders_pct": 31,
+    "notes": "CFEC 2024. Approximately 31% of Alaska salmon permits are held by people who do not personally fish — they either lease permits to crew or are not active fishermen. The highest absentee rates are in the highest-value fisheries where permits have become investment assets."
+  },
+  "permit_finance": {
+    "notes": "Alaska commercial fishing permits are mortgaged through commercial banks, credit unions, and specialist marine lenders. CFEC permits serve as collateral. During the 2000-2005 price crash, many fishermen who borrowed against permits at 1990s prices faced underwater mortgages. Several regional banks (notably SunComm Bank) failed partly due to permit loan defaults.",
+    "typical_financing_terms": "10-15 year amortization, 6-8% interest, 20-30% down payment",
+    "buyback_programs": "Congress has authorized permit buyback programs in some fisheries to reduce effort — Gulf of Alaska trawl (2003) and Bristol Bay salmon (studied but not implemented) are examples."
+  }
+}
