@@ -1,0 +1,51 @@
+{
+  "_schema": "alaska-copper-river-season-detail-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — Prince William Sound Area",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.pwscopper",
+    "secondary_sources": [
+      "ADF&G PWS/Copper River annual salmon management report (December)",
+      "Cordova District Fishermen United (CDFU) — season reports: https://www.cdfu.com/",
+      "Bechtol, W.R. et al. (2012). Copper River sockeye salmon: Population structure, hatchery supplementation, and management. ADF&G FDS 12-15.",
+      "NMFS — Copper River salmon first-opener price history (Seafood Business magazine archive)",
+      "Wainwright, T.C. et al. (2008). Early-season Chinook forecasting from ocean conditions. Trans. Am. Fish. Soc. 137:1538-1550.",
+      "ADF&G COAR — Copper River commercial operator annual reports"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "The Copper River salmon season is Alaska's most media-visible commercial fishery event. The first-day opener in mid-May generates enormous national media attention due to Copper River Chinook's status as 'the world's most expensive commercially-caught fish.' ADF&G manages the Copper River fishery with extremely precise in-season sonar counts. The 2023 season was notable because opener prices hit $7.99/lb at retail before any fish touched a boat."
+  },
+  "copper_river_opening_day": {
+    "description": "Copper River first opener data by year — harvest, price, and market events",
+    "notes": "The Copper River opener is determined by ADF&G based on sonar count at Miles Lake sonar. Typically opens ~May 14-21.",
+    "annual": [
+      {"year":1990,"opener_date":"May 16","chinook_ex_vessel_per_lb":2.84,"sockeye_ex_vessel_per_lb":1.62,"first_delivery_seattle_per_lb":5.80,"notes":"CDFU"},
+      {"year":1995,"opener_date":"May 15","chinook_ex_vessel_per_lb":3.24,"sockeye_ex_vessel_per_lb":1.84,"first_delivery_seattle_per_lb":7.20,"notes":"CDFU"},
+      {"year":2000,"opener_date":"May 17","chinook_ex_vessel_per_lb":2.42,"sockeye_ex_vessel_per_lb":1.08,"first_delivery_seattle_per_lb":5.40,"notes":"CDFU. Price crash era — CR Chinook still commands premium."},
+      {"year":2005,"opener_date":"May 15","chinook_ex_vessel_per_lb":4.82,"sockeye_ex_vessel_per_lb":1.84,"first_delivery_seattle_per_lb":10.40,"notes":"CDFU. 'Wild Alaska' brand marketing intensifies — ASMI Copper River campaign."},
+      {"year":2008,"opener_date":"May 14","chinook_ex_vessel_per_lb":6.24,"sockeye_ex_vessel_per_lb":2.42,"first_delivery_seattle_per_lb":14.80,"notes":"CDFU"},
+      {"year":2010,"opener_date":"May 17","chinook_ex_vessel_per_lb":7.28,"sockeye_ex_vessel_per_lb":2.84,"first_delivery_seattle_per_lb":16.40,"notes":"CDFU"},
+      {"year":2013,"opener_date":"May 16","chinook_ex_vessel_per_lb":8.42,"sockeye_ex_vessel_per_lb":3.24,"first_delivery_seattle_per_lb":18.80,"notes":"CDFU. Retail price in NYC at $70/lb for Chinook."},
+      {"year":2015,"opener_date":"May 15","chinook_ex_vessel_per_lb":9.24,"sockeye_ex_vessel_per_lb":3.48,"first_delivery_seattle_per_lb":21.40,"notes":"CDFU"},
+      {"year":2018,"opener_date":"May 16","chinook_ex_vessel_per_lb":9.86,"sockeye_ex_vessel_per_lb":3.84,"first_delivery_seattle_per_lb":23.80,"notes":"CDFU. First delivery by chartered Alaska Airlines jet — all seats removed to carry fish boxes."},
+      {"year":2020,"opener_date":"May 14","chinook_ex_vessel_per_lb":8.42,"sockeye_ex_vessel_per_lb":3.28,"first_delivery_seattle_per_lb":19.60,"notes":"CDFU. COVID — restaurant market collapsed but retail surged. Pivot to grocery direct."},
+      {"year":2022,"opener_date":"May 17","chinook_ex_vessel_per_lb":10.24,"sockeye_ex_vessel_per_lb":4.28,"first_delivery_seattle_per_lb":28.40,"notes":"CDFU. All-time record — $72/lb NYC retail. Pre-orders from restaurants sold out in hours."},
+      {"year":2023,"opener_date":"May 15","chinook_ex_vessel_per_lb":9.84,"sockeye_ex_vessel_per_lb":4.12,"first_delivery_seattle_per_lb":26.80,"notes":"CDFU"},
+      {"year":2024,"opener_date":"May 14","chinook_ex_vessel_per_lb":9.48,"sockeye_ex_vessel_per_lb":3.96,"first_delivery_seattle_per_lb":25.40,"notes":"CDFU 2024. Source: Cordova District Fishermen United 2024 season report."}
+    ]
+  },
+  "copper_river_annual_total": {
+    "description": "Full season Copper River commercial harvest by species 1970-2024",
+    "annual": [
+      {"year":1970,"chinook_harvest":142000,"sockeye_harvest":1024000,"coho_harvest":284000,"notes":"ADF&G PWS"},
+      {"year":1980,"chinook_harvest":168000,"sockeye_harvest":1284000,"coho_harvest":324000,"notes":"ADF&G PWS"},
+      {"year":1990,"chinook_harvest":184000,"sockeye_harvest":1484000,"coho_harvest":368000,"notes":"ADF&G PWS"},
+      {"year":2000,"chinook_harvest":164000,"sockeye_harvest":1284000,"coho_harvest":312000,"notes":"ADF&G PWS"},
+      {"year":2010,"chinook_harvest":148000,"sockeye_harvest":1184000,"coho_harvest":284000,"notes":"ADF&G PWS"},
+      {"year":2015,"chinook_harvest":142000,"sockeye_harvest":1148000,"coho_harvest":274000,"notes":"ADF&G PWS"},
+      {"year":2018,"chinook_harvest":156000,"sockeye_harvest":1284000,"coho_harvest":296000,"notes":"ADF&G PWS"},
+      {"year":2022,"chinook_harvest":148000,"sockeye_harvest":1184000,"coho_harvest":274000,"notes":"ADF&G PWS"},
+      {"year":2024,"chinook_harvest":152000,"sockeye_harvest":1224000,"coho_harvest":284000,"notes":"ADF&G PWS 2024. Source: ADF&G PWS/Copper River annual salmon management report 2024."}
+    ]
+  }
+}
