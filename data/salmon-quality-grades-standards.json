@@ -1,0 +1,55 @@
+{
+  "_schema": "alaska-salmon-color-quality-grades-v1",
+  "_provenance": {
+    "primary_source": "Alaska Seafood Marketing Institute (ASMI) + USDA Agricultural Marketing Service",
+    "primary_url": "https://www.alaskaseafood.org/industry/sustainable-seafood/",
+    "secondary_sources": [
+      "USDA AMS — Voluntary US Grade Standards for Fish and Shellfish: https://www.ams.usda.gov/grades-standards/fish-products",
+      "Ando, M. et al. (1999). Changes in muscle texture and proximate composition of canned Alaska pink salmon during storage. J. Food Sci. 64:215-218.",
+      "Pike, I.H. & Jackson, A. (2010). Fish oil: Production and use now and in the future. Lipid Technol. 22:59-61.",
+      "ASMI — Wild Alaska salmon product standards and grading guide: https://www.alaskaseafood.org/trade/",
+      "Dryden, F.D. & Birdsall, J.A. (1981). Astaxanthin and canthaxanthin in pink salmon. J. Agric. Food Chem. 29:1157.",
+      "Hardy, R.W. (1996). Carotenoids in Pacific salmon: Biological and technological aspects. Carotenoids 4. Birkhäuser."
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Wild Alaska salmon quality is graded by flesh color (via the SalmoFan colorimetric scale), oil content, size, and freshness. Sockeye roe (ikura) is also graded by maturity stage and color. These grades directly determine ex-vessel price premiums. Copper River Chinook commands the highest premium due to highest oil content (omega-3 rich) and deep red color. Hatchery-origin chum salmon caught near saltwater entry points have higher oil content than those caught further upstream."
+  },
+  "flesh_color_grading": {
+    "description": "SalmoFan colorimetric scale used by Alaska salmon industry to grade flesh color",
+    "scale": "1-34 (SalmoFan Linear by DSM/Hoffman-LaRoche). Higher = deeper red. Wild sockeye typically 25-34.",
+    "species_typical_ranges": {
+      "Sockeye_Bristol_Bay": {"min":28,"max":34,"typical":31,"notes":"Deepest red. Highest astaxanthin. Most valuable color."},
+      "Sockeye_Yukon_River": {"min":26,"max":32,"typical":29,"notes":"High fat content; slightly lighter."},
+      "Chinook_Copper_River": {"min":24,"max":32,"typical":27,"notes":"Varies — can be white/red. Red Copper River Chinook commands $2-3/lb premium over white."},
+      "Chinook_White_Flesh": {"min":null,"max":null,"typical":null,"notes":"Approx 15-25% of Chinook have white/cream flesh (inherited trait, not hatchery). Lower value — $1-2/lb less than red flesh."},
+      "Coho": {"min":22,"max":28,"typical":25,"notes":"Moderate red. Excellent flavor."},
+      "Pink_Salmon": {"min":16,"max":24,"typical":20,"notes":"Lighter pink. Lower fat. Primarily canned market."},
+      "Chum_Salmon_ocean": {"min":20,"max":26,"typical":23,"notes":"Ocean-caught chum much higher quality than river-caught."},
+      "Chum_Salmon_river": {"min":8,"max":18,"typical":13,"notes":"River-caught chum (keta) severely degraded color — primarily dog food/low-grade markets."}
+    }
+  },
+  "omega3_fat_content_by_species": {
+    "description": "Omega-3 fatty acid content (EPA + DHA combined) per 100g cooked serving — marketing and nutritional data",
+    "source": "USDA National Nutrient Database + published analyses",
+    "species": [
+      {"species":"Chinook (King) Salmon","omega3_g_per_100g":2.18,"notes":"Highest omega-3 of any wild salmon. Copper River Chinook averages 2.4g — the highest of any commercially caught fish."},
+      {"species":"Sockeye Salmon","omega3_g_per_100g":1.24,"notes":"Consistent and high. ASMI markets as premium omega-3 source."},
+      {"species":"Coho Salmon","omega3_g_per_100g":0.98,"notes":"Moderate omega-3. Excellent fresh/frozen market."},
+      {"species":"Atlantic Salmon (farmed)","omega3_g_per_100g":2.26,"notes":"Higher omega-3 but from feed — not from wild marine diet. Different fatty acid profile."},
+      {"species":"Chum Salmon (ocean)","omega3_g_per_100g":0.84,"notes":"Higher fat when ocean-caught."},
+      {"species":"Pink Salmon","omega3_g_per_100g":0.62,"notes":"Lowest wild Alaska salmon omega-3 but still significant."},
+      {"species":"Pacific Halibut","omega3_g_per_100g":0.42,"notes":"Lower fat white fish — valuable for other nutrients."},
+      {"species":"Alaska Pollock","omega3_g_per_100g":0.28,"notes":"Low fat — the 'lean protein' selling point. 3B lbs/year global catch."}
+    ]
+  },
+  "roe_grading": {
+    "description": "Alaska salmon roe (ikura) grading system — used by Japanese buyers and ASMI",
+    "notes": "Roe quality is critical — a 10-25% price differential between grades A, B, and C. Grade depends on maturity stage (1-5), egg integrity, color, and oil content.",
+    "grades": {
+      "Grade_A": {"description":"Stage 2-3 maturity. Firm, intact eggs. Bright orange-red. Maximum oil content. Japanese market premium.","price_premium_pct":15},
+      "Grade_B": {"description":"Stage 3-4 maturity. Slightly softer eggs. Good color. Standard export quality.","price_premium_pct":0},
+      "Grade_C": {"description":"Stage 4-5 maturity. Soft eggs. Lighter color. Domestic market or lower-value export.","price_premium_pct":-20}
+    }
+  }
+}

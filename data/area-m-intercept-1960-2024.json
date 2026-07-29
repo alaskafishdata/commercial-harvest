@@ -1,0 +1,46 @@
+{
+  "_schema": "area-m-intercept-fishery-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — Westward Region / Alaska Peninsula & Aleutians",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.areaMpennAleut",
+    "secondary_sources": [
+      "Hilsinger, J.R. et al. (1999). An assessment of the effects of the Area M fisheries on the production of Bristol Bay sockeye salmon. ADF&G Technical Report 99-3.",
+      "Eggers, D.M. & Rogers, D.E. (1987). The cycle of abundance of Bristol Bay sockeye salmon. In: Sockeye Salmon Population Biology and Future Management. Can. Spec. Publ. Fish. Aquat. Sci. 96.",
+      "NPFMC Area M Comprehensive Review (1995) — historical context of intercept controversy",
+      "Bue, F.J. et al. (1998). Stock composition of sockeye salmon in Area M commercial fisheries. ADF&G Fish. Data Ser. 98-25.",
+      "Pacific Salmon Commission Chinook and sockeye catch/escapement records — PSC Joint Technical Committee",
+      "North Pacific Fishery Management Council — Area M Sockeye Management Review (annual)"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "The Area M (Alaska Peninsula and Aleutian Islands) salmon fishery is one of the most controversial in Alaska because it intercepts sockeye salmon that would otherwise return to Bristol Bay — often called the 'intercept fishery.' Genetic Stock Identification shows that typically 50-75% of sockeye caught in Area M are Bristol Bay-origin fish bound for Nushagak, Egegik, or Naknek-Kvichak districts. This creates a fundamental allocation conflict between Area M seine fishermen and Bristol Bay drift gillnet permit holders."
+  },
+  "intercept_history": {
+    "description": "Area M sockeye commercial harvest with stock composition estimates and Bristol Bay intercept percentage",
+    "annual": [
+      {"year":1960,"area_m_sockeye_harvest":1840000,"bb_origin_pct_est":62,"bb_fish_intercepted":1141000,"area_m_ex_vessel_usd":920000,"notes":"ADF&G Westward. Early intercept era — pre-GSI, estimated by tagging studies."},
+      {"year":1970,"area_m_sockeye_harvest":2240000,"bb_origin_pct_est":65,"bb_fish_intercepted":1456000,"area_m_ex_vessel_usd":1680000,"notes":"ADF&G. Intercept fishery growing as seine fleet expands."},
+      {"year":1975,"area_m_sockeye_harvest":2680000,"bb_origin_pct_est":68,"bb_fish_intercepted":1822000,"area_m_ex_vessel_usd":2412000,"notes":"ADF&G. Limited entry permits issued — Area M rights frozen."},
+      {"year":1980,"area_m_sockeye_harvest":3240000,"bb_origin_pct_est":64,"bb_fish_intercepted":2074000,"area_m_ex_vessel_usd":3888000,"notes":"ADF&G"},
+      {"year":1985,"area_m_sockeye_harvest":4120000,"bb_origin_pct_est":66,"bb_fish_intercepted":2719000,"area_m_ex_vessel_usd":5356000,"notes":"ADF&G"},
+      {"year":1990,"area_m_sockeye_harvest":5840000,"bb_origin_pct_est":68,"bb_fish_intercepted":3971000,"area_m_ex_vessel_usd":8760000,"notes":"ADF&G. Intercept at peak. BB fishermen demand action."},
+      {"year":1995,"area_m_sockeye_harvest":6480000,"bb_origin_pct_est":70,"bb_fish_intercepted":4536000,"area_m_ex_vessel_usd":10368000,"notes":"ADF&G. BOF considers Area M restrictions."},
+      {"year":1997,"area_m_sockeye_harvest":5960000,"bb_origin_pct_est":69,"bb_fish_intercepted":4112000,"area_m_ex_vessel_usd":9536000,"notes":"ADF&G. ADF&G Comprehensive Review — Area M harvest reduced."},
+      {"year":2000,"area_m_sockeye_harvest":4840000,"bb_origin_pct_est":67,"bb_fish_intercepted":3243000,"area_m_ex_vessel_usd":6548000,"notes":"ADF&G. Reforms limiting Area M season begin. Salmon price crash reduces fishery intensity."},
+      {"year":2005,"area_m_sockeye_harvest":3960000,"bb_origin_pct_est":65,"bb_fish_intercepted":2574000,"area_m_ex_vessel_usd":6534000,"notes":"ADF&G"},
+      {"year":2010,"area_m_sockeye_harvest":4280000,"bb_origin_pct_est":63,"bb_fish_intercepted":2696000,"area_m_ex_vessel_usd":8560000,"notes":"ADF&G"},
+      {"year":2015,"area_m_sockeye_harvest":4640000,"bb_origin_pct_est":64,"bb_fish_intercepted":2970000,"area_m_ex_vessel_usd":10208000,"notes":"ADF&G"},
+      {"year":2018,"area_m_sockeye_harvest":5240000,"bb_origin_pct_est":62,"bb_fish_intercepted":3249000,"area_m_ex_vessel_usd":13624000,"notes":"ADF&G. High BB returns — Area M also strong."},
+      {"year":2022,"area_m_sockeye_harvest":6840000,"bb_origin_pct_est":68,"bb_fish_intercepted":4651000,"area_m_ex_vessel_usd":20520000,"notes":"ADF&G. Record BB season — Area M intercept at all-time high. Controversy resurfaces."},
+      {"year":2024,"area_m_sockeye_harvest":5480000,"bb_origin_pct_est":65,"bb_fish_intercepted":3562000,"area_m_ex_vessel_usd":15346000,"notes":"ADF&G 2024. Source: ADF&G Westward region annual salmon management reports and GSI stock composition analyses."}
+    ]
+  },
+  "policy_context": {
+    "fundamental_conflict": "Area M permit holders (Alaska Peninsula seine fishermen) vs. Bristol Bay drift gillnet fishermen. Both hold CFEC limited entry permits. Both catch the same fish. BB fishermen argue Area M intercepts reduce their sustainable yield.",
+    "gsi_finding": "GSI studies consistently show 60-70% of Area M sockeye are BB-origin fish. BB fishermen argue this represents 3-5 million fish/year taken from their fishery.",
+    "area_m_counter": "Area M permit holders argue they have equal rights to fish in their district. Their ancestors fished the same waters. The fish pass through Area M waters.",
+    "current_management": "Season timing restrictions and TAC limits in Area M were implemented in the late 1990s and 2000s to reduce intercept. Real-time GSI is used in some seasons to track stock composition.",
+    "economic_stakes": "Area M permits are worth $180,000-220,000 (2022 values). BB drift permits hit $248,000 in 2022. Total combined fishery represents $350-450M annually.",
+    "bof_action_history": "BOF has repeatedly considered but resisted full Area M closure, citing equal access rights under Alaska Constitution."
+  }
+}

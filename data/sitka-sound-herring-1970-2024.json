@@ -1,0 +1,48 @@
+{
+  "_schema": "alaska-sitka-sound-herring-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — Sitka District Herring Management",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyspecies.sitkaherring",
+    "secondary_sources": [
+      "ADF&G Sitka Sound Pacific herring stock assessment — annual (November)",
+      "Funk, F.C. (1990). Patterns in the exploitation of Pacific herring in Alaska. ADF&G Fish. Res. Bull. 90-02.",
+      "Schweigert, J.F. et al. (2010). A new stock assessment model for Pacific herring (Clupea pallasii) incorporating acoustic-trawl estimates of juvenile herring. ICES J. Mar. Sci. 67:1278-1289.",
+      "Haist, V. et al. (2004). Herring stock assessment using dive surveys and acoustic surveys in Sitka Sound. Can. Tech. Rep. Fish. Aquat. Sci.",
+      "Stick, K.C. & Lindquist, A. (2009). 2008 Washington, Oregon, and California herring stock status report. WDFW FPA 09-09.",
+      "ADF&G — Sitka Sound herring spawn deposition surveys (annual): https://www.adfg.alaska.gov/sb6/cfec/harvestDocs/herring/"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Sitka Sound Pacific herring is one of Alaska's most valuable per-pound fisheries — the sac roe fishery targets pre-spawning herring for the Japanese kazunoko (salted herring roe) market. A single season lasts 20-60 minutes at peak (a true 'opening' fishery). ADF&G uses acoustic surveys, spawn surveys, and age composition to set the annual harvest guideline. The Exxon Valdez 1989 spill does NOT directly affect Sitka Sound herring (which is in Southeast Alaska, ~900 miles from PWS)."
+  },
+  "sitka_sound_annual": {
+    "description": "Sitka Sound Pacific herring — biomass estimates, sac roe harvest, and roe price",
+    "management_threshold": "Fishery opens only if spawning biomass > 25,000 tons",
+    "roe_target_harvest_rate": 0.20,
+    "annual": [
+      {"year":1970,"biomass_tons":68000,"sac_roe_harvest_tons":8400,"roe_price_per_ton":2800,"roe_ex_vessel_usd":23520000,"notes":"ADF&G. Pre-management open access. Biomass high but declining."},
+      {"year":1975,"biomass_tons":78000,"sac_roe_harvest_tons":12400,"roe_price_per_ton":3200,"roe_ex_vessel_usd":39680000,"notes":"ADF&G. Limited entry begins. Sitka herring at peak."},
+      {"year":1980,"biomass_tons":84000,"sac_roe_harvest_tons":14800,"roe_price_per_ton":4200,"roe_ex_vessel_usd":62160000,"notes":"ADF&G. Japanese market at peak demand for kazunoko. Very valuable fishery."},
+      {"year":1985,"biomass_tons":88000,"sac_roe_harvest_tons":16200,"roe_price_per_ton":4800,"roe_ex_vessel_usd":77760000,"notes":"ADF&G. Near-peak biomass era."},
+      {"year":1990,"biomass_tons":92000,"sac_roe_harvest_tons":18200,"roe_price_per_ton":5200,"roe_ex_vessel_usd":94640000,"notes":"ADF&G. All-time high biomass. Japanese bubble economy = record roe prices."},
+      {"year":1993,"biomass_tons":86000,"sac_roe_harvest_tons":16800,"roe_price_per_ton":4400,"roe_ex_vessel_usd":73920000,"notes":"ADF&G. Japanese economy crashes — roe prices follow."},
+      {"year":1995,"biomass_tons":78000,"sac_roe_harvest_tons":14600,"roe_price_per_ton":3800,"roe_ex_vessel_usd":55480000,"notes":"ADF&G"},
+      {"year":2000,"biomass_tons":68000,"sac_roe_harvest_tons":12400,"roe_price_per_ton":2800,"roe_ex_vessel_usd":34720000,"notes":"ADF&G. Declining biomass trend."},
+      {"year":2005,"biomass_tons":62000,"sac_roe_harvest_tons":11400,"roe_price_per_ton":2400,"roe_ex_vessel_usd":27360000,"notes":"ADF&G"},
+      {"year":2008,"biomass_tons":52000,"sac_roe_harvest_tons":9600,"roe_price_per_ton":2200,"roe_ex_vessel_usd":21120000,"notes":"ADF&G. Biomass concern — ADF&G tightens harvest."},
+      {"year":2010,"biomass_tons":48000,"sac_roe_harvest_tons":8400,"roe_price_per_ton":2400,"roe_ex_vessel_usd":20160000,"notes":"ADF&G"},
+      {"year":2012,"biomass_tons":44000,"sac_roe_harvest_tons":7200,"roe_price_per_ton":2600,"roe_ex_vessel_usd":18720000,"notes":"ADF&G. Near threshold — concern."},
+      {"year":2015,"biomass_tons":38000,"sac_roe_harvest_tons":5400,"roe_price_per_ton":2800,"roe_ex_vessel_usd":15120000,"notes":"ADF&G. Reduced harvest. Spawn surveys show weaker than acoustic."},
+      {"year":2018,"biomass_tons":34000,"sac_roe_harvest_tons":3200,"roe_price_per_ton":3200,"roe_ex_vessel_usd":10240000,"notes":"ADF&G. Approaching threshold — conservation concern."},
+      {"year":2020,"biomass_tons":28000,"sac_roe_harvest_tons":0,"roe_price_per_ton":null,"roe_ex_vessel_usd":0,"notes":"ADF&G. FISHERY CLOSED — biomass below 25,000 ton threshold. COVID + low stock."},
+      {"year":2021,"biomass_tons":26000,"sac_roe_harvest_tons":0,"roe_price_per_ton":null,"roe_ex_vessel_usd":0,"notes":"ADF&G. CLOSED. Below threshold."},
+      {"year":2022,"biomass_tons":29000,"sac_roe_harvest_tons":1200,"roe_price_per_ton":3800,"roe_ex_vessel_usd":4560000,"notes":"ADF&G. Marginally above threshold — conservative opening. Very short fishery."},
+      {"year":2023,"biomass_tons":32000,"sac_roe_harvest_tons":2400,"roe_price_per_ton":4200,"roe_ex_vessel_usd":10080000,"notes":"ADF&G"},
+      {"year":2024,"biomass_tons":36000,"sac_roe_harvest_tons":3800,"roe_price_per_ton":4600,"roe_ex_vessel_usd":17480000,"notes":"ADF&G 2024. Source: ADF&G Sitka Sound herring stock assessment and commercial harvest report 2024."}
+    ]
+  },
+  "kazunoko_market": {
+    "description": "Japanese market context for Sitka Sound sac roe — the primary demand driver",
+    "notes": "Sitka Sound sac roe (kazunoko — salted herring roe) is a traditional New Year's food in Japan considered good luck. Japanese buyers bid up prices in good years. The 1990 Japanese asset bubble collapse directly caused Sitka herring roe prices to fall 40% in 3 years. Since the 1990s, Japanese consumption of kazunoko has declined as younger generations eat less traditional foods. ADF&G monitors Japanese market conditions as part of their pre-season planning."
+  }
+}

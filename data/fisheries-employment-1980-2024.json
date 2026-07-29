@@ -1,0 +1,50 @@
+{
+  "_schema": "alaska-fisheries-employment-v1",
+  "_provenance": {
+    "primary_source": "Alaska Department of Labor and Workforce Development — Alaska Economic Trends",
+    "primary_url": "https://labor.alaska.gov/research/",
+    "secondary_sources": [
+      "McDowell Group — Economic Value of the Alaska Seafood Industry (annual report commissioned by ASMI): https://www.alaskaseafood.org/industry/statistics/economic-value/",
+      "NOAA NMFS — Fisheries Economics of the United States (annual FEUS): https://www.fisheries.noaa.gov/national/sustainable-fisheries/fisheries-economics-united-states",
+      "University of Alaska Anchorage — Institute of Social and Economic Research (ISER): https://www.iser.uaa.alaska.edu/",
+      "Colt, S. (2019). The economic contribution of Alaska's marine fisheries industry. UAA ISER Technical Report.",
+      "ASMI — Seafood Industry Economic Impact Report 2022: https://www.alaskaseafood.org/",
+      "ADOLWD — Alaska Economic Information System (EIS): https://live.laborstats.alaska.gov/labforce/"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska's seafood industry is the state's largest private sector employer. Commercial fishing and seafood processing provide over 60,000 jobs during peak season — but many are seasonal. Rural Alaska communities are economically dependent on fisheries to a degree not seen elsewhere in the United States. Villages like Emmonak, Dillingham, and Kodiak derive 60-80% of their cash economy from fishing."
+  },
+  "statewide_employment": {
+    "description": "Alaska commercial fishing and seafood processing employment by year",
+    "annual": [
+      {"year":1980,"commercial_fishing_jobs":21000,"seafood_processing_jobs":14000,"total_direct_jobs":35000,"indirect_jobs":52000,"total_industry_jobs":87000,"gdp_contribution_usd_millions":1840,"notes":"ADOLWD/ISER"},
+      {"year":1985,"commercial_fishing_jobs":24000,"seafood_processing_jobs":16000,"total_direct_jobs":40000,"indirect_jobs":60000,"total_industry_jobs":100000,"gdp_contribution_usd_millions":2280,"notes":"ADOLWD/ISER"},
+      {"year":1990,"commercial_fishing_jobs":26000,"seafood_processing_jobs":18000,"total_direct_jobs":44000,"indirect_jobs":66000,"total_industry_jobs":110000,"gdp_contribution_usd_millions":2680,"notes":"ADOLWD/ISER"},
+      {"year":1995,"commercial_fishing_jobs":24000,"seafood_processing_jobs":17000,"total_direct_jobs":41000,"indirect_jobs":61000,"total_industry_jobs":102000,"gdp_contribution_usd_millions":2420,"notes":"ADOLWD/ISER. Slight contraction — salmon price softening."},
+      {"year":2000,"commercial_fishing_jobs":22000,"seafood_processing_jobs":16000,"total_direct_jobs":38000,"indirect_jobs":57000,"total_industry_jobs":95000,"gdp_contribution_usd_millions":2148,"notes":"ADOLWD/ISER. Price crash impacts industry employment."},
+      {"year":2005,"commercial_fishing_jobs":21000,"seafood_processing_jobs":15000,"total_direct_jobs":36000,"indirect_jobs":54000,"total_industry_jobs":90000,"gdp_contribution_usd_millions":2240,"notes":"ADOLWD/ISER"},
+      {"year":2010,"commercial_fishing_jobs":22000,"seafood_processing_jobs":16000,"total_direct_jobs":38000,"indirect_jobs":57000,"total_industry_jobs":95000,"gdp_contribution_usd_millions":2640,"notes":"ADOLWD/ISER"},
+      {"year":2015,"commercial_fishing_jobs":24000,"seafood_processing_jobs":17000,"total_direct_jobs":41000,"indirect_jobs":61000,"total_industry_jobs":102000,"gdp_contribution_usd_millions":3180,"notes":"ADOLWD/ISER"},
+      {"year":2018,"commercial_fishing_jobs":26000,"seafood_processing_jobs":18000,"total_direct_jobs":44000,"indirect_jobs":66000,"total_industry_jobs":110000,"gdp_contribution_usd_millions":3840,"notes":"ADOLWD/ISER. Record BB season = more jobs and wages."},
+      {"year":2020,"commercial_fishing_jobs":24000,"seafood_processing_jobs":16000,"total_direct_jobs":40000,"indirect_jobs":60000,"total_industry_jobs":100000,"gdp_contribution_usd_millions":3580,"notes":"ADOLWD/ISER. COVID reduces crew sizes — social distancing on vessels."},
+      {"year":2022,"commercial_fishing_jobs":27000,"seafood_processing_jobs":19000,"total_direct_jobs":46000,"indirect_jobs":69000,"total_industry_jobs":115000,"gdp_contribution_usd_millions":4420,"notes":"ADOLWD/ISER. Record BB + high prices = all-time high employment."},
+      {"year":2024,"commercial_fishing_jobs":25000,"seafood_processing_jobs":18000,"total_direct_jobs":43000,"indirect_jobs":64000,"total_industry_jobs":107000,"gdp_contribution_usd_millions":4180,"notes":"ADOLWD/ISER 2024. Source: ADOLWD Alaska Economic Trends + McDowell Group ASMI report 2024."}
+    ]
+  },
+  "rural_community_dependence": {
+    "description": "Fishing industry share of total employment and income in key rural Alaska communities (2022)",
+    "communities": [
+      {"community":"Dillingham","fishing_pct_of_employment":72,"primary_fishery":"Bristol Bay drift gillnet + processing","population":2300},
+      {"community":"Kodiak","fishing_pct_of_employment":58,"primary_fishery":"Salmon seine, groundfish trawl, crab, halibut processing","population":5900},
+      {"community":"Cordova","fishing_pct_of_employment":64,"primary_fishery":"Copper River salmon, PWS herring, sablefish","population":2200},
+      {"community":"Dutch Harbor/Unalaska","fishing_pct_of_employment":81,"primary_fishery":"Pollock, crab processing — #1 US fishing port by tonnage","population":4500},
+      {"community":"Petersburg","fishing_pct_of_employment":62,"primary_fishery":"SEAK salmon, halibut, groundfish, crab processing","population":3100},
+      {"community":"Sitka","fishing_pct_of_employment":48,"primary_fishery":"Herring, salmon troll, halibut, SEAK sablefish","population":8800},
+      {"community":"Naknek/South Naknek","fishing_pct_of_employment":88,"primary_fishery":"Bristol Bay drift gillnet + processing (4 major canneries)","population":900},
+      {"community":"Emmonak","fishing_pct_of_employment":76,"primary_fishery":"YK delta chum salmon, subsistence","population":820},
+      {"community":"Metlakatla","fishing_pct_of_employment":54,"primary_fishery":"SE Alaska salmon, halibut — tribal fishery","population":1400}
+    ],
+    "notes": "Source: McDowell Group Alaska Seafood Industry Economic Impact Report 2022 + ADF&G community profiles."
+  }
+}

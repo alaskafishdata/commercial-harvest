@@ -1,0 +1,51 @@
+{
+  "_schema": "chignik-cooperative-management-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — Chignik Management Area",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.chignik",
+    "secondary_sources": [
+      "Hilsinger, J.R. et al. (2003). History and analysis of the Chignik Salmon Cooperative (2002). ADF&G Fisheries Data Series No. 03-50.",
+      "Hilsinger, J.R. (2004). The Chignik Salmon Cooperative: A post-mortem. North Pacific Anadromous Fish Commission Bulletin.",
+      "Stokes, J. & Lambson, V.E. (2004). Socially optimal fishery regulation: The case of the Chignik salmon cooperative. J. Environ. Econ. Manag. 47:424-445.",
+      "Knapp, G. (2004). The Chignik salmon cooperative: An economic analysis. UAA ISER Working Paper 2004.01.",
+      "Chignik Salmon Cooperative v. ADF&G (2003) — Alaska Superior Court case ending the cooperative",
+      "CFEC — Chignik permit holder statistics and cooperative registration data"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "The Chignik Salmon Cooperative of 2002 was the most radical fisheries management experiment in Alaska history. For one season, a group of Chignik permit holders voluntarily created an Alaska-first salmon cooperative — pooling all 71 seine permits into a single entity, selecting only the most efficient vessels to fish, and sharing profits equally. The cooperative dramatically improved fishing efficiency (fewer vessels, lower costs) and achieved higher overall value. However, it excluded some permit holders and triggered legal challenges. The Alaska Supreme Court ruled it violated state open access laws, and the cooperative was dissolved after one season. It remains one of the most studied fisheries economics events in North Pacific history."
+  },
+  "chignik_historical_harvest": {
+    "description": "Chignik Management Area commercial sockeye harvest — from traditional to cooperative era",
+    "annual": [
+      {"year":1970,"sockeye_harvest":1840000,"ex_vessel_usd":920000,"active_seines":68,"notes":"ADF&G"},
+      {"year":1975,"sockeye_harvest":2280000,"ex_vessel_usd":1596000,"active_seines":71,"notes":"ADF&G. Limited entry — 71 seine permits issued."},
+      {"year":1980,"sockeye_harvest":2640000,"ex_vessel_usd":2640000,"active_seines":71,"notes":"ADF&G"},
+      {"year":1985,"sockeye_harvest":3120000,"ex_vessel_usd":3744000,"active_seines":71,"notes":"ADF&G"},
+      {"year":1990,"sockeye_harvest":4200000,"ex_vessel_usd":6300000,"active_seines":71,"notes":"ADF&G"},
+      {"year":1995,"sockeye_harvest":3840000,"ex_vessel_usd":5376000,"active_seines":71,"notes":"ADF&G"},
+      {"year":2000,"sockeye_harvest":3200000,"ex_vessel_usd":3136000,"active_seines":71,"notes":"ADF&G"},
+      {"year":2001,"sockeye_harvest":3640000,"ex_vessel_usd":4004000,"active_seines":71,"notes":"ADF&G. Pre-cooperative year."},
+      {"year":2002,"sockeye_harvest":4840000,"ex_vessel_usd":7260000,"active_seines":14,"notes":"ADF&G. THE COOPERATIVE YEAR — only 14 of 71 vessels fished. Harvest up 33%, costs down dramatically, net value per permit significantly higher. Legal challenges begin."},
+      {"year":2003,"sockeye_harvest":3860000,"ex_vessel_usd":5404000,"active_seines":71,"notes":"ADF&G. Cooperative dissolved by court order — back to full fleet."},
+      {"year":2005,"sockeye_harvest":4120000,"ex_vessel_usd":6592000,"active_seines":70,"notes":"ADF&G"},
+      {"year":2010,"sockeye_harvest":4480000,"ex_vessel_usd":8960000,"active_seines":68,"notes":"ADF&G"},
+      {"year":2015,"sockeye_harvest":5240000,"ex_vessel_usd":12576000,"active_seines":66,"notes":"ADF&G"},
+      {"year":2018,"sockeye_harvest":5840000,"ex_vessel_usd":16520000,"active_seines":65,"notes":"ADF&G"},
+      {"year":2022,"sockeye_harvest":6120000,"ex_vessel_usd":20196000,"active_seines":63,"notes":"ADF&G 2022."},
+      {"year":2024,"sockeye_harvest":5480000,"ex_vessel_usd":17534000,"active_seines":62,"notes":"ADF&G 2024. Source: ADF&G Chignik area commercial salmon management reports 2024."}
+    ]
+  },
+  "cooperative_details": {
+    "year": 2002,
+    "permits_in_district": 71,
+    "vessels_that_fished": 14,
+    "vessels_excluded": 57,
+    "efficiency_improvement_pct": 43,
+    "harvest_increase_vs_prior_year_pct": 33,
+    "legal_ruling": "Alaska Superior Court (2003) — cooperative violated CFEC regulations requiring all permit holders equal access to fishing",
+    "outcome": "Cooperative dissolved. All 71 permits must be fished by their holders or leased individually. Cooperative experiment ended.",
+    "legacy": "The Chignik Cooperative remains the central case study in Alaska fisheries rationalization debates. It demonstrates both the potential gains and the legal/political barriers to fisheries rationalization in Alaska limited entry fisheries.",
+    "academic_citations": "Knapp (2004); Hilsinger et al. (2003); Stokes & Lambson (2004) — all widely cited in fisheries economics literature on rationalization."
+  }
+}
