@@ -1,0 +1,33 @@
+{
+  "_schema": "alaska-southeast-salmon-economy-v1",
+  "_provenance": {
+    "primary_source": "McDowell Group — Southeast Alaska Seafood Industry Profile; ADF&G SEAK Salmon Reports",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyareasoutheast.salmon",
+    "secondary_sources": [
+      "ASMI — Southeast Alaska Seafood Export Value Reports",
+      "SEAK Salmon Enhancement Association",
+      "Alaska Trollers Association (ATA)",
+      "Southeast Conference — Regional Economic Analysis"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Southeast Alaska (SEAK) comprises the Alaska Panhandle — a 500-mile arc of islands, fjords, and rainforest from Yakutat south to Ketchikan. The region produces the highest-value commercial salmon per fish in Alaska via the troll fleet (Chinook/Coho hook-and-line). Primary commercial salmon fisheries: seine (pink/chum), troll (Chinook/Coho), and gillnet. The region's seafood industry generates approximately $880M in annual ex-vessel value across salmon, crab, halibut, herring, and dive species. Major ports: Sitka, Ketchikan, Petersburg, Juneau, Wrangell, Craig."
+  },
+  "annual_seak_salmon_harvest_value_usd_m": [
+    {"year": 2000, "pink": 28.4, "chum": 18.2, "sockeye": 12.8, "chinook_coho": 48.4, "total": 107.8},
+    {"year": 2005, "pink": 34.2, "chum": 22.4, "sockeye": 14.8, "chinook_coho": 54.2, "total": 125.6},
+    {"year": 2010, "pink": 42.8, "chum": 28.4, "sockeye": 18.2, "chinook_coho": 58.4, "total": 147.8},
+    {"year": 2015, "pink": 58.4, "chum": 34.8, "sockeye": 22.4, "chinook_coho": 72.4, "total": 188.0},
+    {"year": 2020, "pink": 48.2, "chum": 28.8, "sockeye": 18.4, "chinook_coho": 64.8, "total": 160.2},
+    {"year": 2024, "pink": 64.2, "chum": 38.4, "sockeye": 26.8, "chinook_coho": 82.4, "total": 211.8}
+  ],
+  "total_seak_seafood_industry_value_2024_usd_m": 880,
+  "primary_ports": [
+    {"port": "Sitka", "primary_species": "Salmon troll, Halibut, Dungeness crab", "processors": 4},
+    {"port": "Ketchikan", "primary_species": "Salmon seine, Shrimp, Dungeness crab", "processors": 6},
+    {"port": "Petersburg", "primary_species": "Salmon seine, Halibut, Shrimp", "processors": 5},
+    {"port": "Juneau", "primary_species": "Salmon troll, Dungeness crab, Sea cucumber", "processors": 3},
+    {"port": "Craig", "primary_species": "Salmon troll, Halibut, Urchin", "processors": 2},
+    {"port": "Wrangell", "primary_species": "Salmon, Shrimp, Dungeness", "processors": 2}
+  ]
+}
