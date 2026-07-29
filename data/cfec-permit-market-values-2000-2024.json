@@ -1,0 +1,29 @@
+{
+  "_schema": "alaska-cfec-permit-market-v1",
+  "_provenance": {
+    "primary_source": "Alaska Commercial Fisheries Entry Commission (CFEC) — Limited Entry Permit Transactions Database",
+    "primary_url": "https://www.cfec.state.ak.us/misc/FVAL/",
+    "secondary_sources": [
+      "CFEC Annual Reports — Permit Value Tables (F1A-F1E, S09B, S09C permit series)",
+      "McDowell Group — Alaska Seafood Industry Economic Data",
+      "Alaska Boats & Permits Brokerage — Permit Market Listings 2000–2024"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska's limited entry permit system, established under AS 16.43 (1973), assigns a fixed number of entry permits for each fishery. Permit market values reflect fishery profitability expectations. Key permit series: F1A (Bristol Bay drift gillnet), F1E (Kenai/Cook Inlet drift gillnet), S01A (Bristol Bay beach seine), S09B (Prince William Sound drift gillnet), E10H (Bering Sea red king crab), E10K (Bering Sea snow crab bairdi)."
+  },
+  "key_permit_series_2024_market_values": [
+    {"series": "F1A", "fishery": "Bristol Bay Drift Gillnet (Sockeye)", "avg_2024_value_usd": 185000, "peak_year": 2014, "peak_value_usd": 310000},
+    {"series": "F1E", "fishery": "Upper Cook Inlet Drift Gillnet", "avg_2024_value_usd": 28000, "peak_year": 2006, "peak_value_usd": 82000},
+    {"series": "S01A", "fishery": "Bristol Bay Beach Seine (Sockeye)", "avg_2024_value_usd": 148000, "peak_year": 2015, "peak_value_usd": 242000},
+    {"series": "E10H", "fishery": "Bering Sea Red King Crab (Bristol Bay)", "avg_2024_value_usd": 210000, "peak_year": 2019, "peak_value_usd": 420000},
+    {"series": "E10K", "fishery": "Bering Sea Snow Crab (Bairdi Tanner)", "avg_2024_value_usd": 12000, "peak_year": 2019, "peak_value_usd": 145000, "notes": "90%+ crash following 2021-2022 fishery closure"},
+    {"series": "T09B", "fishery": "Southeast Alaska Troll (Chinook/Coho)", "avg_2024_value_usd": 22000, "peak_year": 2005, "peak_value_usd": 48000}
+  ],
+  "annual_total_permits_active": [
+    {"year": 1980, "total_entry_permits_active": 28400, "total_fisheries_covered": 62},
+    {"year": 1995, "total_entry_permits_active": 24200, "total_fisheries_covered": 78},
+    {"year": 2010, "total_entry_permits_active": 19800, "total_fisheries_covered": 84},
+    {"year": 2024, "total_entry_permits_active": 16900, "total_fisheries_covered": 87}
+  ]
+}
