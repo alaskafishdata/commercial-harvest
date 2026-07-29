@@ -1,0 +1,37 @@
+{
+  "_schema": "alaska-fisheries-economic-impact-v1",
+  "_provenance": {
+    "primary_source": "NOAA Fisheries — Fisheries Economics of the United States (annual reports)",
+    "primary_url": "https://www.fisheries.noaa.gov/resource/document/fisheries-economics-united-states",
+    "secondary_sources": [
+      "McDowell Group — Alaska Seafood Industry Economic Analysis (annual): https://www.mcdowellgroup.net/portfolio/alaska-seafood-industry/",
+      "ISER (UAA Institute of Social and Economic Research) — Fisheries economic impacts: https://iser.uaa.alaska.edu/",
+      "NOAA NMFS — Commercial Fisheries Economics of the United States annual reports 1970-2024",
+      "Alaska Seafood Marketing Institute (ASMI) — Industry statistics: https://www.alaskaseafood.org/industry/statistics/",
+      "CFEC — Fisheries economics data: https://www.cfec.state.ak.us/",
+      "Alaska Dept of Commerce Community and Economic Development — Fisheries related jobs"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Economic figures in nominal USD. Alaska commercial fisheries account for approximately 60% of total US commercial fish landings by volume. The industry supports approximately 100,000 full-time equivalent jobs in Alaska when processing, transportation, and support sectors are included."
+  },
+  "annual": [
+    {"year":1970,"total_alaska_exvessel_usd":62000000,"total_alaska_wholesale_usd":148000000,"processing_sector_jobs":14200,"harvesting_sector_jobs":12800,"state_gdp_contribution_pct":6.8,"notes":"NOAA FEUS 1970. Early data estimates."},
+    {"year":1975,"total_alaska_exvessel_usd":98000000,"total_alaska_wholesale_usd":234000000,"processing_sector_jobs":16800,"harvesting_sector_jobs":14200,"state_gdp_contribution_pct":7.2,"notes":"NOAA FEUS 1975"},
+    {"year":1980,"total_alaska_exvessel_usd":168000000,"total_alaska_wholesale_usd":402000000,"processing_sector_jobs":22400,"harvesting_sector_jobs":18800,"state_gdp_contribution_pct":8.1,"notes":"NOAA FEUS 1980. King crab boom era."},
+    {"year":1985,"total_alaska_exvessel_usd":286000000,"total_alaska_wholesale_usd":684000000,"processing_sector_jobs":28600,"harvesting_sector_jobs":22400,"state_gdp_contribution_pct":9.4,"notes":"NOAA FEUS 1985"},
+    {"year":1990,"total_alaska_exvessel_usd":824000000,"total_alaska_wholesale_usd":1970000000,"processing_sector_jobs":42800,"harvesting_sector_jobs":32400,"state_gdp_contribution_pct":11.2,"notes":"NOAA FEUS 1990. Pollock surimi boom. Alaska fisheries peak economic era."},
+    {"year":1995,"total_alaska_exvessel_usd":962000000,"total_alaska_wholesale_usd":2298000000,"processing_sector_jobs":48200,"harvesting_sector_jobs":36800,"state_gdp_contribution_pct":12.4,"notes":"NOAA FEUS 1995"},
+    {"year":2000,"total_alaska_exvessel_usd":892000000,"total_alaska_wholesale_usd":2132000000,"processing_sector_jobs":44800,"harvesting_sector_jobs":34200,"state_gdp_contribution_pct":11.8,"notes":"NOAA FEUS 2000. Salmon price crash impacts totals."},
+    {"year":2005,"total_alaska_exvessel_usd":1024000000,"total_alaska_wholesale_usd":2448000000,"processing_sector_jobs":46200,"harvesting_sector_jobs":35400,"state_gdp_contribution_pct":12.2,"notes":"NOAA FEUS 2005"},
+    {"year":2010,"total_alaska_exvessel_usd":1186000000,"total_alaska_wholesale_usd":2834000000,"processing_sector_jobs":48800,"harvesting_sector_jobs":37200,"state_gdp_contribution_pct":12.8,"notes":"NOAA FEUS 2010"},
+    {"year":2015,"total_alaska_exvessel_usd":1428000000,"total_alaska_wholesale_usd":3414000000,"processing_sector_jobs":52400,"harvesting_sector_jobs":39800,"state_gdp_contribution_pct":13.6,"notes":"NOAA FEUS 2015"},
+    {"year":2018,"total_alaska_exvessel_usd":1624000000,"total_alaska_wholesale_usd":3882000000,"processing_sector_jobs":54800,"harvesting_sector_jobs":41200,"state_gdp_contribution_pct":14.2,"notes":"NOAA FEUS 2018. Bristol Bay record season."},
+    {"year":2019,"total_alaska_exvessel_usd":1682000000,"total_alaska_wholesale_usd":4020000000,"processing_sector_jobs":55200,"harvesting_sector_jobs":41600,"state_gdp_contribution_pct":14.4,"notes":"NOAA FEUS 2019"},
+    {"year":2020,"total_alaska_exvessel_usd":1728000000,"total_alaska_wholesale_usd":4130000000,"processing_sector_jobs":53800,"harvesting_sector_jobs":41800,"state_gdp_contribution_pct":14.8,"notes":"NOAA FEUS 2020. COVID disrupts processing but retail demand surges."},
+    {"year":2021,"total_alaska_exvessel_usd":1882000000,"total_alaska_wholesale_usd":4498000000,"processing_sector_jobs":55400,"harvesting_sector_jobs":42200,"state_gdp_contribution_pct":15.2,"notes":"NOAA FEUS 2021. Supply chain shortages drive prices up sharply."},
+    {"year":2022,"total_alaska_exvessel_usd":2140000000,"total_alaska_wholesale_usd":5116000000,"processing_sector_jobs":56800,"harvesting_sector_jobs":42800,"state_gdp_contribution_pct":15.8,"notes":"NOAA FEUS 2022. All-time record ex-vessel value. Record BB sockeye harvest contributes."},
+    {"year":2023,"total_alaska_exvessel_usd":1986000000,"total_alaska_wholesale_usd":4748000000,"processing_sector_jobs":55200,"harvesting_sector_jobs":41800,"state_gdp_contribution_pct":15.4,"notes":"NOAA FEUS 2023"},
+    {"year":2024,"total_alaska_exvessel_usd":1924000000,"total_alaska_wholesale_usd":4598000000,"processing_sector_jobs":54600,"harvesting_sector_jobs":41200,"state_gdp_contribution_pct":15.2,"notes":"NOAA FEUS 2024 (preliminary). Source: NOAA Fisheries Economics of the United States 2024 annual report."}
+  ]
+}

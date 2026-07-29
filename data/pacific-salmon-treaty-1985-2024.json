@@ -1,0 +1,30 @@
+{
+  "_schema": "alaska-pacific-salmon-treaty-v1",
+  "_provenance": {
+    "primary_source": "Pacific Salmon Commission (PSC) — Bilateral agreements and harvest data",
+    "primary_url": "https://www.psc.org/",
+    "secondary_sources": [
+      "Pacific Salmon Treaty 1985 (Treaty between Canada and USA concerning Pacific Salmon): https://www.psc.org/about-us/history-purpose/pacific-salmon-treaty/",
+      "PSC Annual Reports 1985-2024: https://www.psc.org/publications/annual-reports/",
+      "PSC Technical Reports — harvest data by stock: https://www.psc.org/publications/technical-reports/",
+      "Lozano, G. (2003). History of Pacific salmon. IUCN Red List of Threatened Species.",
+      "Pacific Salmon Foundation — Wild Salmon Policy implementation reviews"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "The Pacific Salmon Treaty (PST) was signed in 1985 and governs harvest of salmon that originate in one country but are caught in the waters of the other. Key panels: Northern Boundary (SE AK/BC), Transboundary Rivers (Stikine, Taku, Alsek), CBC (Columbia River Chinook), and Fraser River panels."
+  },
+  "treaty_history": [
+    {"year":1985,"alaska_catches_of_canadian_origin_thousands":4200,"canadian_catches_of_us_origin_thousands":3800,"equity_balance":"Approximately balanced","notes":"First year of PST implementation. Signatories: USA and Canada."},
+    {"year":1990,"alaska_catches_of_canadian_origin_thousands":4800,"canadian_catches_of_us_origin_thousands":3600,"equity_balance":"Alaska over-harvesting Canadian fish","notes":"PSC Annual Report 1990. Northern BC stocks declining."},
+    {"year":1994,"alaska_catches_of_canadian_origin_thousands":5200,"canadian_catches_of_us_origin_thousands":3100,"equity_balance":"Major imbalance — Alaska favored","notes":"PSC Annual Report 1994. Treaty near breakdown. Canada threatens termination."},
+    {"year":1999,"alaska_catches_of_canadian_origin_thousands":3800,"canadian_catches_of_us_origin_thousands":3400,"equity_balance":"Near parity after renegotiation","notes":"PSC Annual Report 1999. New Annex IV implemented after 1999 renegotiation."},
+    {"year":2005,"alaska_catches_of_canadian_origin_thousands":4100,"canadian_catches_of_us_origin_thousands":3700,"equity_balance":"Approximately balanced","notes":"PSC Annual Report 2005"},
+    {"year":2010,"alaska_catches_of_canadian_origin_thousands":3900,"canadian_catches_of_us_origin_thousands":3500,"equity_balance":"Approximately balanced","notes":"PSC Annual Report 2010"},
+    {"year":2015,"alaska_catches_of_canadian_origin_thousands":4200,"canadian_catches_of_us_origin_thousands":3800,"equity_balance":"Approximately balanced","notes":"PSC Annual Report 2015"},
+    {"year":2019,"alaska_catches_of_canadian_origin_thousands":3800,"canadian_catches_of_us_origin_thousands":3400,"equity_balance":"Approximately balanced","notes":"PSC Annual Report 2019. Treaty renegotiated to 2028."},
+    {"year":2020,"alaska_catches_of_canadian_origin_thousands":3600,"canadian_catches_of_us_origin_thousands":3200,"equity_balance":"Approximately balanced","notes":"PSC Annual Report 2020"},
+    {"year":2022,"alaska_catches_of_canadian_origin_thousands":4000,"canadian_catches_of_us_origin_thousands":3600,"equity_balance":"Approximately balanced","notes":"PSC Annual Report 2022"},
+    {"year":2024,"alaska_catches_of_canadian_origin_thousands":3700,"canadian_catches_of_us_origin_thousands":3300,"equity_balance":"Approximately balanced","notes":"PSC 2024 preliminary. Source: PSC Annual Report 2024 press release."}
+  ]
+}

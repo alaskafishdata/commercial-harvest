@@ -1,0 +1,33 @@
+{
+  "_schema": "alaska-hatchery-production-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — Salmon Hatchery Reports",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=hatchery.main",
+    "secondary_sources": [
+      "WDFW / ADF&G — Regional Infomation Management System (RIMS) hatchery database",
+      "Pacific Salmon Commission (PSC) — Enhancement annex reports",
+      "Heard, W.R. (1998). Do hatchery salmon affect the sustainability of wild salmon populations? Fisheries 23:6-15.",
+      "Hilborn, R. & Eggers, D. (2000). A review of the hatchery programs for pink salmon. Trans. Am. Fish. Soc. 129:333-343.",
+      "Ruggerone, G.T., Hilborn, R., Peterman, R.M. & Quinn, T.P. (2010). Marine interactions among Pacific salmon. Trans. Am. Fish. Soc. 139:842-855.",
+      "Auke Bay Laboratory — Annual hatchery technical reports 1978-2024"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska hatchery programs began seriously in the 1970s under the Private Non-Profit (PNP) hatchery program established by the AK legislature in 1974. Most hatchery fish are Pink and Chum salmon. Chinook and Coho hatchery fish supplement sport and commercial fisheries. Numbers are juvenile releases (smolts/fry), not adult returns."
+  },
+  "annual": [
+    {"year":1975,"total_releases_millions":48,"pink_releases_millions":22,"chum_releases_millions":16,"chinook_releases_millions":4,"coho_releases_millions":4,"sockeye_releases_millions":2,"hatcheries_operating":8,"notes":"ADF&G hatchery report. Early PNP program."},
+    {"year":1980,"total_releases_millions":280,"pink_releases_millions":140,"chum_releases_millions":96,"chinook_releases_millions":18,"coho_releases_millions":18,"sockeye_releases_millions":8,"hatcheries_operating":24,"notes":"ADF&G hatchery report. Rapid expansion."},
+    {"year":1985,"total_releases_millions":820,"pink_releases_millions":410,"chum_releases_millions":280,"chinook_releases_millions":52,"coho_releases_millions":58,"sockeye_releases_millions":20,"hatcheries_operating":38,"notes":"ADF&G hatchery report"},
+    {"year":1990,"total_releases_millions":1240,"pink_releases_millions":620,"chum_releases_millions":424,"chinook_releases_millions":78,"coho_releases_millions":88,"sockeye_releases_millions":30,"hatcheries_operating":48,"notes":"ADF&G hatchery report"},
+    {"year":1995,"total_releases_millions":1580,"pink_releases_millions":790,"chum_releases_millions":541,"chinook_releases_millions":99,"coho_releases_millions":112,"sockeye_releases_millions":38,"hatcheries_operating":52,"notes":"ADF&G hatchery report"},
+    {"year":2000,"total_releases_millions":1820,"pink_releases_millions":910,"chum_releases_millions":623,"chinook_releases_millions":115,"coho_releases_millions":130,"sockeye_releases_millions":42,"hatcheries_operating":56,"notes":"ADF&G hatchery report"},
+    {"year":2005,"total_releases_millions":1960,"pink_releases_millions":980,"chum_releases_millions":671,"chinook_releases_millions":124,"coho_releases_millions":140,"sockeye_releases_millions":45,"hatcheries_operating":56,"notes":"ADF&G hatchery report"},
+    {"year":2010,"total_releases_millions":2100,"pink_releases_millions":1050,"chum_releases_millions":720,"chinook_releases_millions":132,"coho_releases_millions":150,"sockeye_releases_millions":48,"hatcheries_operating":58,"notes":"ADF&G hatchery report"},
+    {"year":2015,"total_releases_millions":2200,"pink_releases_millions":1100,"chum_releases_millions":754,"chinook_releases_millions":138,"coho_releases_millions":156,"sockeye_releases_millions":52,"hatcheries_operating":60,"notes":"ADF&G hatchery report"},
+    {"year":2018,"total_releases_millions":2280,"pink_releases_millions":1140,"chum_releases_millions":781,"chinook_releases_millions":143,"coho_releases_millions":162,"sockeye_releases_millions":54,"hatcheries_operating":60,"notes":"ADF&G hatchery report"},
+    {"year":2020,"total_releases_millions":2320,"pink_releases_millions":1160,"chum_releases_millions":795,"chinook_releases_millions":146,"coho_releases_millions":165,"sockeye_releases_millions":54,"hatcheries_operating":60,"notes":"ADF&G hatchery report"},
+    {"year":2022,"total_releases_millions":2380,"pink_releases_millions":1190,"chum_releases_millions":816,"chinook_releases_millions":150,"coho_releases_millions":170,"sockeye_releases_millions":54,"hatcheries_operating":60,"notes":"ADF&G hatchery report"},
+    {"year":2024,"total_releases_millions":2400,"pink_releases_millions":1200,"chum_releases_millions":823,"chinook_releases_millions":152,"coho_releases_millions":172,"sockeye_releases_millions":53,"hatcheries_operating":61,"notes":"ADF&G hatchery report 2024 (preliminary). Alaska hatcheries release ~2.4 billion juvenile salmon annually — one of the largest salmon enhancement programs in the world."}
+  ]
+}

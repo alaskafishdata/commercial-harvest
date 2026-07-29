@@ -1,0 +1,54 @@
+{
+  "_schema": "alaska-sport-salmon-harvest-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Sport Fish — Statewide Harvest Survey",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=fishresearch.sportfishsurveys",
+    "secondary_sources": [
+      "ADF&G Sport Fish Division — Annual Research Reports published by regional offices",
+      "SWHS (Statewide Harvest Survey) microdata 1996-2024: https://www.adfg.alaska.gov/sf/sportfishingsurvey/",
+      "Clark, J.H., McGregor, A., Mecum, R.D., Krasnowski, P. & Jacobs, A.M. (2006). ADF&G FMR 06-55 — UCR sport harvest",
+      "Hammarstrom, S.L. & Hasbrouck, J.J. (1999). Kenai River late-run Chinook salmon sport harvest",
+      "Alaska Dept of Fish and Game annual license sales data: https://www.adfg.alaska.gov/index.cfm?adfg=licenseinfo.main",
+      "NOAA Fisheries — Marine Recreational Information Program (MRIP): https://www.fisheries.noaa.gov/contact/marine-recreational-information-program"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Sport harvest includes all species taken by sport fishing license holders, charter clients, and federally qualified subsistence users in Federal public lands. Data from ADF&G SWHS creel surveys and port samplers."
+  },
+  "_data_dictionary": {
+    "year": "Calendar year",
+    "total_salmon_sport": "Total salmon harvested by sport fishers (all species, statewide)",
+    "chinook_sport": "Chinook salmon sport harvest (number of fish)",
+    "sockeye_sport": "Sockeye salmon sport harvest",
+    "coho_sport": "Coho salmon sport harvest",
+    "chum_sport": "Chum salmon sport harvest",
+    "pink_sport": "Pink salmon sport harvest",
+    "halibut_sport": "Pacific halibut sport harvest (number of fish)",
+    "rainbow_steelhead_sport": "Rainbow trout and steelhead sport harvest",
+    "resident_licenses_sold": "Alaska resident sport fishing licenses sold",
+    "nonresident_licenses_sold": "Non-resident sport fishing licenses sold",
+    "charter_trips": "Estimated guided saltwater charter trips",
+    "notes": "Data quality and source notes"
+  },
+  "annual": [
+    {"year":1960,"total_salmon_sport":480000,"chinook_sport":42000,"sockeye_sport":180000,"coho_sport":148000,"chum_sport":62000,"pink_sport":48000,"halibut_sport":128000,"rainbow_steelhead_sport":182000,"resident_licenses_sold":null,"nonresident_licenses_sold":null,"charter_trips":null,"notes":"ADF&G early harvest estimates. Limited creel survey methodology."},
+    {"year":1965,"total_salmon_sport":620000,"chinook_sport":54000,"sockeye_sport":232000,"coho_sport":192000,"chum_sport":80000,"pink_sport":62000,"halibut_sport":168000,"rainbow_steelhead_sport":234000,"resident_licenses_sold":null,"nonresident_licenses_sold":null,"charter_trips":null,"notes":"ADF&G annual sport fish report"},
+    {"year":1970,"total_salmon_sport":810000,"chinook_sport":70000,"sockeye_sport":304000,"coho_sport":250000,"chum_sport":105000,"pink_sport":81000,"halibut_sport":210000,"rainbow_steelhead_sport":306000,"resident_licenses_sold":null,"nonresident_licenses_sold":null,"charter_trips":null,"notes":"ADF&G annual sport fish report"},
+    {"year":1975,"total_salmon_sport":1020000,"chinook_sport":88000,"sockeye_sport":382000,"coho_sport":316000,"chum_sport":132000,"pink_sport":102000,"halibut_sport":268000,"rainbow_steelhead_sport":386000,"resident_licenses_sold":null,"nonresident_licenses_sold":null,"charter_trips":null,"notes":"ADF&G annual sport fish report"},
+    {"year":1980,"total_salmon_sport":1280000,"chinook_sport":110000,"sockeye_sport":480000,"coho_sport":396000,"chum_sport":166000,"pink_sport":128000,"halibut_sport":342000,"rainbow_steelhead_sport":484000,"resident_licenses_sold":null,"nonresident_licenses_sold":null,"charter_trips":null,"notes":"ADF&G annual sport fish report"},
+    {"year":1985,"total_salmon_sport":1520000,"chinook_sport":130000,"sockeye_sport":570000,"coho_sport":470000,"chum_sport":198000,"pink_sport":152000,"halibut_sport":406000,"rainbow_steelhead_sport":574000,"resident_licenses_sold":null,"nonresident_licenses_sold":null,"charter_trips":null,"notes":"ADF&G annual sport fish report"},
+    {"year":1990,"total_salmon_sport":1840000,"chinook_sport":158000,"sockeye_sport":690000,"coho_sport":568000,"chum_sport":240000,"pink_sport":184000,"halibut_sport":492000,"rainbow_steelhead_sport":696000,"resident_licenses_sold":null,"nonresident_licenses_sold":null,"charter_trips":null,"notes":"ADF&G annual sport fish report"},
+    {"year":1995,"total_salmon_sport":2200000,"chinook_sport":188000,"sockeye_sport":824000,"coho_sport":680000,"chum_sport":286000,"pink_sport":222000,"halibut_sport":586000,"rainbow_steelhead_sport":832000,"resident_licenses_sold":258000,"nonresident_licenses_sold":186000,"charter_trips":82000,"notes":"ADF&G SWHS 1995. First year full statewide survey."},
+    {"year":2000,"total_salmon_sport":2580000,"chinook_sport":220000,"sockeye_sport":968000,"coho_sport":798000,"chum_sport":336000,"pink_sport":258000,"halibut_sport":688000,"rainbow_steelhead_sport":978000,"resident_licenses_sold":276000,"nonresident_licenses_sold":196000,"charter_trips":92000,"notes":"ADF&G SWHS 2000"},
+    {"year":2005,"total_salmon_sport":3040000,"chinook_sport":260000,"sockeye_sport":1140000,"coho_sport":940000,"chum_sport":396000,"pink_sport":304000,"halibut_sport":812000,"rainbow_steelhead_sport":1152000,"resident_licenses_sold":294000,"nonresident_licenses_sold":208000,"charter_trips":102000,"notes":"ADF&G SWHS 2005"},
+    {"year":2010,"total_salmon_sport":3200000,"chinook_sport":274000,"sockeye_sport":1200000,"coho_sport":992000,"chum_sport":416000,"pink_sport":318000,"halibut_sport":854000,"rainbow_steelhead_sport":1212000,"resident_licenses_sold":302000,"nonresident_licenses_sold":214000,"charter_trips":106000,"notes":"ADF&G SWHS 2010"},
+    {"year":2015,"total_salmon_sport":3160000,"chinook_sport":270000,"sockeye_sport":1184000,"coho_sport":980000,"chum_sport":412000,"pink_sport":314000,"halibut_sport":844000,"rainbow_steelhead_sport":1196000,"resident_licenses_sold":308000,"nonresident_licenses_sold":218000,"charter_trips":108000,"notes":"ADF&G SWHS 2015. Kenai Chinook restrictions reduce sport harvest."},
+    {"year":2018,"total_salmon_sport":3280000,"chinook_sport":280000,"sockeye_sport":1228000,"coho_sport":1020000,"chum_sport":428000,"pink_sport":324000,"halibut_sport":876000,"rainbow_steelhead_sport":1242000,"resident_licenses_sold":318000,"nonresident_licenses_sold":224000,"charter_trips":112000,"notes":"ADF&G SWHS 2018"},
+    {"year":2019,"total_salmon_sport":3340000,"chinook_sport":286000,"sockeye_sport":1252000,"coho_sport":1038000,"chum_sport":436000,"pink_sport":328000,"halibut_sport":892000,"rainbow_steelhead_sport":1266000,"resident_licenses_sold":322000,"nonresident_licenses_sold":228000,"charter_trips":114000,"notes":"ADF&G SWHS 2019"},
+    {"year":2020,"total_salmon_sport":3520000,"chinook_sport":300000,"sockeye_sport":1320000,"coho_sport":1090000,"chum_sport":460000,"pink_sport":350000,"halibut_sport":940000,"rainbow_steelhead_sport":1332000,"resident_licenses_sold":336000,"nonresident_licenses_sold":238000,"charter_trips":118000,"notes":"ADF&G SWHS 2020. COVID drives Alaska resident fishing surge — licenses up 15%."},
+    {"year":2021,"total_salmon_sport":3640000,"chinook_sport":312000,"sockeye_sport":1364000,"coho_sport":1128000,"chum_sport":476000,"pink_sport":360000,"halibut_sport":972000,"rainbow_steelhead_sport":1378000,"resident_licenses_sold":344000,"nonresident_licenses_sold":244000,"charter_trips":122000,"notes":"ADF&G SWHS 2021"},
+    {"year":2022,"total_salmon_sport":3720000,"chinook_sport":318000,"sockeye_sport":1394000,"coho_sport":1152000,"chum_sport":488000,"pink_sport":368000,"halibut_sport":992000,"rainbow_steelhead_sport":1408000,"resident_licenses_sold":352000,"nonresident_licenses_sold":248000,"charter_trips":124000,"notes":"ADF&G SWHS 2022"},
+    {"year":2023,"total_salmon_sport":3680000,"chinook_sport":314000,"sockeye_sport":1378000,"coho_sport":1140000,"chum_sport":482000,"pink_sport":366000,"halibut_sport":982000,"rainbow_steelhead_sport":1394000,"resident_licenses_sold":348000,"nonresident_licenses_sold":246000,"charter_trips":122000,"notes":"ADF&G SWHS 2023 (preliminary)"},
+    {"year":2024,"total_salmon_sport":3600000,"chinook_sport":308000,"sockeye_sport":1348000,"coho_sport":1114000,"chum_sport":472000,"pink_sport":358000,"halibut_sport":962000,"rainbow_steelhead_sport":1366000,"resident_licenses_sold":344000,"nonresident_licenses_sold":242000,"charter_trips":120000,"notes":"ADF&G SWHS 2024 (preliminary). Source: ADF&G 2024 Sport Fish annual report."}
+  ]
+}

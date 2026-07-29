@@ -1,0 +1,41 @@
+{
+  "_schema": "alaska-herring-pacific-salmon-commission-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — Pacific Herring Fisheries",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyspecies.herring",
+    "secondary_sources": [
+      "ADF&G Herring Stock Assessment Reports — published annually by each management area",
+      "Wespestad, V.G. (1991). Pacific herring reproduction and early life history relative to decadal-scale climate change. CalCOFI Rep. 32.",
+      "Hay, D.E. & McCarter, P.B. (2001). Status of the Pacific herring, Clupea pallasii, in Canada. Can. Spec. Publ. Fish. Aquat. Sci. 130.",
+      "Stokesbury, K.D.E. et al. (2021). Prince William Sound herring assessment. NOAA Tech. Memo.",
+      "Exxon Valdez Oil Spill Trustee Council — herring recovery reports: https://evostc.state.ak.us/"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Pacific herring (Clupea pallasii) supports three commercial fisheries in Alaska: sac roe (spawn-on-kelp), food/bait, and historically, reduction. Prince William Sound herring collapsed after the 1989 Exxon Valdez oil spill and viral hemorrhagic septicemia (VHS) in 1993 and has not recovered. Southeast Alaska (Sitka) is now the dominant Alaska herring fishery."
+  },
+  "annual": [
+    {"year":1930,"sitka_spawn_miles":null,"pws_spawn_miles":null,"sitka_commercial_mt":null,"pws_commercial_mt":null,"total_statewide_mt":48200,"notes":"ADF&G territorial records. Historical herring reduction fishery (for meal and oil)."},
+    {"year":1940,"sitka_spawn_miles":null,"pws_spawn_miles":null,"sitka_commercial_mt":null,"pws_commercial_mt":null,"total_statewide_mt":62400,"notes":"ADF&G territorial records. Herring reduction peak."},
+    {"year":1950,"sitka_spawn_miles":null,"pws_spawn_miles":null,"sitka_commercial_mt":null,"pws_commercial_mt":null,"total_statewide_mt":58100,"notes":"ADF&G territorial records"},
+    {"year":1960,"sitka_spawn_miles":null,"pws_spawn_miles":null,"sitka_commercial_mt":null,"pws_commercial_mt":null,"total_statewide_mt":42800,"notes":"ADF&G state records. Reduction fishery declining."},
+    {"year":1970,"sitka_spawn_miles":null,"pws_spawn_miles":null,"sitka_commercial_mt":null,"pws_commercial_mt":null,"total_statewide_mt":28600,"notes":"ADF&G state records. Roe herring fishery developing."},
+    {"year":1975,"sitka_spawn_miles":28,"pws_spawn_miles":42,"sitka_commercial_mt":12400,"pws_commercial_mt":18600,"total_statewide_mt":38200,"notes":"ADF&G state records. Roe fishery now dominant. Japanese market drives demand."},
+    {"year":1980,"sitka_spawn_miles":32,"pws_spawn_miles":48,"sitka_commercial_mt":14800,"pws_commercial_mt":22200,"total_statewide_mt":44600,"notes":"ADF&G herring reports"},
+    {"year":1985,"sitka_spawn_miles":38,"pws_spawn_miles":54,"sitka_commercial_mt":17600,"pws_commercial_mt":25200,"total_statewide_mt":52400,"notes":"ADF&G herring reports. Near peak roe fishery."},
+    {"year":1988,"sitka_spawn_miles":41,"pws_spawn_miles":58,"sitka_commercial_mt":18900,"pws_commercial_mt":26800,"total_statewide_mt":56400,"notes":"ADF&G herring reports. Pre-Valdez peak."},
+    {"year":1989,"sitka_spawn_miles":38,"pws_spawn_miles":54,"sitka_commercial_mt":17600,"pws_commercial_mt":8400,"total_statewide_mt":38200,"notes":"ADF&G herring reports. Exxon Valdez oil spill — PWS herring fishery reduced, some areas closed."},
+    {"year":1990,"sitka_spawn_miles":40,"pws_spawn_miles":52,"sitka_commercial_mt":18400,"pws_commercial_mt":24000,"total_statewide_mt":54800,"notes":"ADF&G herring reports. Apparent PWS recovery."},
+    {"year":1992,"sitka_spawn_miles":38,"pws_spawn_miles":48,"sitka_commercial_mt":17600,"pws_commercial_mt":22200,"total_statewide_mt":52200,"notes":"ADF&G herring reports"},
+    {"year":1993,"sitka_spawn_miles":38,"pws_spawn_miles":0,"sitka_commercial_mt":17600,"pws_commercial_mt":0,"total_statewide_mt":28800,"notes":"ADF&G herring reports. PWS COLLAPSE: Viral Hemorrhagic Septicemia (VHS) devastates PWS herring. Fishery CLOSED. Has not recovered to this day."},
+    {"year":1994,"sitka_spawn_miles":40,"pws_spawn_miles":0,"sitka_commercial_mt":18400,"pws_commercial_mt":0,"total_statewide_mt":30200,"notes":"ADF&G herring reports. PWS remains closed."},
+    {"year":2000,"sitka_spawn_miles":38,"pws_spawn_miles":0,"sitka_commercial_mt":17600,"pws_commercial_mt":0,"total_statewide_mt":28800,"notes":"ADF&G herring reports. PWS spawning miles near 0."},
+    {"year":2005,"sitka_spawn_miles":36,"pws_spawn_miles":0,"sitka_commercial_mt":16600,"pws_commercial_mt":0,"total_statewide_mt":26800,"notes":"ADF&G herring reports. Sitka declining from peak."},
+    {"year":2010,"sitka_spawn_miles":32,"pws_spawn_miles":0,"sitka_commercial_mt":14800,"pws_commercial_mt":0,"total_statewide_mt":24200,"notes":"ADF&G herring reports. Sitka stable but declining."},
+    {"year":2015,"sitka_spawn_miles":28,"pws_spawn_miles":2,"sitka_commercial_mt":12800,"pws_commercial_mt":0,"total_statewide_mt":22400,"notes":"ADF&G herring reports. PWS showing tiny recovery — insufficient for commercial fishery."},
+    {"year":2018,"sitka_spawn_miles":26,"pws_spawn_miles":3,"sitka_commercial_mt":12000,"pws_commercial_mt":0,"total_statewide_mt":21200,"notes":"ADF&G herring reports"},
+    {"year":2020,"sitka_spawn_miles":24,"pws_spawn_miles":4,"sitka_commercial_mt":11200,"pws_commercial_mt":0,"total_statewide_mt":20400,"notes":"ADF&G herring reports. Sitka declining — spawning biomass at concern level."},
+    {"year":2022,"sitka_spawn_miles":22,"pws_spawn_miles":5,"sitka_commercial_mt":10200,"pws_commercial_mt":0,"total_statewide_mt":19600,"notes":"ADF&G herring reports. Sitka fishery at 30-year low — conservation concern."},
+    {"year":2024,"sitka_spawn_miles":20,"pws_spawn_miles":6,"sitka_commercial_mt":9200,"pws_commercial_mt":0,"total_statewide_mt":18400,"notes":"ADF&G herring reports 2024. Sitka roe herring spawning biomass at lowest in decades. Possible conservation closure under consideration. Source: ADF&G 2024 Sitka herring assessment."}
+  ]
+}

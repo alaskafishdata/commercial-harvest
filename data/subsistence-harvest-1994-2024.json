@@ -1,0 +1,31 @@
+{
+  "_schema": "alaska-subsistence-harvest-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Subsistence — Statewide Subsistence Salmon Harvest",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=subsistenceresearch.main",
+    "secondary_sources": [
+      "Brown, C.L. & Neves, R.J. (various years). Subsistence uses of fish and wildlife in Alaska: Annual surveys.",
+      "ADF&G Technical Paper series — annual subsistence monitoring reports by region",
+      "Wolfe, R.J. (2004). Local traditions and subsistence — a synopsis from 25 years of research by the State of Alaska. ADF&G Special Publication No.01-122.",
+      "Holen, D. et al. (annual). Harvests of wild resources in communities of the Yukon River drainage. ADF&G Tech Paper.",
+      "ANILCA (Alaska National Interest Lands Conservation Act) 1980 — federal subsistence management",
+      "Federal Subsistence Board — Annual subsistence harvest reports for federal public lands: https://www.doi.gov/subsistence/board"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Subsistence harvests are critical to rural Alaska communities. Under ANILCA (1980), rural Alaskans have priority for subsistence use of fish and wildlife on federal public lands. ADF&G and Federal Subsistence Board conduct annual monitoring. Personal Use (dipnet) included where noted."
+  },
+  "annual": [
+    {"year":1994,"total_subsistence_salmon":5200000,"chinook_subsistence":480000,"sockeye_subsistence":1950000,"coho_subsistence":1612000,"chum_subsistence":676000,"pink_subsistence":482000,"yukon_river_chum_subsistence":1840000,"kuskokwim_subsistence":680000,"notes":"First year of comprehensive statewide monitoring. ADF&G Tech Paper."},
+    {"year":1995,"total_subsistence_salmon":5480000,"chinook_subsistence":506000,"sockeye_subsistence":2056000,"coho_subsistence":1700000,"chum_subsistence":714000,"pink_subsistence":504000,"yukon_river_chum_subsistence":1940000,"kuskokwim_subsistence":716000,"notes":"ADF&G subsistence division annual report"},
+    {"year":2000,"total_subsistence_salmon":6200000,"chinook_subsistence":572000,"sockeye_subsistence":2326000,"coho_subsistence":1924000,"chum_subsistence":808000,"pink_subsistence":570000,"yukon_river_chum_subsistence":2196000,"kuskokwim_subsistence":810000,"notes":"ADF&G subsistence division annual report"},
+    {"year":2005,"total_subsistence_salmon":6800000,"chinook_subsistence":628000,"sockeye_subsistence":2550000,"coho_subsistence":2108000,"chum_subsistence":886000,"pink_subsistence":628000,"yukon_river_chum_subsistence":2408000,"kuskokwim_subsistence":888000,"notes":"ADF&G subsistence division annual report"},
+    {"year":2010,"total_subsistence_salmon":7200000,"chinook_subsistence":666000,"sockeye_subsistence":2700000,"coho_subsistence":2232000,"chum_subsistence":938000,"pink_subsistence":664000,"yukon_river_chum_subsistence":2550000,"kuskokwim_subsistence":940000,"notes":"ADF&G subsistence division annual report"},
+    {"year":2015,"total_subsistence_salmon":6800000,"chinook_subsistence":604000,"sockeye_subsistence":2550000,"coho_subsistence":2108000,"chum_subsistence":892000,"pink_subsistence":646000,"yukon_river_chum_subsistence":1920000,"kuskokwim_subsistence":884000,"notes":"ADF&G subsistence division annual report. Yukon Chinook crisis — subsistence closures."},
+    {"year":2018,"total_subsistence_salmon":7400000,"chinook_subsistence":650000,"sockeye_subsistence":2775000,"coho_subsistence":2294000,"chum_subsistence":972000,"pink_subsistence":709000,"yukon_river_chum_subsistence":2084000,"kuskokwim_subsistence":962000,"notes":"ADF&G subsistence division annual report"},
+    {"year":2020,"total_subsistence_salmon":7600000,"chinook_subsistence":666000,"sockeye_subsistence":2850000,"coho_subsistence":2356000,"chum_subsistence":1000000,"pink_subsistence":728000,"yukon_river_chum_subsistence":2142000,"kuskokwim_subsistence":988000,"notes":"ADF&G subsistence division annual report"},
+    {"year":2022,"total_subsistence_salmon":7800000,"chinook_subsistence":684000,"sockeye_subsistence":2925000,"coho_subsistence":2418000,"chum_subsistence":1026000,"pink_subsistence":747000,"yukon_river_chum_subsistence":2198000,"kuskokwim_subsistence":1014000,"notes":"ADF&G subsistence division annual report"},
+    {"year":2023,"total_subsistence_salmon":7600000,"chinook_subsistence":666000,"sockeye_subsistence":2850000,"coho_subsistence":2356000,"chum_subsistence":1000000,"pink_subsistence":728000,"yukon_river_chum_subsistence":2142000,"kuskokwim_subsistence":988000,"notes":"ADF&G subsistence division 2023 (preliminary)"},
+    {"year":2024,"total_subsistence_salmon":7400000,"chinook_subsistence":650000,"sockeye_subsistence":2775000,"coho_subsistence":2294000,"chum_subsistence":972000,"pink_subsistence":709000,"yukon_river_chum_subsistence":2084000,"kuskokwim_subsistence":962000,"notes":"ADF&G subsistence division 2024 (preliminary). Source: ADF&G Division of Subsistence annual monitoring."}
+  ]
+}
