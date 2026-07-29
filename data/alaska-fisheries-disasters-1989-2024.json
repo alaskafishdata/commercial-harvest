@@ -1,0 +1,109 @@
+{
+  "_schema": "alaska-fisheries-disaster-declarations-v1",
+  "_provenance": {
+    "primary_source": "NOAA Fisheries — Fishery Disaster Determinations under MSA Section 312(a) and Interjurisdictional Fisheries Act",
+    "primary_url": "https://www.fisheries.noaa.gov/national/funding-and-financial-services/fishery-disaster-determinations",
+    "secondary_sources": [
+      "Congressional Research Service — Commercial Fisheries Disaster Assistance (2023 report)",
+      "ADF&G — State of Alaska Fishery Disaster Requests 1989-2024",
+      "USDA / US Dept of Commerce — Disaster Assistance Distribution Summaries"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "When a fishery experiences a commercial collapse or catastrophic stock decline due to natural or environmental causes, the Governor of Alaska requests a federal fishery disaster declaration under Section 312(a) of the Magnuson-Stevens Act. If approved by the Secretary of Commerce, Congress appropriates relief funds distributed to affected fishermen, processors, municipalities, and scientific research. Alaska has received over $650M in federal disaster assistance across 28 approved declarations since 1989."
+  },
+  "total_assistance_disbursed_usd": 685000000,
+  "approved_disasters_count": 28,
+  "declarations": [
+    {
+      "year_requested": 1989,
+      "year_approved": 1990,
+      "region": "Prince William Sound",
+      "fishery": "Salmon and Shellfish",
+      "cause": "Exxon Valdez Oil Spill",
+      "federal_funding_usd": 15000000,
+      "status": "Completed"
+    },
+    {
+      "year_requested": 1997,
+      "year_approved": 1998,
+      "region": "Bristol Bay and Kuskokwim",
+      "fishery": "Sockeye and Chum Salmon",
+      "cause": "Severe unexpected run failure (El Niño ocean conditions)",
+      "federal_funding_usd": 17000000,
+      "status": "Completed"
+    },
+    {
+      "year_requested": 1998,
+      "year_approved": 1999,
+      "region": "Yukon River",
+      "fishery": "Chinook and Chum Salmon",
+      "cause": "Catastrophic low returns",
+      "federal_funding_usd": 23000000,
+      "status": "Completed"
+    },
+    {
+      "year_requested": 2008,
+      "year_approved": 2009,
+      "region": "Yukon River",
+      "fishery": "Chinook Salmon",
+      "cause": "Extreme low run size, severe subsistence restrictions",
+      "federal_funding_usd": 5000000,
+      "status": "Completed"
+    },
+    {
+      "year_requested": 2012,
+      "year_approved": 2014,
+      "region": "Yukon and Kuskokwim Rivers & Cook Inlet",
+      "fishery": "Chinook Salmon",
+      "cause": "Widespread Chinook salmon collapse across Western and Central AK",
+      "federal_funding_usd": 20800000,
+      "status": "Completed"
+    },
+    {
+      "year_requested": 2018,
+      "year_approved": 2020,
+      "region": "Gulf of Alaska",
+      "fishery": "Pacific Cod",
+      "cause": "The Blob marine heatwave causing 75-80% population mortality",
+      "federal_funding_usd": 62500000,
+      "status": "Completed"
+    },
+    {
+      "year_requested": 2020,
+      "year_approved": 2021,
+      "region": "Upper Cook Inlet",
+      "fishery": "East Side Set Net Salmon",
+      "cause": "Chinook conservation closures restricting sockeye harvest",
+      "federal_funding_usd": 13800000,
+      "status": "Completed"
+    },
+    {
+      "year_requested": 2021,
+      "year_approved": 2022,
+      "region": "Bering Sea",
+      "fishery": "Bering Sea Snow Crab & Bristol Bay Red King Crab",
+      "cause": "10 billion snow crab mortality event due to marine heatwave & cold pool loss",
+      "federal_funding_usd": 185000000,
+      "status": "Disbursing"
+    },
+    {
+      "year_requested": 2021,
+      "year_approved": 2022,
+      "region": "Yukon and Kuskokwim Rivers",
+      "fishery": "Chinook and Summer/Fall Chum Salmon",
+      "cause": "Complete closure of commercial and subsistence fisheries",
+      "federal_funding_usd": 42000000,
+      "status": "Disbursing"
+    },
+    {
+      "year_requested": 2023,
+      "year_approved": 2024,
+      "region": "Chignik and Alaska Peninsula",
+      "fishery": "Salmon",
+      "cause": "Multi-year sockeye and pink salmon run failures",
+      "federal_funding_usd": 18400000,
+      "status": "Approved"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "_schema": "alaska-crab-rationalization-impact-v1",
+  "_provenance": {
+    "primary_source": "NPFMC — Ten-Year Crab Rationalization Program Review & NOAA Fisheries BSAI Crab Economic SAFE Reports",
+    "primary_url": "https://www.npfmc.org/crab-rationalization/",
+    "secondary_sources": [
+      "NOAA NMFS AKR — BSAI Crab Rationalization Program Statistics: https://www.fisheries.noaa.gov/alaska/",
+      "Fina, M. (2005). Development of the Bering Sea and Aleutian Islands crab rationalization program. Marine Policy 29:175-190.",
+      "Knapp, G. (2006). Economic Impacts of BSAI Crab Rationalization on Bering Sea Crab Crew Members. UAA ISER Report."
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Implemented in 2005, the BSAI Crab Rationalization Program allocated Individual Fishing Quotas (IFQs) to vessel owners, processors (Individual Processing Quotas), and captains/crew (C-shares). It transformed a dangerous, high-speed derby fishery into a quota-based system. While vessel safety improved dramatically and seasons lengthened, vessel consolidation led to a 60% reduction in active crab vessels and the loss of ~1,000 crew jobs, deeply altering coastal communities like Kodiak and Dutch Harbor."
+  },
+  "program_metrics": {
+    "implementation_year": 2005,
+    "fisheries_covered": [
+      "Bristol Bay Red King Crab",
+      "Bering Sea Snow Crab (Opilio)",
+      "Bering Sea Tanner Crab (Bairdi)",
+      "Pribilof Islands Red/Blue King Crab",
+      "St. Matthew Island Blue King Crab",
+      "Aleutian Islands Golden King Crab"
+    ],
+    "pre_rationalization_vessels_2004": 252,
+    "post_rationalization_vessels_2006": 98,
+    "current_active_vessels_2024": 54,
+    "fleet_consolidation_pct": 78.5,
+    "crew_jobs_pre_2004": 1512,
+    "crew_jobs_post_2006": 588,
+    "crew_jobs_2024": 324
+  },
+  "safety_impact": {
+    "search_and_rescue_incidents_pre_2005_avg_annual": 14.2,
+    "search_and_rescue_incidents_post_2005_avg_annual": 1.8,
+    "fatalities_1990_2004_total": 72,
+    "fatalities_2005_2024_total": 8,
+    "safety_assessment": "Dramatic reduction in vessel sinkings and crew fatalities as derby race for fish ended."
+  },
+  "economic_quota_value": {
+    "bbrkc_quota_lease_rate_pct_of_exvessel": 45.0,
+    "snow_crab_quota_lease_rate_pct_of_exvessel": 35.0,
+    "qs_holder_absentee_pct_2024": 34.5,
+    "notes": "A significant portion of quota share value is leased to active vessels by non-fishing initial recipients."
+  }
+}
