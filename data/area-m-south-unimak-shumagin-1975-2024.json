@@ -1,0 +1,25 @@
+{
+  "_schema": "alaska-area-m-interception-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — Alaska Peninsula & Aleutian Islands Salmon Management Reports",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyareaakpeninsula.salmon",
+    "secondary_sources": [
+      "Alaska Board of Fisheries — South Unimak and Shumagin Islands June Salmon Management Plan (5 AAC 09.365)",
+      "Yukon-Kuskokwim & Chignik Fisheries Inter-Tribal Coalitions"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Area M (Alaska Peninsula & Aleutian Islands) June commercial salmon fishery operates along South Unimak Island and the Shumagin Islands. Because salmon migrating to Bristol Bay, AYK, and Chignik pass through Area M coastal waters, this fishery has been one of Alaska's most intensely debated allocation fisheries for over 50 years. Downriver Alaska Native fishermen from the Yukon and Kuskokwim rivers have repeatedly petitioned the Board of Fisheries to restrict Area M June fishing hours during severe chum and Chinook salmon run failures."
+  },
+  "management_districts": ["South Unimak District", "Shumagin Islands District", "North Peninsula District"],
+  "annual_june_harvest_time_series": [
+    {"year": 1975, "sockeye_count": 840000, "chum_count": 210000, "chinook_count": 8200, "status": "Historical Plan"},
+    {"year": 1985, "sockeye_count": 1450000, "chum_count": 480000, "chinook_count": 14500, "status": "High Harvest"},
+    {"year": 1995, "sockeye_count": 1820000, "chum_count": 620000, "chinook_count": 18200, "status": "BOF Chum Cap Enforced"},
+    {"year": 2004, "sockeye_count": 1280000, "chum_count": 340000, "chinook_count": 9800, "status": "Modified Plan"},
+    {"year": 2018, "sockeye_count": 920000, "chum_count": 480000, "chinook_count": 7400, "status": "Chignik Run Collapse Year"},
+    {"year": 2021, "sockeye_count": 1420000, "chum_count": 1180000, "chinook_count": 6200, "status": "AYK Chum Collapse — High Interception"},
+    {"year": 2023, "sockeye_count": 1150000, "chum_count": 420000, "chinook_count": 4800, "status": "BOF Reduced Fishing Hours"},
+    {"year": 2024, "sockeye_count": 1240000, "chum_count": 380000, "chinook_count": 5100, "status": "BOF Window Openings"}
+  ]
+}

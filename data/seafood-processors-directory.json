@@ -1,0 +1,48 @@
+{
+  "_schema": "alaska-seafood-processors-directory-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — Intent to Operate Processor Directory",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=fishlicensing.processors",
+    "secondary_sources": [
+      "Alaska Seafood Marketing Institute (ASMI) Processor Directory",
+      "Pacific Seafood Processors Association (PSPA)"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Comprehensive registry of major shorebased seafood processing plants and floating processors operating across Alaska. In 2023-2024, the Alaska seafood processing sector experienced major restructuring, plant sales, and closures (e.g. Peter Pan Seafoods receivership, Trident plant sales in False Pass, Kodiak, and Petersburg)."
+  },
+  "major_processors": [
+    {
+      "company": "Trident Seafoods Corporation",
+      "hq": "Seattle, WA",
+      "founded": 1973,
+      "flagship_plants": ["Akutan (largest seafood plant in N. America)", "Cordova", "Kodiak", "Naknek", "St. Paul (Snow Crab)", "Sand Point"],
+      "primary_products": "Frozen Sockeye, Pink, Pollock Surimi & Fillets, Pacific Cod, King Crab",
+      "status": "Active — 2024 Restructuring & Plant Restructuring"
+    },
+    {
+      "company": "Silver Bay Seafoods",
+      "hq": "Seattle, WA",
+      "founded": 2007,
+      "flagship_plants": ["Sitka", "Craig", "Valdez", "Naknek", "False Pass", "Kodiak"],
+      "primary_products": "Fisherman-owned cooperative processor — Frozen Sockeye, Pink, Chum",
+      "status": "Active — Expanded plant footprint in 2024"
+    },
+    {
+      "company": "OBI Seafoods",
+      "hq": "Seattle, WA (Joint Venture Ocean Beauty & Icicle)",
+      "founded": 2020,
+      "flagship_plants": ["Petersburg", "Cordova", "Naknek", "Egegik", "Kodiak", "Seward"],
+      "primary_products": "Canned & Frozen Salmon, Halibut, Pacific Cod",
+      "status": "Active"
+    },
+    {
+      "company": "Peter Pan Seafoods",
+      "hq": "Bellevue, WA / Anchorage, AK",
+      "founded": 1899,
+      "flagship_plants": ["King Cove", "Dillingham", "Port Moller", "Valdez"],
+      "primary_products": "Frozen & Canned Sockeye, King Crab, Pacific Cod",
+      "status": "2024 Receivership / Plant Assets Acquired by Silver Bay & Buyers"
+    }
+  ]
+}

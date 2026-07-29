@@ -1,0 +1,25 @@
+{
+  "_schema": "alaska-kodiak-salmon-harvest-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — Kodiak Management Area Salmon Annual Reports",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyareakodiak.salmon",
+    "secondary_sources": [
+      "Kodiak Regional Aquaculture Association (KRAA) Annual Reports",
+      "Karluk River & Ayakulik River Sonar/Weir Escapement Records"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Kodiak Management Area (Area K) encompasses Kodiak Island, Afognak Island, and surrounding archipelagos spanning 7 commercial fishing districts: Alitak, Westside, Eastside, Afognak, Mainland, Northeast, and Northwest. Kodiak features both major wild sockeye runs (Karluk, Ayakulik, Frazer) and massive hatchery pink salmon returns (Kitoi Bay Hatchery)."
+  },
+  "districts": ["Alitak District", "Westside Kodiak District", "Eastside Kodiak District", "Afognak District", "Mainland District", "Northeast Kodiak District", "Northwest Kodiak District"],
+  "annual_harvest_time_series": [
+    {"year": 1975, "sockeye_count": 1240000, "pink_count": 4850000, "chum_count": 680000, "coho_count": 142000, "exvessel_value_usd_m": 12.8},
+    {"year": 1985, "sockeye_count": 2850000, "pink_count": 11200000, "chum_count": 920000, "coho_count": 280000, "exvessel_value_usd_m": 34.5},
+    {"year": 1995, "sockeye_count": 4150000, "pink_count": 32400000, "chum_count": 1150000, "coho_count": 410000, "exvessel_value_usd_m": 48.2},
+    {"year": 2005, "sockeye_count": 3200000, "pink_count": 28600000, "chum_count": 840000, "coho_count": 360000, "exvessel_value_usd_m": 38.6},
+    {"year": 2015, "sockeye_count": 3100000, "pink_count": 33100000, "chum_count": 780000, "coho_count": 390000, "exvessel_value_usd_m": 42.4},
+    {"year": 2021, "sockeye_count": 2180000, "pink_count": 26800000, "chum_count": 450000, "coho_count": 210000, "exvessel_value_usd_m": 36.8},
+    {"year": 2023, "sockeye_count": 2450000, "pink_count": 18400000, "chum_count": 520000, "coho_count": 240000, "exvessel_value_usd_m": 31.2},
+    {"year": 2024, "sockeye_count": 2680000, "pink_count": 21500000, "chum_count": 580000, "coho_count": 280000, "exvessel_value_usd_m": 34.8}
+  ]
+}
