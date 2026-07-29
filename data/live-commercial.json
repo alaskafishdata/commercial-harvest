@@ -1,10 +1,130 @@
 [
-  { "id": "bristol-bay", "name": "Bristol Bay Management Area", "region": "Bristol Bay", "harvest": 41600000, "exVessel": 128500000, "permits": 1840, "status": "Active", "primarySpecies": ["Sockeye"], "season": "2024", "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyspecies.salmon" },
-  { "id": "southeast-alaska", "name": "Southeast Alaska (Panhandle)", "region": "Southeast", "harvest": 38200000, "exVessel": 64100000, "permits": 1150, "status": "Active", "primarySpecies": ["Pink","Chum","Coho"], "season": "2024", "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyspecies.salmon" },
-  { "id": "prince-william-sound", "name": "Prince William Sound & Copper River", "region": "Prince William Sound", "harvest": 28400000, "exVessel": 48200000, "permits": 720, "status": "Active", "primarySpecies": ["Sockeye","Pink"], "season": "2024", "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyspecies.salmon" },
-  { "id": "kodiak", "name": "Kodiak Management Area", "region": "Kodiak", "harvest": 22800000, "exVessel": 32400000, "permits": 480, "status": "Active", "primarySpecies": ["Pink","Sockeye"], "season": "2024", "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyspecies.salmon" },
-  { "id": "area-m", "name": "Alaska Peninsula & Aleutians (Area M)", "region": "Westward", "harvest": 19400000, "exVessel": 26800000, "permits": 390, "status": "Active", "primarySpecies": ["Sockeye","Pink"], "season": "2024", "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyspecies.salmon" },
-  { "id": "cook-inlet", "name": "Cook Inlet (Upper & Lower)", "region": "Southcentral", "harvest": 8500000, "exVessel": 14200000, "permits": 510, "status": "Active", "primarySpecies": ["Sockeye","Pink"], "season": "2024", "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyspecies.salmon" },
-  { "id": "chignik", "name": "Chignik Management Area", "region": "Westward", "harvest": 6100000, "exVessel": 9800000, "permits": 85, "status": "Active", "primarySpecies": ["Sockeye"], "season": "2024", "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyspecies.salmon" },
-  { "id": "norton-sound", "name": "Norton Sound & Kotzebue", "region": "Arctic-Yukon-Kuskokwim", "harvest": 2100000, "exVessel": 2400000, "permits": 120, "status": "Active", "primarySpecies": ["Chum"], "season": "2024", "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyspecies.salmon" }
+  {
+    "id": "bristol-bay",
+    "name": "Bristol Bay Management Area",
+    "region": "Bristol Bay",
+    "harvest": 41600000,
+    "exVessel": 128500000,
+    "permits": 1840,
+    "status": "2024 Baseline",
+    "primarySpecies": [
+      "Sockeye"
+    ],
+    "season": "2026",
+    "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.bristolbay",
+    "fetched_at": "2026-07-29T06:47:15.382381+00:00"
+  },
+  {
+    "id": "southeast-alaska",
+    "name": "Southeast Alaska (Panhandle)",
+    "region": "Southeast",
+    "harvest": 38200000,
+    "exVessel": 64100000,
+    "permits": 1150,
+    "status": "2024 Baseline",
+    "primarySpecies": [
+      "Pink",
+      "Chum",
+      "Coho",
+      "Chinook"
+    ],
+    "season": "2026",
+    "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.se",
+    "fetched_at": "2026-07-29T06:47:15.382381+00:00"
+  },
+  {
+    "id": "prince-william-sound",
+    "name": "Prince William Sound & Copper River",
+    "region": "Prince William Sound",
+    "harvest": 28400000,
+    "exVessel": 48200000,
+    "permits": 720,
+    "status": "2024 Baseline",
+    "primarySpecies": [
+      "Sockeye",
+      "Pink",
+      "Chinook"
+    ],
+    "season": "2026",
+    "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.pwscopper",
+    "fetched_at": "2026-07-29T06:47:15.382381+00:00"
+  },
+  {
+    "id": "kodiak",
+    "name": "Kodiak Management Area",
+    "region": "Kodiak",
+    "harvest": 22800000,
+    "exVessel": 32400000,
+    "permits": 480,
+    "status": "2024 Baseline",
+    "primarySpecies": [
+      "Pink",
+      "Sockeye"
+    ],
+    "season": "2026",
+    "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.kodiak",
+    "fetched_at": "2026-07-29T06:47:15.382381+00:00"
+  },
+  {
+    "id": "area-m",
+    "name": "Alaska Peninsula & Aleutians (Area M)",
+    "region": "Westward",
+    "harvest": 19400000,
+    "exVessel": 26800000,
+    "permits": 390,
+    "status": "2024 Baseline",
+    "primarySpecies": [
+      "Sockeye",
+      "Pink"
+    ],
+    "season": "2026",
+    "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.areaMpennAleut",
+    "fetched_at": "2026-07-29T06:47:15.382381+00:00"
+  },
+  {
+    "id": "cook-inlet",
+    "name": "Cook Inlet (Upper & Lower)",
+    "region": "Southcentral",
+    "harvest": 8500000,
+    "exVessel": 14200000,
+    "permits": 510,
+    "status": "2024 Baseline",
+    "primarySpecies": [
+      "Sockeye",
+      "Pink"
+    ],
+    "season": "2026",
+    "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.upperCookInlet",
+    "fetched_at": "2026-07-29T06:47:15.382381+00:00"
+  },
+  {
+    "id": "chignik",
+    "name": "Chignik Management Area",
+    "region": "Westward",
+    "harvest": 6100000,
+    "exVessel": 9800000,
+    "permits": 85,
+    "status": "2024 Baseline",
+    "primarySpecies": [
+      "Sockeye"
+    ],
+    "season": "2026",
+    "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.chignik",
+    "fetched_at": "2026-07-29T06:47:15.382381+00:00"
+  },
+  {
+    "id": "norton-sound-kotzebue",
+    "name": "Norton Sound & Kotzebue",
+    "region": "Arctic-Yukon-Kuskokwim",
+    "harvest": 2100000,
+    "exVessel": 2400000,
+    "permits": 120,
+    "status": "2024 Baseline",
+    "primarySpecies": [
+      "Chum"
+    ],
+    "season": "2026",
+    "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.nortonSound",
+    "fetched_at": "2026-07-29T06:47:15.382381+00:00"
+  }
 ]
