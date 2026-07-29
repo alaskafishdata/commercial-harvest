@@ -1,0 +1,33 @@
+{
+  "_schema": "alaska-sockeye-price-cycles-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — Annual Ex-Vessel Prices (Statewide Price Summary)",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=CommercialByFisherySalmon.salmonPrice",
+    "secondary_sources": [
+      "McDowell Group — Alaska Seafood Industry Economic Profile",
+      "ASMI — Salmon Price & Market Reports",
+      "FAO Fisheries — Global Farmed Salmon Price Index"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska sockeye salmon ex-vessel price cycles reflect global farmed Atlantic salmon competition, Japanese yen/USD exchange rates, and Bristol Bay run quality variability. The 1988 peak ($2.25/lb nominal) has never been matched in real dollars. The 2002 nadir ($0.42/lb) coincided with Chilean farmed salmon import flooding. The post-COVID recovery and Russia-Ukraine war (suppressing competing Russian salmon supplies) drove 2022-2024 prices to multi-decade highs."
+  },
+  "annual_bristol_bay_sockeye_exvessel": [
+    {"year": 1980, "price_per_lb": 0.68, "adjusted_2026": 2.82, "run_quality": "Average"},
+    {"year": 1985, "price_per_lb": 1.42, "adjusted_2026": 4.22, "run_quality": "Strong"},
+    {"year": 1988, "price_per_lb": 2.25, "adjusted_2026": 5.88, "run_quality": "Record — Japanese bubble peak"},
+    {"year": 1995, "price_per_lb": 1.12, "adjusted_2026": 2.38, "run_quality": "Average"},
+    {"year": 2002, "price_per_lb": 0.42, "adjusted_2026": 0.74, "run_quality": "Chilean farmed salmon nadir"},
+    {"year": 2005, "price_per_lb": 0.58, "adjusted_2026": 0.96, "run_quality": "Below market"},
+    {"year": 2010, "price_per_lb": 1.04, "adjusted_2026": 1.54, "run_quality": "Recovery"},
+    {"year": 2015, "price_per_lb": 1.68, "adjusted_2026": 2.24, "run_quality": "Strong"},
+    {"year": 2020, "price_per_lb": 1.84, "adjusted_2026": 2.20, "run_quality": "COVID year"},
+    {"year": 2022, "price_per_lb": 2.42, "adjusted_2026": 2.78, "run_quality": "Record 79.8M run"},
+    {"year": 2024, "price_per_lb": 2.18, "adjusted_2026": 2.18, "run_quality": "50M run — slightly below forecast"}
+  ],
+  "price_drivers": {
+    "primary_competitor": "Chilean / Norwegian farmed Atlantic Salmon",
+    "key_export_markets": ["Japan (sashimi-grade fresh sockeye)", "United States (canned & frozen)", "European Union (frozen portions)"],
+    "yen_usd_sensitivity": "Every 10-yen move in USD/JPY correlates with approx. $0.04-0.08/lb sockeye price shift"
+  }
+}
