@@ -1,0 +1,15 @@
+{
+  "name": "commercial-harvest-scraper",
+  "version": "1.0.0",
+  "description": "ADF&G Commercial Harvest scraper for alaskafishdata/commercial-harvest",
+  "private": true,
+  "scripts": {
+    "scrape": "tsx src/scrape-commercial.ts",
+    "dev": "tsx src/scrape-commercial.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}
