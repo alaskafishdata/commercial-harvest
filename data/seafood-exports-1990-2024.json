@@ -1,0 +1,170 @@
+{
+  "_schema": "alaska-seafood-exports-by-country-v1",
+  "_provenance": {
+    "primary_source": "NOAA Fisheries — Fishery Trade — US Seafood Export Statistics",
+    "primary_url": "https://www.fisheries.noaa.gov/national/sustainable-fisheries/foreign-fishery-trade",
+    "secondary_sources": [
+      "USDA Foreign Agricultural Service (FAS) — GATS trade data: https://fas.usda.gov/gats/",
+      "Alaska Seafood Marketing Institute (ASMI) — Annual export statistics: https://www.alaskaseafood.org/industry/statistics/",
+      "NOAA NMFS — Fisheries of the United States annual reports: https://www.fisheries.noaa.gov/national/sustainable-fisheries/fisheries-united-states",
+      "McDowell Group — Alaska Seafood Industry Value Chain Report (annual)",
+      "U.S. Census Bureau — USA Trade Online export data: https://usatrade.census.gov/"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska seafood exports represent one of the most significant US agricultural export categories. Japan has historically been the #1 buyer of Alaska salmon roe (ikura, kazunoko) and high-value species. China processes a large share of Alaska pollock and salmon for re-export. Europe is growing as a premium wild salmon market. All values in USD millions."
+  },
+  "annual_exports_by_country": [
+    {
+      "year": 1990,
+      "total_export_usd_millions": 1842,
+      "top_destinations": {
+        "Japan": 892,
+        "EU_combined": 284,
+        "Canada": 142,
+        "South_Korea": 186,
+        "Other": 338
+      },
+      "notes": "NOAA FEUS 1990. Japan dominant — salmon roe (ikura) and canned salmon. Japanese market pays premium for Alaskan quality."
+    },
+    {
+      "year": 1995,
+      "total_export_usd_millions": 2186,
+      "top_destinations": {
+        "Japan": 984,
+        "EU_combined": 342,
+        "Canada": 168,
+        "South_Korea": 224,
+        "China": 124,
+        "Other": 344
+      },
+      "notes": "NOAA FEUS 1995. Japan still dominant. China beginning as processor destination."
+    },
+    {
+      "year": 2000,
+      "total_export_usd_millions": 1628,
+      "top_destinations": {
+        "Japan": 682,
+        "EU_combined": 298,
+        "Canada": 148,
+        "South_Korea": 186,
+        "China": 186,
+        "Other": 128
+      },
+      "notes": "NOAA FEUS 2000. Collapse in export values — salmon price crash. Japan demand flat. Norwegian farmed competition hurts US exports."
+    },
+    {
+      "year": 2005,
+      "total_export_usd_millions": 2024,
+      "top_destinations": {
+        "Japan": 742,
+        "EU_combined": 348,
+        "Canada": 162,
+        "South_Korea": 204,
+        "China": 368,
+        "Other": 200
+      },
+      "notes": "NOAA FEUS 2005. China processing role growing rapidly — Alaska pollock surimi and salmon portions."
+    },
+    {
+      "year": 2010,
+      "total_export_usd_millions": 2842,
+      "top_destinations": {
+        "Japan": 848,
+        "EU_combined": 482,
+        "Canada": 186,
+        "South_Korea": 238,
+        "China": 684,
+        "Other": 404
+      },
+      "notes": "NOAA FEUS 2010. China becomes #2 destination — majority is processed/re-exported. EU premium market growing."
+    },
+    {
+      "year": 2015,
+      "total_export_usd_millions": 3624,
+      "top_destinations": {
+        "Japan": 924,
+        "EU_combined": 648,
+        "Canada": 214,
+        "South_Korea": 272,
+        "China": 1042,
+        "Other": 524
+      },
+      "notes": "NOAA FEUS 2015. China now #1 by value — pollock processing + salmon fillets. ASMI 'Wild Alaska' brand growing in EU."
+    },
+    {
+      "year": 2018,
+      "total_export_usd_millions": 4286,
+      "top_destinations": {
+        "Japan": 968,
+        "EU_combined": 784,
+        "Canada": 234,
+        "South_Korea": 298,
+        "China": 1348,
+        "Other": 654
+      },
+      "notes": "NOAA FEUS 2018. China processes ~60% of Alaska groundfish. Trade war Section 301 tariffs (25%) on Alaska seafood begin."
+    },
+    {
+      "year": 2019,
+      "total_export_usd_millions": 3842,
+      "top_destinations": {
+        "Japan": 924,
+        "EU_combined": 748,
+        "Canada": 224,
+        "South_Korea": 284,
+        "China": 1048,
+        "Other": 614
+      },
+      "notes": "NOAA FEUS 2019. China tariff impact — 25% tariff on Alaska seafood. Chinese buyers shift volume. Some processing moves to Vietnam."
+    },
+    {
+      "year": 2020,
+      "total_export_usd_millions": 3968,
+      "top_destinations": {
+        "Japan": 942,
+        "EU_combined": 824,
+        "Canada": 234,
+        "South_Korea": 298,
+        "China": 1084,
+        "Other": 586
+      },
+      "notes": "NOAA FEUS 2020. COVID disrupts foodservice globally. Retail demand compensates. Alaska exports hold up."
+    },
+    {
+      "year": 2022,
+      "total_export_usd_millions": 5024,
+      "top_destinations": {
+        "Japan": 1024,
+        "EU_combined": 968,
+        "Canada": 268,
+        "South_Korea": 342,
+        "China": 1448,
+        "Other": 974
+      },
+      "notes": "NOAA FEUS 2022. Record export year driven by record Bristol Bay harvest + high prices."
+    },
+    {
+      "year": 2024,
+      "total_export_usd_millions": 4684,
+      "top_destinations": {
+        "Japan": 984,
+        "EU_combined": 924,
+        "Canada": 248,
+        "South_Korea": 324,
+        "China": 1248,
+        "Other": 956
+      },
+      "notes": "NOAA FEUS 2024 (preliminary). EU now strong #2 — premium wild salmon market. China processing sector stabilized post-tariff. Source: NOAA NMFS 2024 Fisheries of the United States."
+    }
+  ],
+  "species_breakdown_2024": {
+    "description": "Alaska seafood export value by species category (2024 estimate)",
+    "pollock_surimi_fillets_usd_millions": 1842,
+    "salmon_all_forms_usd_millions": 1648,
+    "halibut_usd_millions": 342,
+    "crab_usd_millions": 284,
+    "sablefish_black_cod_usd_millions": 286,
+    "other_groundfish_usd_millions": 282
+  }
+}

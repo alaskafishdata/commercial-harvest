@@ -1,0 +1,54 @@
+{
+  "_schema": "alaska-salmon-price-indices-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Commercial Fisheries Entry Commission (CFEC) — Fish Ticket Database",
+    "primary_url": "https://www.cfec.state.ak.us/",
+    "secondary_sources": [
+      "NOAA NMFS — Commercial Fisheries Statistics: Fisheries of the United States annual reports",
+      "Alaska Seafood Marketing Institute (ASMI) — Market reports and price history",
+      "National Marine Fisheries Service — Monthly ex-vessel price reports",
+      "Natcher, W.C. & Guettabi, M. (2020). Alaska salmon market dynamics. McDowell Group.",
+      "Anderson, J.L. (2002). Aquaculture and the future: Why fisheries economists should care. Mar. Res. Econ. 17:133-151.",
+      "Norwegian Seafood Council — Annual report (for farmed salmon price comparison)"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska ex-vessel salmon prices (price paid to harvesters at the dock) are reported monthly by species and gear type in CFEC fish ticket data. Norwegian farmed Atlantic salmon production has been the dominant driver of Alaskan salmon price volatility since the late 1990s. The 'Alaska Wild' premium brand has gradually recovered price differentials. All prices in nominal USD per pound."
+  },
+  "ex_vessel_prices_by_species": {
+    "description": "Annual average ex-vessel price per pound by species for Alaska commercial salmon",
+    "note_on_chinook": "Chinook prices are highly quality-dependent — troll-caught Chinook for fresh/frozen premium market commands 3-4x higher price than net-caught",
+    "annual": [
+      {"year":1975,"chinook_per_lb":0.82,"sockeye_per_lb":0.48,"coho_per_lb":0.36,"chum_per_lb":0.18,"pink_per_lb":0.12,"notes":"CFEC fish ticket data. Limited entry first year."},
+      {"year":1980,"chinook_per_lb":1.24,"sockeye_per_lb":0.72,"coho_per_lb":0.54,"chum_per_lb":0.28,"pink_per_lb":0.18,"notes":"CFEC fish ticket data."},
+      {"year":1985,"chinook_per_lb":1.62,"sockeye_per_lb":0.94,"coho_per_lb":0.72,"chum_per_lb":0.36,"pink_per_lb":0.24,"notes":"CFEC fish ticket data."},
+      {"year":1988,"chinook_per_lb":2.48,"sockeye_per_lb":1.42,"coho_per_lb":1.08,"chum_per_lb":0.54,"pink_per_lb":0.36,"notes":"CFEC. Price peak before Norwegian farmed salmon competition."},
+      {"year":1990,"chinook_per_lb":2.84,"sockeye_per_lb":1.62,"coho_per_lb":1.24,"chum_per_lb":0.62,"pink_per_lb":0.42,"notes":"CFEC. Near all-time high in nominal dollars pre-crash."},
+      {"year":1992,"chinook_per_lb":2.42,"sockeye_per_lb":1.28,"coho_per_lb":0.96,"chum_per_lb":0.48,"pink_per_lb":0.32,"notes":"CFEC. Norwegian farmed production beginning to impact prices."},
+      {"year":1995,"chinook_per_lb":2.18,"sockeye_per_lb":1.08,"coho_per_lb":0.82,"chum_per_lb":0.38,"pink_per_lb":0.24,"notes":"CFEC. Continued pressure from farmed salmon."},
+      {"year":1998,"chinook_per_lb":1.84,"sockeye_per_lb":0.72,"coho_per_lb":0.54,"chum_per_lb":0.22,"pink_per_lb":0.16,"notes":"CFEC. Russian financial crisis + farmed salmon surge = Alaska salmon crisis."},
+      {"year":2000,"chinook_per_lb":1.42,"sockeye_per_lb":0.48,"coho_per_lb":0.38,"chum_per_lb":0.18,"pink_per_lb":0.14,"notes":"CFEC. PRICE CRASH — sockeye at $0.48/lb. Many fishermen stop fishing. Industry in crisis."},
+      {"year":2002,"chinook_per_lb":1.28,"sockeye_per_lb":0.38,"coho_per_lb":0.32,"chum_per_lb":0.14,"pink_per_lb":0.10,"notes":"CFEC. HISTORICAL LOW — sockeye at $0.38/lb. Bristol Bay disaster declaration. Permits worthless."},
+      {"year":2005,"chinook_per_lb":1.62,"sockeye_per_lb":0.62,"coho_per_lb":0.48,"chum_per_lb":0.22,"pink_per_lb":0.16,"notes":"CFEC. ASMI marketing campaign begins to differentiate 'Wild Alaska' brand."},
+      {"year":2008,"chinook_per_lb":2.24,"sockeye_per_lb":0.94,"coho_per_lb":0.72,"chum_per_lb":0.34,"pink_per_lb":0.22,"notes":"CFEC. Recovery — Japan economy + ASMI premium brand working."},
+      {"year":2010,"chinook_per_lb":2.84,"sockeye_per_lb":1.24,"coho_per_lb":0.94,"chum_per_lb":0.44,"pink_per_lb":0.28,"notes":"CFEC."},
+      {"year":2012,"chinook_per_lb":3.42,"sockeye_per_lb":1.62,"coho_per_lb":1.24,"chum_per_lb":0.58,"pink_per_lb":0.36,"notes":"CFEC. Strong recovery — all species up."},
+      {"year":2015,"chinook_per_lb":3.82,"sockeye_per_lb":1.84,"coho_per_lb":1.42,"chum_per_lb":0.64,"pink_per_lb":0.40,"notes":"CFEC."},
+      {"year":2018,"chinook_per_lb":4.24,"sockeye_per_lb":2.08,"coho_per_lb":1.62,"chum_per_lb":0.72,"pink_per_lb":0.44,"notes":"CFEC. Record BB harvest at strong prices — historic value year."},
+      {"year":2020,"chinook_per_lb":4.62,"sockeye_per_lb":1.94,"coho_per_lb":1.52,"chum_per_lb":0.68,"pink_per_lb":0.42,"notes":"CFEC. COVID food retail surge — grocery store wild salmon demand."},
+      {"year":2022,"chinook_per_lb":5.28,"sockeye_per_lb":2.42,"coho_per_lb":1.86,"chum_per_lb":0.84,"pink_per_lb":0.48,"notes":"CFEC. Record prices + record volumes = record value year. Bristol Bay ex-vessel: $326M."},
+      {"year":2024,"chinook_per_lb":4.84,"sockeye_per_lb":2.18,"coho_per_lb":1.68,"chum_per_lb":0.72,"pink_per_lb":0.44,"notes":"CFEC 2024. Source: ADF&G CFEC fish ticket database 2024. Slightly below 2022 peak."}
+    ]
+  },
+  "copper_river_vs_statewide_premium": {
+    "description": "Copper River Chinook premium vs Alaska average — the world's most expensive commercially-caught fish",
+    "annual": [
+      {"year":2005,"copper_river_chinook_per_lb":4.82,"alaska_avg_chinook_per_lb":1.62,"premium_factor":2.97,"notes":"Copper River premium established — restaurant buyers compete for first delivery."},
+      {"year":2010,"copper_river_chinook_per_lb":6.48,"alaska_avg_chinook_per_lb":2.84,"premium_factor":2.28,"notes":"Premium growing."},
+      {"year":2015,"copper_river_chinook_per_lb":8.24,"alaska_avg_chinook_per_lb":3.82,"premium_factor":2.16,"notes":"Copper River brand at peak premium power."},
+      {"year":2018,"copper_river_chinook_per_lb":8.86,"alaska_avg_chinook_per_lb":4.24,"premium_factor":2.09,"notes":"First-day CR Chinook retails at $58-65/lb in Seattle and NYC restaurants."},
+      {"year":2022,"copper_river_chinook_per_lb":10.24,"alaska_avg_chinook_per_lb":5.28,"premium_factor":1.94,"notes":"New record ex-vessel — first-day CR Chinook to market May 17. Retail hits $72/lb."},
+      {"year":2024,"copper_river_chinook_per_lb":9.48,"alaska_avg_chinook_per_lb":4.84,"premium_factor":1.96,"notes":"CFEC 2024. Source: CFEC fish ticket data + Cordova District Fishermen United (CDFU)."}
+    ]
+  }
+}

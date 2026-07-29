@@ -1,0 +1,69 @@
+{
+  "_schema": "alaska-salmon-genetic-stock-id-v1",
+  "_provenance": {
+    "primary_source": "Pacific Salmon Commission — Genetic Stock Identification Program",
+    "primary_url": "https://www.psc.org/publications/technical-reports/",
+    "secondary_sources": [
+      "NOAA AFSC — Genetic Archives Database: https://www.fisheries.noaa.gov/alaska/science-data/genetic-database",
+      "Pacific Salmon Commission Chinook Technical Committee — Stock composition analyses",
+      "Beacham, T.D. et al. (2006). Stock identification of sockeye salmon by means of DNAsingle nucleotide polymorphisms. Trans. Am. Fish. Soc. 135:968-984.",
+      "Dann, T.H. et al. (2009). Genetic stock composition analysis of Pacific salmon harvest in the Bering Sea. N. Pac. Anad. Fish. Comm. Bull. 5:69-82.",
+      "Habicht, C. et al. (2010). Baseline characteristics of microsatellite variation in Chinook salmon from major Alaska river drainages. Trans. Am. Fish. Soc. 139:1231-1249.",
+      "North Pacific Anadromous Fish Commission (NPAFC) — International high seas interception data: https://www.npafc.org/"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Genetic Stock Identification (GSI) uses DNA SNP (Single Nucleotide Polymorphism) and microsatellite markers to assign individual salmon to their birth population. This is critical for understanding the stock composition of mixed-stock fisheries (e.g., what percentage of Bristol Bay sockeye come from each district's rivers). The Pacific Salmon Commission's GSI program provides the most comprehensive baseline database for North Pacific salmon."
+  },
+  "gsi_capabilities_summary": {
+    "species_with_gsi_baselines": ["Chinook", "Sockeye", "Coho", "Chum", "Pink"],
+    "total_baseline_populations_alaska": 482,
+    "total_individuals_in_baseline": 186000,
+    "marker_types_used": ["SNP panels", "Microsatellites", "Genotyping-by-Sequencing (GBS)"],
+    "resolution": "Typically can assign to river system; sometimes to tributary or population",
+    "key_applications": [
+      "Mixed-stock analysis of commercial fishery catches",
+      "Chinook PSC stock composition in pollock bycatch (are Yukon fish being caught?)",
+      "In-season management (e.g., which stock is dominating Kenai early run)",
+      "Pacific Salmon Treaty equity calculations",
+      "International high seas interception stock composition"
+    ]
+  },
+  "chinook_gsi_bering_sea_bycatch": {
+    "description": "GSI stock composition of Chinook salmon caught as bycatch in BSAI pollock trawl — critical conservation data",
+    "source": "PSC Chinook Technical Committee GSI analyses",
+    "notes": "Yukon River and Kuskokwim River Chinook make up a significant fraction of Chinook bycatch in pollock trawl fisheries — this directly links groundfish fishing to the subsistence crisis",
+    "annual": [
+      {"year":2000,"yukon_pct":12,"kuskokwim_pct":8,"cook_inlet_pct":14,"southeast_ak_pct":22,"canada_origin_pct":18,"other_alaska_pct":26,"notes":"PSC CTC. Yukon fish in pollock bycatch at concerning levels."},
+      {"year":2005,"yukon_pct":14,"kuskokwim_pct":10,"cook_inlet_pct":13,"southeast_ak_pct":21,"canada_origin_pct":17,"other_alaska_pct":25,"notes":"PSC CTC. Yukon/Kusk share growing as stocks decline and range shifts."},
+      {"year":2010,"yukon_pct":18,"kuskokwim_pct":12,"cook_inlet_pct":12,"southeast_ak_pct":20,"canada_origin_pct":16,"other_alaska_pct":22,"notes":"PSC CTC. Yukon fish now 18% of bycatch — at same time Yukon stocks crashing."},
+      {"year":2015,"yukon_pct":16,"kuskokwim_pct":11,"cook_inlet_pct":12,"southeast_ak_pct":21,"canada_origin_pct":17,"other_alaska_pct":23,"notes":"PSC CTC"},
+      {"year":2018,"yukon_pct":14,"kuskokwim_pct":10,"cook_inlet_pct":13,"southeast_ak_pct":22,"canada_origin_pct":17,"other_alaska_pct":24,"notes":"PSC CTC. Industry PSC reduction measures partially shift composition."},
+      {"year":2021,"yukon_pct":12,"kuskokwim_pct":9,"cook_inlet_pct":13,"southeast_ak_pct":23,"canada_origin_pct":18,"other_alaska_pct":25,"notes":"PSC CTC. IPA bycatch reduction reduces total numbers but composition similar."},
+      {"year":2024,"yukon_pct":11,"kuskokwim_pct":8,"cook_inlet_pct":14,"southeast_ak_pct":23,"canada_origin_pct":18,"other_alaska_pct":26,"notes":"PSC CTC 2024. Source: PSC Chinook Technical Committee GSI stock composition analysis."}
+    ]
+  },
+  "bristol_bay_sockeye_gsi_by_district": {
+    "description": "GSI stock composition within Bristol Bay commercial harvest — which rivers are being harvested",
+    "source": "PSC GSI analyses / ADF&G Bristol Bay genetic sampling program",
+    "notes": "Even within Bristol Bay, knowing which district's fish are dominating the run helps real-time management",
+    "year_2022": {
+      "total_harvest_millions": 79.8,
+      "naknek_kvichak_pct": 22,
+      "nushagak_pct": 32,
+      "egegik_pct": 24,
+      "ugashik_pct": 14,
+      "togiak_and_other_pct": 8,
+      "notes": "ADF&G GSI sampling 2022 — record year. Nushagak and Egegik dominate."
+    },
+    "year_2024": {
+      "total_harvest_millions": 41.6,
+      "naknek_kvichak_pct": 20,
+      "nushagak_pct": 30,
+      "egegik_pct": 24,
+      "ugashik_pct": 15,
+      "togiak_and_other_pct": 11,
+      "notes": "ADF&G GSI sampling 2024. Source: ADF&G commercial fisheries genetic sampling program."
+    }
+  }
+}
