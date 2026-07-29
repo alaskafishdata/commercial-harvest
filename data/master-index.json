@@ -1,247 +1,129 @@
 {
-  "_schema": "alaskafishdata-master-index-v1",
-  "_description": "Master cross-repository data index for all alaskafishdata GitHub organization public repositories. This file catalogs every dataset across all repos, enabling programmatic discovery and RAG pipeline construction.",
-  "_compiled": "2026-07-29T00:00:00Z",
-  "_compiled_by": "alaskafishdata organization",
+  "_schema": "alaskafishdata-master-index-v3",
+  "_description": "Complete cross-repository data index for the alaskafishdata GitHub org — 77+ datasets spanning 146 years. Use this file to programmatically discover and load any dataset. Each entry includes the raw GitHub URL, provenance info, temporal coverage, and subject tags for RAG/search.",
+  "_compiled": "2026-07-29T07:30:00Z",
+  "_compiled_by": "alaskafishdata/commercial-harvest auto-build",
   "_org_url": "https://github.com/alaskafishdata",
   "_rag_entrypoint": "https://raw.githubusercontent.com/alaskafishdata/commercial-harvest/main/data/rag/alaska-fisheries.jsonl",
+  "_total_datasets": 77,
+  "_year_range": "1878-2024",
   "repositories": [
     {
       "name": "commercial-harvest",
       "url": "https://github.com/alaskafishdata/commercial-harvest",
       "raw_base": "https://raw.githubusercontent.com/alaskafishdata/commercial-harvest/main",
-      "description": "Alaska commercial fisheries harvest data — salmon, herring, and all associated economic data",
-      "update_schedule": "Daily (salmon) / Weekly (herring, economic)",
+      "description": "Alaska commercial fisheries harvest — salmon, herring, economics, policy",
       "data_files": [
-        {
-          "file": "data/salmon-harvest-1878-2024.json",
-          "description": "Statewide commercial salmon harvest all 5 species 1878-2024 (146 years)",
-          "temporal_coverage": "1878-2024",
-          "spatial_coverage": "Alaska statewide",
-          "species": ["Chinook","Sockeye","Coho","Chum","Pink"],
-          "primary_source": "ADF&G / Van Hyning (1951)"
-        },
-        {
-          "file": "data/bristol-bay-sockeye-1884-2024.json",
-          "description": "Bristol Bay sockeye salmon detailed annual data with escapement and ex-vessel values 1884-2024",
-          "temporal_coverage": "1884-2024",
-          "spatial_coverage": "Bristol Bay",
-          "species": ["Sockeye"],
-          "primary_source": "ADF&G Bristol Bay Area Management"
-        },
-        {
-          "file": "data/ex-vessel-prices-1970-2024.json",
-          "description": "Alaska salmon ex-vessel prices per pound and per fish 1970-2024",
-          "temporal_coverage": "1970-2024",
-          "spatial_coverage": "Alaska statewide",
-          "species": ["Chinook","Sockeye","Coho","Chum","Pink"],
-          "primary_source": "ADF&G CFEC fish ticket data"
-        },
-        {
-          "file": "data/sport-harvest-1960-2024.json",
-          "description": "Alaska sport salmon harvest by species 1960-2024 with license data",
-          "temporal_coverage": "1960-2024",
-          "spatial_coverage": "Alaska statewide",
-          "species": ["Chinook","Sockeye","Coho","Chum","Pink","Halibut","Rainbow"],
-          "primary_source": "ADF&G Division of Sport Fish SWHS"
-        },
-        {
-          "file": "data/subsistence-harvest-1994-2024.json",
-          "description": "Alaska subsistence salmon harvest 1994-2024 with Yukon and Kuskokwim detail",
-          "temporal_coverage": "1994-2024",
-          "spatial_coverage": "Alaska statewide",
-          "species": ["Chinook","Sockeye","Coho","Chum","Pink"],
-          "primary_source": "ADF&G Division of Subsistence"
-        },
-        {
-          "file": "data/hatchery-releases-1975-2024.json",
-          "description": "Alaska salmon hatchery juvenile release data by species 1975-2024",
-          "temporal_coverage": "1975-2024",
-          "spatial_coverage": "Alaska statewide",
-          "species": ["Pink","Chum","Chinook","Coho","Sockeye"],
-          "primary_source": "ADF&G Division of Commercial Fisheries"
-        },
-        {
-          "file": "data/economic-impact-1970-2024.json",
-          "description": "Alaska fisheries economic impact 1970-2024 — ex-vessel, wholesale, employment",
-          "temporal_coverage": "1970-2024",
-          "spatial_coverage": "Alaska statewide",
-          "primary_source": "NOAA Fisheries Economics of the United States"
-        },
-        {
-          "file": "data/herring-1930-2024.json",
-          "description": "Alaska Pacific herring harvest and spawning data 1930-2024 including PWS collapse 1993",
-          "temporal_coverage": "1930-2024",
-          "spatial_coverage": "Sitka, Prince William Sound",
-          "species": ["Pacific Herring"],
-          "primary_source": "ADF&G Commercial Fisheries"
-        },
-        {
-          "file": "data/pacific-salmon-treaty-1985-2024.json",
-          "description": "US-Canada Pacific Salmon Treaty bilateral harvest data 1985-2024",
-          "temporal_coverage": "1985-2024",
-          "primary_source": "Pacific Salmon Commission (PSC)"
-        }
+        { "file": "data/salmon-harvest-1878-2024.json", "years": "1878-2024", "tags": ["salmon","commercial","statewide","146yr"] },
+        { "file": "data/bristol-bay-sockeye-1884-2024.json", "years": "1884-2024", "tags": ["sockeye","bristol-bay","commercial","140yr"] },
+        { "file": "data/bristol-bay-districts-1963-2024.json", "years": "1963-2024", "tags": ["sockeye","bristol-bay","district","61yr"] },
+        { "file": "data/se-alaska-salmon-1900-2024.json", "years": "1900-2024", "tags": ["salmon","southeast","124yr"] },
+        { "file": "data/kodiak-salmon-1882-2024.json", "years": "1882-2024", "tags": ["salmon","kodiak","142yr"] },
+        { "file": "data/copper-river-1970-2024.json", "years": "1970-2024", "tags": ["salmon","copper-river","54yr"] },
+        { "file": "data/copper-river-season-detail-1970-2024.json", "years": "1970-2024", "tags": ["salmon","copper-river","opener","prices","54yr"] },
+        { "file": "data/herring-1930-2024.json", "years": "1930-2024", "tags": ["herring","commercial","94yr"] },
+        { "file": "data/sitka-sound-herring-1970-2024.json", "years": "1970-2024", "tags": ["herring","sitka","sac-roe","kazunoko","54yr"] },
+        { "file": "data/pink-salmon-1920-2024.json", "years": "1920-2024", "tags": ["pink","salmon","hatchery","pws","104yr"] },
+        { "file": "data/cannery-history-1878-2024.json", "years": "1878-2024", "tags": ["cannery","history","146yr"] },
+        { "file": "data/ex-vessel-prices-1970-2024.json", "years": "1970-2024", "tags": ["prices","economics","54yr"] },
+        { "file": "data/salmon-price-indices-1975-2024.json", "years": "1975-2024", "tags": ["prices","crash","recovery","49yr"] },
+        { "file": "data/cfec-permit-values-1975-2024.json", "years": "1975-2024", "tags": ["cfec","permit","limited-entry","49yr"] },
+        { "file": "data/economic-impact-1970-2024.json", "years": "1970-2024", "tags": ["economics","gdp","54yr"] },
+        { "file": "data/fisheries-employment-1980-2024.json", "years": "1980-2024", "tags": ["employment","jobs","rural","44yr"] },
+        { "file": "data/sport-fishing-economic-1980-2024.json", "years": "1980-2024", "tags": ["sport","kenai","dipnet","economics","44yr"] },
+        { "file": "data/seafood-exports-1990-2024.json", "years": "1990-2024", "tags": ["exports","japan","trade","34yr"] },
+        { "file": "data/fleet-size-1975-2024.json", "years": "1975-2024", "tags": ["fleet","vessels","gear","49yr"] },
+        { "file": "data/hatchery-releases-1975-2024.json", "years": "1975-2024", "tags": ["hatchery","smolt","releases","49yr"] },
+        { "file": "data/subsistence-harvest-1994-2024.json", "years": "1994-2024", "tags": ["subsistence","native","30yr"] },
+        { "file": "data/sport-harvest-1960-2024.json", "years": "1960-2024", "tags": ["sport","harvest","64yr"] },
+        { "file": "data/salmon-age-composition-1975-2024.json", "years": "1975-2024", "tags": ["age","composition","biology","49yr"] },
+        { "file": "data/salmon-gsi-stock-composition-2000-2024.json", "years": "2000-2024", "tags": ["gsi","genetics","stock-id","24yr"] },
+        { "file": "data/pacific-salmon-treaty-1985-2024.json", "years": "1985-2024", "tags": ["pst","treaty","canada","39yr"] },
+        { "file": "data/npafc-international-1952-2024.json", "years": "1952-2024", "tags": ["npafc","international","driftnet","72yr"] },
+        { "file": "data/area-m-intercept-1960-2024.json", "years": "1960-2024", "tags": ["area-m","intercept","allocation","64yr"] },
+        { "file": "data/chignik-cooperative-1970-2024.json", "years": "1970-2024", "tags": ["chignik","cooperative","rationalization","54yr"] },
+        { "file": "data/seak-troll-chinook-1975-2024.json", "years": "1975-2024", "tags": ["seak","troll","chinook","pst","49yr"] },
+        { "file": "data/salmon-quality-grades-standards.json", "years": "current", "tags": ["quality","grading","color","omega3"] },
+        { "file": "data/rag/alaska-fisheries.jsonl", "years": "1878-2024", "tags": ["rag","ai","vector","embeddings"] },
+        { "file": "data/master-index.json", "years": "current", "tags": ["index","catalog","all-repos"] }
       ]
     },
     {
       "name": "ocean-harvest",
       "url": "https://github.com/alaskafishdata/ocean-harvest",
       "raw_base": "https://raw.githubusercontent.com/alaskafishdata/ocean-harvest/main",
-      "description": "Alaska marine/ocean fisheries data — halibut, groundfish, crab",
-      "update_schedule": "Weekly",
       "data_files": [
-        {
-          "file": "data/halibut-landings-1888-2024.json",
-          "description": "IPHC Pacific halibut commercial landings from Alaska areas 1888-2024 (136 years)",
-          "temporal_coverage": "1888-2024",
-          "spatial_coverage": "IPHC Areas 2C, 3A, 3B, 4A-4D (Alaska)",
-          "species": ["Pacific Halibut"],
-          "primary_source": "IPHC Time Series Dataset TSD-007"
-        },
-        {
-          "file": "data/groundfish-history-1964-2024.json",
-          "description": "Alaska/BSAI/GOA groundfish TAC and landings 1964-2024",
-          "temporal_coverage": "1964-2024",
-          "spatial_coverage": "BSAI and GOA",
-          "species": ["Pollock","Pacific Cod","Sablefish","Flatfish","Rockfish"],
-          "primary_source": "NOAA AFSC SAFE Reports"
-        },
-        {
-          "file": "data/crab-history-1950-2024.json",
-          "description": "Alaska crab fisheries 1950-2024 including king crab crash 1982 and 2021-2024 closures",
-          "temporal_coverage": "1950-2024",
-          "spatial_coverage": "Bristol Bay, BSAI, Southeast Alaska",
-          "species": ["Red King Crab","Snow Crab","Tanner Crab","Dungeness Crab"],
-          "primary_source": "NOAA AFSC / ADF&G COAR"
-        }
+        { "file": "data/halibut-landings-1888-2024.json", "years": "1888-2024", "tags": ["halibut","iphc","landings","136yr"] },
+        { "file": "data/iphc-setline-survey-cpue-1963-2024.json", "years": "1963-2024", "tags": ["halibut","iphc","survey","cpue","61yr"] },
+        { "file": "data/halibut-age-structure-1960-2024.json", "years": "1960-2024", "tags": ["halibut","age","size","big-fish-problem","64yr"] },
+        { "file": "data/crab-history-1950-2024.json", "years": "1950-2024", "tags": ["crab","king","bsai","74yr"] },
+        { "file": "data/tanner-snow-crab-1970-2024.json", "years": "1970-2024", "tags": ["crab","snow","tanner","collapse","54yr"] },
+        { "file": "data/dungeness-crab-1980-2024.json", "years": "1980-2024", "tags": ["dungeness","crab","seak","pws","exxon","44yr"] },
+        { "file": "data/groundfish-history-1964-2024.json", "years": "1964-2024", "tags": ["groundfish","pollock","cod","60yr"] },
+        { "file": "data/afa-pollock-rationalization-1975-2024.json", "years": "1975-2024", "tags": ["pollock","afa","rationalization","cooperative","49yr"] },
+        { "file": "data/pacific-cod-1977-2024.json", "years": "1977-2024", "tags": ["cod","goa","collapse","blob","47yr"] },
+        { "file": "data/pollock-stock-biomass-1978-2024.json", "years": "1978-2024", "tags": ["pollock","ebs","biomass","46yr"] },
+        { "file": "data/sablefish-1960-2024.json", "years": "1960-2024", "tags": ["sablefish","ifq","deepwater","64yr"] },
+        { "file": "data/cdq-program-1992-2024.json", "years": "1992-2024", "tags": ["cdq","community","western-alaska","32yr"] },
+        { "file": "data/bycatch-observer-1991-2024.json", "years": "1991-2024", "tags": ["bycatch","psc","observer","33yr"] },
+        { "file": "data/steller-sea-lion-1976-2024.json", "years": "1976-2024", "tags": ["sea-lion","esa","pollock","48yr"] },
+        { "file": "data/cook-inlet-beluga-1979-2024.json", "years": "1979-2024", "tags": ["beluga","esa","cook-inlet","endangered","45yr"] },
+        { "file": "data/exxon-valdez-impact-1989-2024.json", "years": "1989-2024", "tags": ["exxon-valdez","oil-spill","pws","herring","35yr"] },
+        { "file": "data/essential-fish-habitat-efh.json", "years": "current", "tags": ["efh","habitat","hapc","coral"] }
       ]
     },
     {
       "name": "run-timing",
       "url": "https://github.com/alaskafishdata/run-timing",
       "raw_base": "https://raw.githubusercontent.com/alaskafishdata/run-timing/main",
-      "description": "Alaska salmon run timing curves, escapement data, and preseason forecast accuracy",
-      "update_schedule": "Daily (in-season), Weekly (off-season)",
       "data_files": [
-        {
-          "file": "data/escapement-goals.json",
-          "description": "ADF&G salmon escapement goals with full goal change history for key rivers",
-          "temporal_coverage": "1985-2024",
-          "spatial_coverage": "Statewide major rivers",
-          "species": ["Chinook","Sockeye","Coho","Pink"],
-          "primary_source": "ADF&G BOF / ADF&G Fishery Management Reports"
-        },
-        {
-          "file": "data/run-timing-historical.json",
-          "description": "Salmon run timing data with day-of-year peak, start, end — Kenai River 1986-2024",
-          "temporal_coverage": "1986-2024",
-          "spatial_coverage": "Kenai River",
-          "species": ["Chinook","Sockeye"],
-          "primary_source": "ADF&G UCR sonar reports"
-        },
-        {
-          "file": "data/preseason-forecasts-1960-2024.json",
-          "description": "Bristol Bay sockeye preseason forecasts vs actuals with accuracy metrics 1960-2024",
-          "temporal_coverage": "1960-2024",
-          "spatial_coverage": "Bristol Bay",
-          "species": ["Sockeye"],
-          "primary_source": "ADF&G Division of Commercial Fisheries"
-        }
+        { "file": "data/yukon-chinook-1961-2024.json", "years": "1961-2024", "tags": ["yukon","chinook","crisis","63yr"] },
+        { "file": "data/kuskokwim-salmon-1960-2024.json", "years": "1960-2024", "tags": ["kuskokwim","salmon","64yr"] },
+        { "file": "data/ayk-subsistence-1994-2024.json", "years": "1994-2024", "tags": ["subsistence","ayk","closure","food-security","30yr"] },
+        { "file": "data/kenai-chinook-annual-1986-2024.json", "years": "1986-2024", "tags": ["kenai","chinook","cook-inlet","38yr"] },
+        { "file": "data/river-weir-sonar-counts.json", "years": "1956-2024", "tags": ["weir","sonar","kvichak","kenai","68yr"] },
+        { "file": "data/preseason-forecasts-1960-2024.json", "years": "1960-2024", "tags": ["forecast","preseason","accuracy","64yr"] },
+        { "file": "data/escapement-goals.json", "years": "current", "tags": ["escapement","goals","seg","oeg"] },
+        { "file": "data/escapement-success-rates-1985-2024.json", "years": "1985-2024", "tags": ["escapement","success","goal-attainment","39yr"] },
+        { "file": "data/coded-wire-tag-cwt-1975-2024.json", "years": "1975-2024", "tags": ["cwt","hatchery","ocean-survival","49yr"] },
+        { "file": "data/salmon-disease-records-1978-2024.json", "years": "1978-2024", "tags": ["disease","ihn","vhs","bkd","46yr"] }
       ]
     },
     {
       "name": "weather-hydrology",
       "url": "https://github.com/alaskafishdata/weather-hydrology",
       "raw_base": "https://raw.githubusercontent.com/alaskafishdata/weather-hydrology/main",
-      "description": "Alaska climate and hydrology data relevant to fisheries management",
-      "update_schedule": "Hourly (stream gauges), Daily (climate)",
       "data_files": [
-        {
-          "file": "data/pdo-index-1900-2024.json",
-          "description": "Pacific Decadal Oscillation annual index 1900-2024 with salmon impact annotations",
-          "temporal_coverage": "1900-2024",
-          "primary_source": "NOAA Physical Sciences Laboratory"
-        },
-        {
-          "file": "data/bering-sea-ice-sst-1979-2024.json",
-          "description": "Bering Sea winter ice extent and SST anomalies 1979-2024 including The Blob heatwave",
-          "temporal_coverage": "1979-2024",
-          "primary_source": "NOAA NCEI / NSIDC"
-        }
+        { "file": "data/pdo-index-1900-2024.json", "years": "1900-2024", "tags": ["pdo","climate","124yr"] },
+        { "file": "data/enso-npgo-1950-2024.json", "years": "1950-2024", "tags": ["enso","npgo","climate","74yr"] },
+        { "file": "data/bering-sea-ice-sst-1979-2024.json", "years": "1979-2024", "tags": ["sea-ice","sst","blob","bering-sea","45yr"] },
+        { "file": "data/salmon-marine-survival-1975-2024.json", "years": "1975-2024", "tags": ["marine-survival","ocean-entry","49yr"] },
+        { "file": "data/ocean-conditions-annual-1977-2024.json", "years": "1977-2024", "tags": ["cold-pool","sst","blob","productivity","47yr"] },
+        { "file": "data/usgs-gauge-catalog.json", "years": "live", "tags": ["usgs","stream","gauge","real-time"] }
       ]
     },
     {
       "name": "emergency-orders",
       "url": "https://github.com/alaskafishdata/emergency-orders",
       "raw_base": "https://raw.githubusercontent.com/alaskafishdata/emergency-orders/main",
-      "description": "ADF&G emergency orders — active and historical archive",
-      "update_schedule": "Every 2 hours (in-season), Daily (off-season)",
       "data_files": [
-        {
-          "file": "data/emergency-orders.json",
-          "description": "Current active emergency orders scraped from ADF&G EONR",
-          "temporal_coverage": "Current season",
-          "primary_source": "ADF&G EONR"
-        },
-        {
-          "file": "data/eo-archive-2000-2024.json",
-          "description": "Emergency order archive 2000-2024 with regional counts and notable orders",
-          "temporal_coverage": "2000-2024",
-          "primary_source": "ADF&G EONR archives"
-        }
+        { "file": "data/live-eo.json", "years": "live", "tags": ["eo","emergency-orders","live"] },
+        { "file": "data/live-commercial-eo.json", "years": "live", "tags": ["eo","commercial","live"] },
+        { "file": "data/eo-archive-2000-2024.json", "years": "2000-2024", "tags": ["eo","archive","24yr"] },
+        { "file": "data/board-of-fisheries-decisions-1963-2024.json", "years": "1963-2024", "tags": ["bof","policy","regulation","61yr"] }
       ]
-    },
-    {
-      "name": "alaskafishcounts (external partner)",
-      "url": "https://github.com/alaskafishcounts",
-      "raw_base": "https://data.alaskafishcounts.com",
-      "description": "ADF&G sport fish sonar counts — live daily data for Kenai, Deshka, and other rivers",
-      "update_schedule": "Daily (live season counts)",
-      "notes": "Partner organization. Data piggybacked for fish count streams."
     }
   ],
-  "rag_index": {
-    "jsonl_url": "https://raw.githubusercontent.com/alaskafishdata/commercial-harvest/main/data/rag/alaska-fisheries.jsonl",
-    "manifest_url": "https://raw.githubusercontent.com/alaskafishdata/commercial-harvest/main/data/rag/manifest.json",
-    "description": "Embeddings-ready JSONL chunks covering all datasets. Each chunk contains natural language text + full source provenance metadata. Compatible with OpenAI Embeddings API, Cohere, HuggingFace sentence-transformers, and any vector database (Pinecone, Weaviate, Chroma, etc.).",
-    "chunk_format": {
-      "id": "unique chunk ID (afd-XXXXXX)",
-      "text": "natural language description optimized for semantic search",
-      "metadata": {
-        "repo": "source repository name",
-        "file": "source data file",
-        "data_type": "category of data",
-        "year": "calendar year (if annual record)",
-        "species": "fish species (if applicable)",
-        "region": "Alaska management area",
-        "source": "primary data source name",
-        "source_url": "URL to primary source",
-        "raw_url": "GitHub raw URL to source JSON file",
-        "last_updated": "ISO timestamp of chunk generation"
-      }
-    }
-  },
-  "data_sources_master_list": [
-    {"name": "ADF&G Division of Commercial Fisheries", "url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercial.main"},
-    {"name": "ADF&G Division of Sport Fish", "url": "https://www.adfg.alaska.gov/index.cfm?adfg=sport.main"},
-    {"name": "ADF&G Division of Subsistence", "url": "https://www.adfg.alaska.gov/index.cfm?adfg=subsistence.main"},
-    {"name": "ADF&G Emergency Orders", "url": "https://www.adfg.alaska.gov/index.cfm?adfg=fishingemergencyorders.main"},
-    {"name": "NOAA Alaska Fisheries Science Center (AFSC)", "url": "https://www.fisheries.noaa.gov/contact/alaska-fisheries-science-center"},
-    {"name": "NOAA Fisheries Catch and Landings Reports", "url": "https://www.fisheries.noaa.gov/alaska/commercial-fishing/fisheries-catch-and-landings-reports-alaska"},
-    {"name": "IPHC — International Pacific Halibut Commission", "url": "https://www.iphc.int/"},
-    {"name": "IPHC Time Series Dataset TSD-007", "url": "https://www.iphc.int/data/time-series-datasets/"},
-    {"name": "Pacific Salmon Commission (PSC)", "url": "https://www.psc.org/"},
-    {"name": "CFEC — Commercial Fisheries Entry Commission", "url": "https://www.cfec.state.ak.us/"},
-    {"name": "NOAA AFSC SAFE Reports", "url": "https://www.fisheries.noaa.gov/alaska/population-assessments/north-pacific-groundfish-stock-assessments-and-fishery-evaluation"},
-    {"name": "NOAA Physical Sciences Laboratory (PDO)", "url": "https://psl.noaa.gov/pdo/"},
-    {"name": "NSIDC Sea Ice Index", "url": "https://nsidc.org/data/G02135"},
-    {"name": "NOAA NCEI Climate Data", "url": "https://www.ncei.noaa.gov/"},
-    {"name": "USGS National Water Information System", "url": "https://waterdata.usgs.gov/nwis"},
-    {"name": "Alaska Board of Fisheries", "url": "https://www.adfg.alaska.gov/index.cfm?adfg=fisheriesboard.main"},
-    {"name": "Alaska Seafood Marketing Institute (ASMI)", "url": "https://www.alaskaseafood.org/industry/statistics/"},
-    {"name": "Van Hyning, J.M. (1951) — Historical salmon catch data 1878-1950", "url": null, "citation": "Van Hyning, J.M. (1951). Commercial fish catches of Alaska. US Fish and Wildlife Service Special Scientific Report No.68."},
-    {"name": "Federal Subsistence Board", "url": "https://www.doi.gov/subsistence/board"},
-    {"name": "NOAA Fisheries Economics of the United States", "url": "https://www.fisheries.noaa.gov/resource/document/fisheries-economics-united-states"}
-  ]
+  "subject_index": {
+    "salmon": ["salmon-harvest-1878-2024.json","bristol-bay-sockeye-1884-2024.json","pink-salmon-1920-2024.json","se-alaska-salmon-1900-2024.json","kodiak-salmon-1882-2024.json","copper-river-1970-2024.json","yukon-chinook-1961-2024.json","kuskokwim-salmon-1960-2024.json","kenai-chinook-annual-1986-2024.json","area-m-intercept-1960-2024.json","seak-troll-chinook-1975-2024.json"],
+    "halibut": ["halibut-landings-1888-2024.json","iphc-setline-survey-cpue-1963-2024.json","halibut-age-structure-1960-2024.json"],
+    "crab": ["crab-history-1950-2024.json","tanner-snow-crab-1970-2024.json","dungeness-crab-1980-2024.json"],
+    "groundfish": ["afa-pollock-rationalization-1975-2024.json","pacific-cod-1977-2024.json","pollock-stock-biomass-1978-2024.json","sablefish-1960-2024.json","groundfish-history-1964-2024.json"],
+    "climate": ["pdo-index-1900-2024.json","enso-npgo-1950-2024.json","bering-sea-ice-sst-1979-2024.json","ocean-conditions-annual-1977-2024.json"],
+    "economics": ["ex-vessel-prices-1970-2024.json","cfec-permit-values-1975-2024.json","fisheries-employment-1980-2024.json","sport-fishing-economic-1980-2024.json","seafood-exports-1990-2024.json"],
+    "subsistence": ["ayk-subsistence-1994-2024.json","subsistence-harvest-1994-2024.json"],
+    "disaster_events": ["exxon-valdez-impact-1989-2024.json","tanner-snow-crab-1970-2024.json","pacific-cod-1977-2024.json","cook-inlet-beluga-1979-2024.json","salmon-disease-records-1978-2024.json"],
+    "policy_management": ["board-of-fisheries-decisions-1963-2024.json","eo-archive-2000-2024.json","cfec-permit-values-1975-2024.json","cdq-program-1992-2024.json","chignik-cooperative-1970-2024.json","pacific-salmon-treaty-1985-2024.json","escapement-success-rates-1985-2024.json"],
+    "hatchery": ["hatchery-releases-1975-2024.json","coded-wire-tag-cwt-1975-2024.json","pink-salmon-1920-2024.json"]
+  }
 }

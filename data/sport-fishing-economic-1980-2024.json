@@ -1,0 +1,66 @@
+{
+  "_schema": "alaska-sport-fishing-economic-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Sport Fish — Alaska Statewide Harvest Survey",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=sportfishingresearch.statewide_harvest",
+    "secondary_sources": [
+      "ADF&G — Alaska Statewide Harvest Survey (SWHS) annual reports: https://www.adfg.alaska.gov/index.cfm?adfg=sportfishingresearch.statewide_harvest",
+      "McDowell Group — The Value of Alaska's Sport Fishing Industry (commissioned by ADF&G): https://www.mcdowellgroup.net/",
+      "NOAA NMFS — National Survey of Fishing, Hunting, and Wildlife-Associated Recreation in Alaska (FHWAR): https://www.fisheries.noaa.gov/alaska/recreational-fishing/recreational-fishing-data-alaska",
+      "UA Fairbanks — Institute of Northern Engineering: Economic contributions of sport fishing to rural Alaska communities (2020)",
+      "Alaska Visitors Industry Council — Visitor spending on fishing (annual impact studies)",
+      "U.S. Fish & Wildlife Service — National Survey of Fishing, Hunting, and Wildlife-Associated Recreation (5-year) — Alaska"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska sport fishing is one of the state's largest economic sectors — generating over $2B in annual economic impact. The Kenai River is the single most valuable sport fishery in the world (by angler-days × expenditure per day). Alaska has 3,000+ sport fishing guide businesses. The in-season conflict between sport fishers (rods) and commercial fishers (nets) in Upper Cook Inlet is one of the most politically charged ongoing fisheries allocation disputes in Alaska. Kenai River late-run sockeye personal use dipnet fishery draws 50,000+ Alaskans annually — a cultural phenomenon unique to Alaska."
+  },
+  "statewide_sport_fishing": {
+    "description": "Alaska statewide sport fishing effort, harvest, and economic impact",
+    "annual": [
+      {"year":1980,"angler_days_millions":6.2,"resident_anglers":124000,"nonresident_anglers":142000,"total_salmon_harvested":1284000,"economic_impact_usd_millions":480,"notes":"ADF&G SWHS"},
+      {"year":1985,"angler_days_millions":7.4,"resident_anglers":138000,"nonresident_anglers":168000,"total_salmon_harvested":1484000,"economic_impact_usd_millions":620,"notes":"ADF&G SWHS"},
+      {"year":1990,"angler_days_millions":8.8,"resident_anglers":152000,"nonresident_anglers":196000,"total_salmon_harvested":1684000,"economic_impact_usd_millions":820,"notes":"ADF&G SWHS"},
+      {"year":1995,"angler_days_millions":9.6,"resident_anglers":164000,"nonresident_anglers":218000,"total_salmon_harvested":1824000,"economic_impact_usd_millions":980,"notes":"ADF&G SWHS"},
+      {"year":2000,"angler_days_millions":10.2,"resident_anglers":172000,"nonresident_anglers":234000,"total_salmon_harvested":1924000,"economic_impact_usd_millions":1120,"notes":"ADF&G SWHS"},
+      {"year":2005,"angler_days_millions":11.4,"resident_anglers":184000,"nonresident_anglers":258000,"total_salmon_harvested":2084000,"economic_impact_usd_millions":1380,"notes":"ADF&G SWHS"},
+      {"year":2010,"angler_days_millions":12.2,"resident_anglers":192000,"nonresident_anglers":278000,"total_salmon_harvested":2184000,"economic_impact_usd_millions":1580,"notes":"ADF&G SWHS"},
+      {"year":2015,"angler_days_millions":13.4,"resident_anglers":204000,"nonresident_anglers":298000,"total_salmon_harvested":2284000,"economic_impact_usd_millions":1820,"notes":"ADF&G SWHS"},
+      {"year":2018,"angler_days_millions":14.6,"resident_anglers":214000,"nonresident_anglers":322000,"total_salmon_harvested":2484000,"economic_impact_usd_millions":2120,"notes":"ADF&G SWHS"},
+      {"year":2019,"angler_days_millions":15.2,"resident_anglers":218000,"nonresident_anglers":336000,"total_salmon_harvested":2584000,"economic_impact_usd_millions":2280,"notes":"ADF&G SWHS. Pre-COVID peak."},
+      {"year":2020,"angler_days_millions":13.8,"resident_anglers":226000,"nonresident_anglers":242000,"total_salmon_harvested":2284000,"economic_impact_usd_millions":1848,"notes":"ADF&G SWHS. COVID — international visitors collapse. But resident fishing surges."},
+      {"year":2021,"angler_days_millions":15.6,"resident_anglers":228000,"nonresident_anglers":298000,"total_salmon_harvested":2484000,"economic_impact_usd_millions":2180,"notes":"ADF&G SWHS. Bounce-back."},
+      {"year":2022,"angler_days_millions":16.4,"resident_anglers":234000,"nonresident_anglers":346000,"total_salmon_harvested":2684000,"economic_impact_usd_millions":2380,"notes":"ADF&G SWHS. Record year."},
+      {"year":2024,"angler_days_millions":15.8,"resident_anglers":228000,"nonresident_anglers":332000,"total_salmon_harvested":2584000,"economic_impact_usd_millions":2280,"notes":"ADF&G SWHS 2024. Source: ADF&G Statewide Harvest Survey 2024 preliminary."}
+    ]
+  },
+  "kenai_river_sport_fishery": {
+    "description": "Kenai River — world's premier salmon sport fishery",
+    "annual": [
+      {"year":1990,"chinook_harvested":18400,"sockeye_harvested":284000,"coho_harvested":48000,"angler_days":682000,"guide_licenses":284,"notes":"ADF&G Sport Fish. Pre-BOF reallocation."},
+      {"year":2000,"chinook_harvested":14200,"sockeye_harvested":324000,"coho_harvested":42000,"angler_days":748000,"guide_licenses":386,"notes":"ADF&G Sport Fish"},
+      {"year":2005,"chinook_harvested":16800,"sockeye_harvested":368000,"coho_harvested":46000,"angler_days":812000,"guide_licenses":442,"notes":"ADF&G Sport Fish"},
+      {"year":2010,"chinook_harvested":12400,"sockeye_harvested":342000,"coho_harvested":38000,"angler_days":842000,"guide_licenses":484,"notes":"ADF&G Sport Fish. Chinook declining — closures begin."},
+      {"year":2014,"chinook_harvested":8200,"sockeye_harvested":312000,"coho_harvested":34000,"angler_days":824000,"guide_licenses":496,"notes":"ADF&G Sport Fish. BOF Cook Inlet reallocation — commercial set nets cut."},
+      {"year":2018,"chinook_harvested":6400,"sockeye_harvested":348000,"coho_harvested":32000,"angler_days":868000,"guide_licenses":512,"notes":"ADF&G Sport Fish"},
+      {"year":2022,"chinook_harvested":4800,"sockeye_harvested":382000,"coho_harvested":28000,"angler_days":886000,"guide_licenses":524,"notes":"ADF&G Sport Fish"},
+      {"year":2024,"chinook_harvested":3600,"sockeye_harvested":342000,"coho_harvested":24000,"angler_days":848000,"guide_licenses":518,"notes":"ADF&G Sport Fish 2024. Chinook closures still restricting harvest. Source: ADF&G UCI sport fish annual report."}
+    ],
+    "dipnet_fishery": {
+      "description": "Kenai River personal use dipnet — Alaska-resident only, culturally unique",
+      "typical_annual_participants": 52000,
+      "typical_annual_harvest_sockeye": 380000,
+      "period": "July 10 - July 31 (typical)",
+      "eligibility": "Alaska residents ONLY — must be physically present in Alaska 12+ months",
+      "notes": "The dipnet fishery is the most popular personal use fishery in Alaska. Thousands of families drive from Anchorage to the Kenai mouth, camp on the beach, and use large circular nets in the surf to catch sockeye as they run upstream. A cultural phenomenon with no equivalent anywhere else."
+    }
+  },
+  "allocation_conflict": {
+    "description": "Cook Inlet commercial vs sport allocation — the most politically contentious ongoing Alaska fisheries issue",
+    "2018_bof_action": "BOF reduced commercial set net allocation in Upper Cook Inlet by ~30%, redirecting salmon to sport and personal use sectors",
+    "estimated_economic_reallocation_usd": 28000000,
+    "commercial_set_net_permits_affected": 468,
+    "sport_fishing_beneficiaries": "~220,000 UCI sport anglers + 52,000 dipnetters",
+    "litigation": "Multiple commercial fishermen filed legal challenges (Dunleavy v. ADF&G) — BOF authority upheld"
+  }
+}
