@@ -1,0 +1,96 @@
+name: Update Commercial Harvest Data
+
+on:
+  schedule:
+    # Daily at 6:30 AM UTC (10:30 PM Alaska time — after daily ADF&G updates)
+    - cron: '30 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/**', '.github/workflows/**']
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-commercial-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: Fetch ADF&G commercial harvest summaries
+        run: |
+          python3 scripts/fetch-commercial-harvest.py
+
+      - name: Validate all JSON outputs
+        run: |
+          python3 -c "
+          import json, glob, os
+          for f in glob.glob('data/live-*.json'):
+              try:
+                  with open(f) as fh: data = json.load(fh)
+                  size = os.path.getsize(f)
+                  print(f'✓ {f}: {size} bytes')
+              except Exception as e:
+                  print(f'✗ {f}: {e}')
+                  exit(1)
+          "
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.name "alaskafishdata-bot"
+          git config --local user.email "bot@alaskafishdata.com"
+          git add data/live-commercial.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            TIMESTAMP=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
+            git commit -m "data(commercial): daily harvest update @ ${TIMESTAMP} [skip ci]"
+            git push
+          fi
+
+  # Second job: update RAG index when data changes
+  rebuild-rag-index:
+    runs-on: ubuntu-latest
+    needs: fetch-commercial-data
+    if: always()
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Rebuild RAG JSONL from all historical data
+        run: |
+          python3 scripts/build-rag-append.py
+
+      - name: Commit RAG update if changed
+        run: |
+          git config --local user.name "alaskafishdata-bot"
+          git config --local user.email "bot@alaskafishdata.com"
+          git add data/rag/
+          if git diff --staged --quiet; then
+            echo "RAG index unchanged"
+          else
+            TIMESTAMP=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
+            git commit -m "data(rag): rebuild index @ ${TIMESTAMP} [skip ci]"
+            git push
+          fi

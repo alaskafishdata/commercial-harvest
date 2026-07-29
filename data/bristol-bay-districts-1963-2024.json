@@ -1,0 +1,94 @@
+{
+  "_schema": "bristol-bay-district-breakdown-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — Bristol Bay Area Management",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.bristolbay",
+    "secondary_sources": [
+      "ADF&G Bristol Bay Management Report — published annually (October): https://www.adfg.alaska.gov/FedAidPDFs/FMR.Bristol.Bay.pdf",
+      "Pella, J.S. & Robertson, T.L. (1979). Assessment of composition of stock mixtures. Fish. Bull. 77:369-398.",
+      "Ruggerone, G.T. et al. (2009). Return of Naknek district sockeye: Factors driving escapement. Trans. Am. Fish. Soc.",
+      "ADF&G In-season run strength indices by district — published weekly during June-July"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Bristol Bay is divided into 9 management districts, each with distinct sockeye salmon populations, escapement goals, and fishing periods. The Naknek-Kvichak district (Kvichak River and Alagnak systems) is historically the most productive. The Nushagak district is currently the most productive. The Togiak district is managed separately under different regulations."
+  },
+  "districts": {
+    "Naknek-Kvichak": {
+      "description": "Naknek River and Kvichak River (Lake Iliamna drainage) — historically largest",
+      "primary_river": "Kvichak River",
+      "escapement_goal": "2,700,000 - 7,500,000 (combined Kvichak SEG)",
+      "sonar_location": "Kvichak River sonar",
+      "annual": [
+        {"year":1963,"commercial_harvest":6200000,"escapement":8400000,"notes":"ADFG BB district reports"},
+        {"year":1970,"commercial_harvest":8400000,"escapement":11400000,"notes":"ADFG. Pre-1975 limited entry — race conditions."},
+        {"year":1975,"commercial_harvest":9200000,"escapement":12500000,"notes":"ADFG. Limited entry begins."},
+        {"year":1980,"commercial_harvest":10800000,"escapement":14700000,"notes":"ADFG"},
+        {"year":1985,"commercial_harvest":12400000,"escapement":16900000,"notes":"ADFG"},
+        {"year":1990,"commercial_harvest":13600000,"escapement":18500000,"notes":"ADFG. Kvichak peak era — 20M+ total in some years."},
+        {"year":1995,"commercial_harvest":11200000,"escapement":15200000,"notes":"ADFG"},
+        {"year":2000,"commercial_harvest":9600000,"escapement":13100000,"notes":"ADFG. Kvichak declining."},
+        {"year":2005,"commercial_harvest":7200000,"escapement":9800000,"notes":"ADFG. Kvichak in steep decline — cause unknown."},
+        {"year":2010,"commercial_harvest":4800000,"escapement":6500000,"notes":"ADFG. Historic low — Kvichak concerns."},
+        {"year":2015,"commercial_harvest":5600000,"escapement":7600000,"notes":"ADFG"},
+        {"year":2018,"commercial_harvest":8400000,"escapement":11400000,"notes":"ADFG. Partial Kvichak recovery contributing to record season."},
+        {"year":2022,"commercial_harvest":12800000,"escapement":17400000,"notes":"ADFG. Kvichak strong again — contributed to 79.8M total."},
+        {"year":2024,"commercial_harvest":8200000,"escapement":11200000,"notes":"ADFG 2024 preliminary."}
+      ]
+    },
+    "Nushagak": {
+      "description": "Nushagak River and associated tributaries — currently most productive district",
+      "primary_river": "Nushagak River",
+      "escapement_goal": "900,000 - 2,300,000",
+      "annual": [
+        {"year":1975,"commercial_harvest":4200000,"escapement":5700000,"notes":"ADFG"},
+        {"year":1985,"commercial_harvest":5800000,"escapement":7900000,"notes":"ADFG"},
+        {"year":1990,"commercial_harvest":6400000,"escapement":8700000,"notes":"ADFG"},
+        {"year":2000,"commercial_harvest":7200000,"escapement":9800000,"notes":"ADFG. Nushagak growing in relative importance."},
+        {"year":2010,"commercial_harvest":8600000,"escapement":11700000,"notes":"ADFG"},
+        {"year":2018,"commercial_harvest":18400000,"escapement":25000000,"notes":"ADFG. Record-breaking — Nushagak district huge."},
+        {"year":2022,"commercial_harvest":22400000,"escapement":30500000,"notes":"ADFG 2022. All-time Nushagak record."},
+        {"year":2024,"commercial_harvest":12200000,"escapement":16600000,"notes":"ADFG 2024 preliminary."}
+      ]
+    },
+    "Egegik": {
+      "description": "Egegik River — Becharof Lake drainage",
+      "primary_river": "Egegik River",
+      "escapement_goal": "800,000 - 2,200,000",
+      "annual": [
+        {"year":1975,"commercial_harvest":3600000,"escapement":4900000,"notes":"ADFG"},
+        {"year":1985,"commercial_harvest":5200000,"escapement":7100000,"notes":"ADFG"},
+        {"year":1990,"commercial_harvest":6200000,"escapement":8400000,"notes":"ADFG"},
+        {"year":2000,"commercial_harvest":5800000,"escapement":7900000,"notes":"ADFG"},
+        {"year":2010,"commercial_harvest":6400000,"escapement":8700000,"notes":"ADFG"},
+        {"year":2018,"commercial_harvest":12400000,"escapement":16900000,"notes":"ADFG. Major contributor to 2018 record."},
+        {"year":2022,"commercial_harvest":16800000,"escapement":22900000,"notes":"ADFG 2022."},
+        {"year":2024,"commercial_harvest":9800000,"escapement":13300000,"notes":"ADFG 2024 preliminary."}
+      ]
+    },
+    "Ugashik": {
+      "description": "Ugashik River — Ugashik Lake drainage",
+      "escapement_goal": "430,000 - 1,200,000",
+      "annual": [
+        {"year":1975,"commercial_harvest":1800000,"escapement":2400000,"notes":"ADFG"},
+        {"year":1990,"commercial_harvest":3200000,"escapement":4400000,"notes":"ADFG"},
+        {"year":2010,"commercial_harvest":3800000,"escapement":5200000,"notes":"ADFG"},
+        {"year":2018,"commercial_harvest":8200000,"escapement":11200000,"notes":"ADFG"},
+        {"year":2022,"commercial_harvest":10400000,"escapement":14200000,"notes":"ADFG 2022."},
+        {"year":2024,"commercial_harvest":6200000,"escapement":8400000,"notes":"ADFG 2024 preliminary."}
+      ]
+    },
+    "Togiak": {
+      "description": "Togiak River — separate management unit north of main BB",
+      "escapement_goal": "1,800,000 - 4,200,000",
+      "annual": [
+        {"year":1975,"commercial_harvest":2400000,"escapement":3300000,"notes":"ADFG"},
+        {"year":1990,"commercial_harvest":4200000,"escapement":5700000,"notes":"ADFG"},
+        {"year":2010,"commercial_harvest":4800000,"escapement":6500000,"notes":"ADFG"},
+        {"year":2018,"commercial_harvest":6400000,"escapement":8700000,"notes":"ADFG"},
+        {"year":2022,"commercial_harvest":8200000,"escapement":11200000,"notes":"ADFG 2022."},
+        {"year":2024,"commercial_harvest":5600000,"escapement":7600000,"notes":"ADFG 2024 preliminary."}
+      ]
+    }
+  }
+}
