@@ -1,0 +1,43 @@
+{
+  "_schema": "alaska-salmon-cannery-labels-history-v1",
+  "_provenance": {
+    "primary_source": "University of Washington Libraries Special Collections — Pacific Northwest Cannery Label Collection",
+    "primary_url": "https://content.lib.washington.edu/fishweb/",
+    "secondary_sources": [
+      "Alaska Packers Association (APA) Historical Archives & Museum of History and Industry (MOHAI)",
+      "Pacific American Fisheries (PAF) Company Records"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Historical database cataloging early Alaska salmon cannery lithograph labels (1878-1960). In the 19th and early 20th century, salmon canneries used colorful stone-lithographed paper labels featuring bears, Native motifs, ships, and heraldic crests to market canned Alaska salmon across North America and Europe. Grades were strictly segregated: Red Salmon (Sockeye) commanded top prices, Medium Red (Coho/Pink) mid-tier, and Chum/Dog Salmon lowest."
+  },
+  "historic_canning_companies": [
+    {
+      "company": "Alaska Packers Association (APA)",
+      "formed": 1893,
+      "flagship_brands": ["Red Salmon", "Argo", "Horseshoe", "Iceberg"],
+      "canneries_count_1910": 31,
+      "primary_packing_location": "Karluk (Kodiak), Nushagak, Loring"
+    },
+    {
+      "company": "Pacific American Fisheries (PAF)",
+      "formed": 1899,
+      "flagship_brands": ["Peter Pan", "Deming's", "Samson"],
+      "canneries_count_1910": 18,
+      "primary_packing_location": "King Cove, Bellingham, Excursion Inlet"
+    },
+    {
+      "company": "Libby, McNeill & Libby",
+      "formed": 1912,
+      "flagship_brands": ["Libby's Red Salmon", "Happy-Vale"],
+      "canneries_count_1920": 12,
+      "primary_packing_location": "Egegik, Kenai, Taku Harbor"
+    }
+  ],
+  "historic_salmon_grades": [
+    { "grade": "Fancy Red Sockeye", "label_color": "Deep Red & Gold Foil", "target_market": "UK & US East Coast luxury grocers", "1910_wholesale_case_price_usd": 6.50 },
+    { "grade": "Medium Red / Coho", "label_color": "Blue & Silver", "target_market": "US Midwest domestic retail", "1910_wholesale_case_price_usd": 4.25 },
+    { "grade": "Pink Salmon", "label_color": "Pink & Green", "target_market": "Mass market working class", "1910_wholesale_case_price_usd": 3.10 },
+    { "grade": "Chum / Dog Salmon", "label_color": "Yellow & Black", "target_market": "Export & mining camp provisions", "1910_wholesale_case_price_usd": 2.25 }
+  ]
+}

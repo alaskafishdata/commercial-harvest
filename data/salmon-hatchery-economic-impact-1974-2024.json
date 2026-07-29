@@ -1,0 +1,80 @@
+{
+  "_schema": "alaska-salmon-hatchery-economic-impact-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — Alaska Salmon Fisheries Enhancement Annual Reports",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=fishingHatcheries.main",
+    "secondary_sources": [
+      "McDowell Group / Northern Economics — Economic Impact of Alaska's PNP Salmon Hatchery Industry (2020 report)",
+      "Prince William Sound Aquaculture Corporation (PWSAC) Annual Reports: https://pwsac.com/",
+      "Southern Southeast Regional Aquaculture Association (SSRAA): https://ssraa.org/",
+      "Northern Southeast Regional Aquaculture Association (NSRAA): https://nsraa.org/",
+      "Cook Inlet Aquaculture Association (CIAA): https://www.ciaanet.org/",
+      "Kodiak Regional Aquaculture Association (KRAA): https://kraa.org/"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska's Private Non-Profit (PNP) salmon hatchery system was authorized by the Alaska Legislature in 1974 (AS 16.10.375) following severe natural run failures in the early 1970s. Today, 30 PNP hatcheries release ~1.8 billion juvenile salmon annually (primarily pink and chum salmon). Hatchery-origin fish account for 25-35% of Alaska's total commercial salmon harvest value, generating $250M-$380M in ex-vessel value annually and supporting 4,500+ commercial fishing and processing jobs."
+  },
+  "pnp_regional_associations": [
+    {
+      "acronym": "PWSAC",
+      "name": "Prince William Sound Aquaculture Corporation",
+      "hq": "Cordova, AK",
+      "established": 1974,
+      "active_hatcheries": ["Armin F. Koernig (AFK)", "Wally Noerenberg (WNH)", "Cannery Creek", "Main Bay", "Gulkana"],
+      "annual_releases_billions": 0.68,
+      "primary_species": ["Pink", "Chum", "Sockeye"],
+      "exvessel_value_annual_avg_usd_m": 85.0
+    },
+    {
+      "acronym": "SSRAA",
+      "name": "Southern Southeast Regional Aquaculture Association",
+      "hq": "Ketchikan, AK",
+      "established": 1976,
+      "active_hatcheries": ["Whitman Lake", "Neets Bay", "Crystal Lake", "Burnett Inlet", "Deer Mountain"],
+      "annual_releases_billions": 0.24,
+      "primary_species": ["Chum", "Coho", "Chinook"],
+      "exvessel_value_annual_avg_usd_m": 42.0
+    },
+    {
+      "acronym": "NSRAA",
+      "name": "Northern Southeast Regional Aquaculture Association",
+      "hq": "Sitka, AK",
+      "established": 1978,
+      "active_hatcheries": ["Medvejie", "Hidden Falls", "Sawmill Creek", "Gunnuk Creek"],
+      "annual_releases_billions": 0.22,
+      "primary_species": ["Chum", "Chinook", "Coho"],
+      "exvessel_value_annual_avg_usd_m": 38.0
+    },
+    {
+      "acronym": "KRAA",
+      "name": "Kodiak Regional Aquaculture Association",
+      "hq": "Kodiak, AK",
+      "established": 1983,
+      "active_hatcheries": ["Kitoi Bay", "Pillar Creek"],
+      "annual_releases_billions": 0.21,
+      "primary_species": ["Pink", "Sockeye", "Chum"],
+      "exvessel_value_annual_avg_usd_m": 24.0
+    },
+    {
+      "acronym": "CIAA",
+      "name": "Cook Inlet Aquaculture Association",
+      "hq": "Soldotna, AK",
+      "established": 1976,
+      "active_hatcheries": ["Trail Lakes", "Tutka Bay Lagoon", "Port Graham"],
+      "annual_releases_billions": 0.12,
+      "primary_species": ["Sockeye", "Pink"],
+      "exvessel_value_annual_avg_usd_m": 12.0
+    }
+  ],
+  "hatchery_contribution_by_year": [
+    {"year": 1980, "hatchery_harvest_millions": 6.2, "pct_total_alaska_harvest": 5.4, "exvessel_value_usd_m": 14.2},
+    {"year": 1990, "hatchery_harvest_millions": 28.4, "pct_total_alaska_harvest": 18.2, "exvessel_value_usd_m": 68.5},
+    {"year": 2000, "hatchery_harvest_millions": 42.1, "pct_total_alaska_harvest": 28.4, "exvessel_value_usd_m": 112.0},
+    {"year": 2010, "hatchery_harvest_millions": 58.6, "pct_total_alaska_harvest": 34.1, "exvessel_value_usd_m": 245.0},
+    {"year": 2017, "hatchery_harvest_millions": 67.8, "pct_total_alaska_harvest": 31.2, "exvessel_value_usd_m": 318.0},
+    {"year": 2021, "hatchery_harvest_millions": 64.2, "pct_total_alaska_harvest": 27.8, "exvessel_value_usd_m": 284.0},
+    {"year": 2023, "hatchery_harvest_millions": 72.4, "pct_total_alaska_harvest": 30.5, "exvessel_value_usd_m": 342.0},
+    {"year": 2024, "hatchery_harvest_millions": 61.8, "pct_total_alaska_harvest": 28.2, "exvessel_value_usd_m": 298.0}
+  ]
+}

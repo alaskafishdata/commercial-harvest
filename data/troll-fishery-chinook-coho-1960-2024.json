@@ -1,0 +1,37 @@
+{
+  "_schema": "alaska-troll-fishery-chinook-coho-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — Southeast Alaska Salmon Troll Fishery Management Reports",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyfisherysalmon.trollsummary",
+    "secondary_sources": [
+      "Alaska Trollers Association (ATA): https://alaskatrollers.org/",
+      "Pacific Salmon Commission (PSC) Joint Troll Technical Committee Reports",
+      "Wild Fish Conservancy v. Rumsey (9th Cir. 2023) — SEAK Troll Chinook ESA Litigation"
+    ],
+    "compiled_by": "alaskafishdata/commercial-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "The Southeast Alaska salmon troll fishery is a high-value hook-and-line commercial fishery operating in state and federal waters. Trollers catch individual salmon on lines towed behind wooden or fiberglass power troll and hand troll vessels. Hook-and-line caught troll salmon command the highest ex-vessel price per pound in North America due to individual bleed-and-ice handling. The winter and summer troll Chinook seasons are strictly regulated under the Pacific Salmon Treaty (PST) and have been the target of major ESA litigation brought by Wild Fish Conservancy regarding Southern Resident Killer Whale prey availability."
+  },
+  "fleet_composition": {
+    "power_troll_permits_active": 950,
+    "hand_troll_permits_active": 820,
+    "avg_vessel_length_ft": 42,
+    "handling_method": "Individual pressure bleeding, gutting, and slush ice or blast freezing at sea",
+    "price_premium_vs_net_harvest": "2.5x to 4x price per pound vs gillnet/seine landed salmon"
+  },
+  "annual_troll_harvest": [
+    {"year": 1975, "chinook_count": 285000, "coho_count": 920000, "chinook_exvessel_price_lb": 1.45, "coho_exvessel_price_lb": 0.85},
+    {"year": 1985, "chinook_count": 242000, "coho_count": 1450000, "chinook_exvessel_price_lb": 2.20, "coho_exvessel_price_lb": 1.25},
+    {"year": 1995, "chinook_count": 185000, "coho_count": 1820000, "chinook_exvessel_price_lb": 2.85, "coho_exvessel_price_lb": 1.65},
+    {"year": 2005, "chinook_count": 328000, "coho_count": 1680000, "chinook_exvessel_price_lb": 4.50, "coho_exvessel_price_lb": 2.10},
+    {"year": 2015, "chinook_count": 268000, "coho_count": 1240000, "chinook_exvessel_price_lb": 6.80, "coho_exvessel_price_lb": 2.80},
+    {"year": 2021, "chinook_count": 182000, "coho_count": 1150000, "chinook_exvessel_price_lb": 8.90, "coho_exvessel_price_lb": 3.40},
+    {"year": 2023, "chinook_count": 164000, "coho_count": 1380000, "chinook_exvessel_price_lb": 10.25, "coho_exvessel_price_lb": 3.85},
+    {"year": 2024, "chinook_count": 158000, "coho_count": 1290000, "chinook_exvessel_price_lb": 10.80, "coho_exvessel_price_lb": 3.95}
+  ],
+  "esa_litigation_summary": {
+    "case": "Wild Fish Conservancy v. Rumsey (9th Cir. 2023)",
+    "issue": "Challenge to NOAA Biological Opinion authorizing SEAK troll Chinook harvest",
+    "court_ruling": "US District Court ordered closure of summer troll Chinook fishery in 2023; 9th Circuit Court of Appeals granted emergency stay allowing fleet to fish while NOAA revised the BiOp."
+  }
+}
