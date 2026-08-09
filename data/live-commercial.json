@@ -12,7 +12,7 @@
     ],
     "season": "2026",
     "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.bristolbay",
-    "fetched_at": "2026-08-08T07:30:18.218314+00:00"
+    "fetched_at": "2026-08-09T07:33:56.118301+00:00"
   },
   {
     "id": "southeast-alaska",
@@ -30,7 +30,7 @@
     ],
     "season": "2026",
     "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.se",
-    "fetched_at": "2026-08-08T07:30:18.218314+00:00"
+    "fetched_at": "2026-08-09T07:33:56.118301+00:00"
   },
   {
     "id": "prince-william-sound",
@@ -47,7 +47,7 @@
     ],
     "season": "2026",
     "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.pwscopper",
-    "fetched_at": "2026-08-08T07:30:18.218314+00:00"
+    "fetched_at": "2026-08-09T07:33:56.118301+00:00"
   },
   {
     "id": "kodiak",
@@ -63,7 +63,7 @@
     ],
     "season": "2026",
     "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.kodiak",
-    "fetched_at": "2026-08-08T07:30:18.218314+00:00"
+    "fetched_at": "2026-08-09T07:33:56.118301+00:00"
   },
   {
     "id": "area-m",
@@ -79,7 +79,7 @@
     ],
     "season": "2026",
     "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.areaMpennAleut",
-    "fetched_at": "2026-08-08T07:30:18.218314+00:00"
+    "fetched_at": "2026-08-09T07:33:56.118301+00:00"
   },
   {
     "id": "cook-inlet",
@@ -95,7 +95,7 @@
     ],
     "season": "2026",
     "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.upperCookInlet",
-    "fetched_at": "2026-08-08T07:30:18.218314+00:00"
+    "fetched_at": "2026-08-09T07:33:56.118301+00:00"
   },
   {
     "id": "chignik",
@@ -110,7 +110,7 @@
     ],
     "season": "2026",
     "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.chignik",
-    "fetched_at": "2026-08-08T07:30:18.218314+00:00"
+    "fetched_at": "2026-08-09T07:33:56.118301+00:00"
   },
   {
     "id": "norton-sound-kotzebue",
@@ -125,6 +125,6 @@
     ],
     "season": "2026",
     "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyarea.nortonSound",
-    "fetched_at": "2026-08-08T07:30:18.218314+00:00"
+    "fetched_at": "2026-08-09T07:33:56.118301+00:00"
   }
 ]
